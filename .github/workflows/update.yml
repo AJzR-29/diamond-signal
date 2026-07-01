@@ -1,0 +1,43 @@
+name: Update MLB Predictions
+
+on:
+  schedule:
+    # 11:00 UTC = ~6-7am hora Panama, antes del primer juego del dia
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch MLB schedule + pitcher L5 + team offense
+        run: python fetch_mlb_data.py
+
+      - name: Fetch batter vs pitcher matchups (Baseball Savant)
+        run: python fetch_matchup.py
+
+      - name: Fetch odds (TheOddsAPI)
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python fetch_odds.py
+
+      - name: Build final predictions
+        run: python build_predictions.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "diamond-signal-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/*.json
+          git diff --staged --quiet || git commit -m "Actualizar datos $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
