@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DiamondSignal — MLB Predictive Edge</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0A0E12;
+    --bg-elevated: #121920;
+    --bg-card: #161F28;
+    --bg-card-hover: #1C2731;
+    --border: #22303B;
+    --text: #E8EDF2;
+    --text-dim: #6B7785;
+    --text-faint: #3E4A54;
+    --cyan: #00D9FF;
+    --cyan-dim: rgba(0, 217, 255, 0.12);
+    --green: #3DFF9A;
+    --green-dim: rgba(61, 255, 154, 0.12);
+    --amber: #FFB020;
+    --amber-dim: rgba(255, 176, 32, 0.12);
+    --red: #FF4757;
+    --red-dim: rgba(255, 71, 87, 0.12);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    background-image:
+      radial-gradient(circle at 15% 10%, rgba(0, 217, 255, 0.05), transparent 40%),
+      radial-gradient(circle at 85% 90%, rgba(61, 255, 154, 0.04), transparent 45%);
+  }
+
+  .display { font-family: 'Rajdhani', sans-serif; letter-spacing: 0.02em; }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 32px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: rgba(10, 14, 18, 0.92);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+  }
+  .logo { display: flex; align-items: center; gap: 10px; }
+  .logo-mark {
+    width: 28px; height: 28px;
+    border: 1.5px solid var(--cyan);
+    transform: rotate(45deg);
+    position: relative;
+  }
+  .logo-mark::after {
+    content: '';
+    position: absolute; inset: 6px;
+    background: var(--cyan);
+    opacity: 0.8;
+  }
+  .logo-text { font-family: 'Rajdhani', sans-serif; font-weight: 700; font-size: 20px; letter-spacing: 0.06em; }
+  .logo-text span { color: var(--cyan); }
+  .nav-meta { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-dim); }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+    padding: 56px 32px 40px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .hero-copy { flex: 1; min-width: 280px; }
+  .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--cyan);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  .eyebrow .dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 8px var(--green);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+  .hero h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: clamp(32px, 5vw, 52px);
+    line-height: 1.05;
+    letter-spacing: 0.01em;
+  }
+  .hero h1 .accent { color: var(--cyan); }
+  .hero p {
+    color: var(--text-dim);
+    max-width: 440px;
+    margin-top: 16px;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .zone-radar {
+    width: 220px; height: 220px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .zone-grid {
+    width: 100%; height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+  }
+  .zone-cell { border: 1px solid var(--border); }
+  .zone-sweep {
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 50%; height: 2px;
+    background: linear-gradient(90deg, var(--cyan), transparent);
+    transform-origin: left center;
+    animation: sweep 4s linear infinite;
+    box-shadow: 0 0 12px var(--cyan);
+  }
+  @keyframes sweep { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+  .zone-label {
+    position: absolute;
+    bottom: -28px; left: 0; right: 0;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-faint);
+    letter-spacing: 0.1em;
+  }
+
+  .controls {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 32px 24px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .filter-btn {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    padding: 8px 16px;
+    border: 1px solid var(--border);
+    background: var(--bg-elevated);
+    color: var(--text-dim);
+    border-radius: 3px;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    transition: all 0.15s;
+  }
+  .filter-btn:hover { border-color: var(--cyan); color: var(--text); }
+  .filter-btn.active { border-color: var(--cyan); color: var(--cyan); background: var(--cyan-dim); }
+
+  .games {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 32px 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 16px;
+  }
+
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+    transition: border-color 0.15s, transform 0.15s;
+    position: relative;
+    overflow: hidden;
+  }
+  .card:hover { border-color: var(--cyan); transform: translateY(-2px); }
+  .card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: var(--edge-color, var(--text-faint));
+  }
+
+  .card-top {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    margin-bottom: 16px;
+  }
+  .matchup-teams {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+  }
+  .matchup-teams .at { color: var(--text-faint); font-weight: 500; margin: 0 6px; }
+  .game-time {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-top: 4px;
+  }
+
+  .edge-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+  .edge-pos { background: var(--green-dim); color: var(--green); }
+  .edge-neg { background: var(--red-dim); color: var(--red); }
+  .edge-neu { background: var(--bg-elevated); color: var(--text-dim); }
+
+  .pitchers-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .pitcher-box {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 10px 12px;
+  }
+  .pitcher-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--text-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .pitcher-name { font-size: 13px; margin-top: 4px; font-weight: 500; }
+  .pitcher-era {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--cyan);
+    margin-top: 4px;
+  }
+
+  .prob-bar-row { margin-bottom: 4px; }
+  .prob-labels {
+    display: flex; justify-content: space-between;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-bottom: 6px;
+  }
+  .prob-bar {
+    height: 6px;
+    background: var(--bg-elevated);
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+  }
+  .prob-fill-away { background: var(--text-faint); height: 100%; }
+  .prob-fill-home { background: var(--cyan); height: 100%; }
+
+  .card-footer {
+    display: flex; justify-content: space-between;
+    margin-top: 14px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-faint);
+  }
+  .card-footer .sample-warn { color: var(--amber); }
+
+  .modal-overlay {
+    display: none;
+    position: fixed; inset: 0;
+    background: rgba(6, 8, 11, 0.85);
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    background: var(--bg-card);
+    border: 1px solid var(--cyan);
+    border-radius: 4px;
+    max-width: 620px;
+    width: 100%;
+    max-height: 84vh;
+    overflow-y: auto;
+    padding: 28px;
+  }
+  .modal-close {
+    float: right;
+    background: none; border: 1px solid var(--border);
+    color: var(--text-dim);
+    width: 28px; height: 28px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .modal h2 { font-family: 'Rajdhani', sans-serif; font-size: 24px; margin-bottom: 4px; }
+  .modal .sub { color: var(--text-dim); font-size: 12px; font-family: 'JetBrains Mono', monospace; margin-bottom: 20px; }
+
+  .stat-grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;
+    margin: 16px 0;
+  }
+  .stat-tile {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    padding: 12px;
+    border-radius: 3px;
+  }
+  .stat-tile .k { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--text-faint); text-transform: uppercase; }
+  .stat-tile .v { font-family: 'JetBrains Mono', monospace; font-size: 18px; color: var(--text); margin-top: 4px; }
+  .stat-tile .v.pos { color: var(--green); }
+  .stat-tile .v.neg { color: var(--red); }
+
+  .matchup-table { width: 100%; margin-top: 16px; border-collapse: collapse; }
+  .matchup-table th {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--text-faint);
+    text-align: left;
+    padding: 8px 6px;
+    border-bottom: 1px solid var(--border);
+    text-transform: uppercase;
+  }
+  .matchup-table td {
+    font-size: 12px;
+    padding: 8px 6px;
+    border-bottom: 1px solid var(--border);
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .matchup-table .low-sample { color: var(--text-faint); font-style: italic; }
+
+  .empty-state {
+    max-width: 1280px; margin: 0 auto; padding: 80px 32px;
+    text-align: center; color: var(--text-dim);
+    font-family: 'JetBrains Mono', monospace; font-size: 13px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 32px;
+    color: var(--text-faint);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    border-top: 1px solid var(--border);
+  }
+
+  @media (max-width: 720px) {
+    .hero { flex-direction: column; }
+    .zone-radar { width: 160px; height: 160px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">
+    <div class="logo-mark"></div>
+    <div class="logo-text">DIAMOND<span>SIGNAL</span></div>
+  </div>
+  <div class="nav-meta mono" id="lastUpdate">SYNC: —</div>
+</nav>
+
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="dot"></span>MLB · LIVE MODEL</div>
+    <h1>Lectura de <span class="accent">matchup</span>,<br/>no de casa de apuestas.</h1>
+    <p>Cada juego se evalúa por ERA L5 del abridor, ofensiva del rival, y el historial real bateador‑vs‑pitcher via Statcast. El mercado solo se usa para medir el edge, no para decidir.</p>
+  </div>
+  <div class="zone-radar">
+    <div class="zone-grid" id="zoneGrid">
+      <div class="zone-cell"></div><div class="zone-cell"></div><div class="zone-cell"></div>
+      <div class="zone-cell"></div><div class="zone-cell"></div><div class="zone-cell"></div>
+      <div class="zone-cell"></div><div class="zone-cell"></div><div class="zone-cell"></div>
+      <div class="zone-sweep"></div>
+    </div>
+    <div class="zone-label">STRIKE ZONE · TRACKING</div>
+  </div>
+</section>
+
+<div class="controls">
+  <button class="filter-btn active" data-filter="all">TODOS</button>
+  <button class="filter-btn" data-filter="edge">CON EDGE (+)</button>
+  <button class="filter-btn" data-filter="sample">MATCHUP CONFIABLE</button>
+</div>
+
+<div class="games" id="gamesContainer"></div>
+<div class="empty-state" id="emptyState" style="display:none;">
+  NO HAY DATOS TODAVIA · corre el GitHub Action o espera la primera sincronizacion diaria
+</div>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modalContent"></div>
+</div>
+
+<footer>DIAMONDSIGNAL · MODELO PROPIO, NO ES ASESORIA FINANCIERA · DATOS: MLB STATS API + BASEBALL SAVANT + THEODDSAPI</footer>
+
+<script>
+let predictionsData = { games: [] };
+let currentFilter = 'all';
+
+async function loadData() {
+  try {
+    const res = await fetch('data/predictions.json?t=' + Date.now());
+    predictionsData = await res.json();
+  } catch (e) {
+    console.error('No se pudo cargar data/predictions.json', e);
+    predictionsData = { games: [] };
+  }
+  document.getElementById('lastUpdate').textContent =
+    'SYNC: ' + (predictionsData.generated_at ? new Date(predictionsData.generated_at).toISOString().slice(0,16).replace('T',' ') + ' UTC' : '—');
+  render();
+}
+
+function pct(n) { return n === null || n === undefined ? '—' : Math.round(n * 100) + '%'; }
+function fmtEdge(n) { return n === null || n === undefined ? '—' : (n > 0 ? '+' : '') + Math.round(n * 1000) / 10 + '%'; }
+
+function edgeClass(edge) {
+  if (edge === null || edge === undefined) return 'edge-neu';
+  if (edge > 0.02) return 'edge-pos';
+  if (edge < -0.02) return 'edge-neg';
+  return 'edge-neu';
+}
+
+function bestEdgeSide(g) {
+  const homeE = g.edge_home ?? -Infinity;
+  const awayE = g.edge_away ?? -Infinity;
+  if (homeE === -Infinity && awayE === -Infinity) return null;
+  return homeE >= awayE ? { side: 'home', team: g.home_team, edge: g.edge_home } : { side: 'away', team: g.away_team, edge: g.edge_away };
+}
+
+function render() {
+  const container = document.getElementById('gamesContainer');
+  const empty = document.getElementById('emptyState');
+  container.innerHTML = '';
+
+  let games = predictionsData.games || [];
+
+  if (currentFilter === 'edge') {
+    games = games.filter(g => (g.edge_home && g.edge_home > 0.02) || (g.edge_away && g.edge_away > 0.02));
+  } else if (currentFilter === 'sample') {
+    games = games.filter(g => g.matchup_sample_ok_home || g.matchup_sample_ok_away);
+  }
+
+  if (games.length === 0) {
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+
+  games.forEach((g, idx) => {
+    const best = bestEdgeSide(g);
+    const badgeClass = best ? edgeClass(best.edge) : 'edge-neu';
+    const badgeText = best && best.edge !== null && best.edge !== undefined
+      ? `EDGE ${best.side === 'home' ? 'LOCAL' : 'VISITA'} ${fmtEdge(best.edge)}`
+      : 'SIN CUOTA';
+
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.style.setProperty('--edge-color',
+      badgeClass === 'edge-pos' ? 'var(--green)' : badgeClass === 'edge-neg' ? 'var(--red)' : 'var(--text-faint)');
+
+    card.innerHTML = `
+      <div class="card-top">
+        <div>
+          <div class="matchup-teams">${g.away_team}<span class="at">@</span>${g.home_team}</div>
+          <div class="game-time">${new Date(g.game_date).toISOString().slice(0,16).replace('T',' ')} UTC</div>
+        </div>
+        <div class="edge-badge ${badgeClass}">${badgeText}</div>
+      </div>
+
+      <div class="pitchers-row">
+        <div class="pitcher-box">
+          <div class="pitcher-label">Visita · SP</div>
+          <div class="pitcher-name">${g.away_pitcher || 'TBD'}</div>
+          <div class="pitcher-era">ERA L5: ${g.away_pitcher_era_l5 ?? '—'}</div>
+        </div>
+        <div class="pitcher-box">
+          <div class="pitcher-label">Local · SP</div>
+          <div class="pitcher-name">${g.home_pitcher || 'TBD'}</div>
+          <div class="pitcher-era">ERA L5: ${g.home_pitcher_era_l5 ?? '—'}</div>
+        </div>
+      </div>
+
+      <div class="prob-bar-row">
+        <div class="prob-labels">
+          <span>VISITA ${pct(g.model_prob_away)}</span>
+          <span>LOCAL ${pct(g.model_prob_home)}</span>
+        </div>
+        <div class="prob-bar">
+          <div class="prob-fill-away" style="width:${(g.model_prob_away||0)*100}%"></div>
+          <div class="prob-fill-home" style="width:${(g.model_prob_home||0)*100}%"></div>
+        </div>
+      </div>
+
+      <div class="card-footer">
+        <span>MODELO vs MERCADO</span>
+        <span class="${(g.matchup_sample_ok_home || g.matchup_sample_ok_away) ? '' : 'sample-warn'}">
+          ${(g.matchup_sample_ok_home || g.matchup_sample_ok_away) ? 'MATCHUP: MUESTRA OK' : 'MATCHUP: MUESTRA BAJA'}
+        </span>
+      </div>
+    `;
+    card.addEventListener('click', () => openModal(g));
+    container.appendChild(card);
+  });
+}
+
+function openModal(g) {
+  const modal = document.getElementById('modalContent');
+  const overlay = document.getElementById('modalOverlay');
+
+  const allMatchups = [
+    ...(g.matchup_detail?.home_pitcher_vs_away_batters || []),
+    ...(g.matchup_detail?.away_pitcher_vs_home_batters || []),
+  ];
+
+  let rows = allMatchups.length
+    ? allMatchups.map(m => `
+      <tr>
+        <td>${m.batter_name || '—'}</td>
+        <td>${m.pitcher_name || '—'}</td>
+        <td class="${m.sample_size_ok ? '' : 'low-sample'}">${m.pa ?? 0} PA</td>
+        <td>${m.avg_approx ?? '—'}</td>
+        <td>${m.hr ?? '—'}</td>
+        <td>${m.k ?? '—'}</td>
+      </tr>
+    `).join('')
+    : `<tr><td colspan="6" class="low-sample">Sin datos de matchup cargados todavia para este juego</td></tr>`;
+
+  modal.innerHTML = `
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <h2>${g.away_team} @ ${g.home_team}</h2>
+    <div class="sub">${new Date(g.game_date).toISOString().slice(0,16).replace('T',' ')} UTC</div>
+
+    <div class="stat-grid">
+      <div class="stat-tile">
+        <div class="k">Modelo · Local</div>
+        <div class="v">${pct(g.model_prob_home)}</div>
+      </div>
+      <div class="stat-tile">
+        <div class="k">Mercado · Local</div>
+        <div class="v">${pct(g.market_prob_home)}</div>
+      </div>
+      <div class="stat-tile">
+        <div class="k">Edge Local</div>
+        <div class="v ${(g.edge_home||0) > 0 ? 'pos' : (g.edge_home||0) < 0 ? 'neg' : ''}">${fmtEdge(g.edge_home)}</div>
+      </div>
+      <div class="stat-tile">
+        <div class="k">EV / $100 (Local)</div>
+        <div class="v ${(g.ev_home||0) > 0 ? 'pos' : (g.ev_home||0) < 0 ? 'neg' : ''}">${g.ev_home ?? '—'}</div>
+      </div>
+    </div>
+
+    <table class="matchup-table">
+      <thead>
+        <tr><th>Bateador</th><th>Pitcher</th><th>Muestra</th><th>AVG</th><th>HR</th><th>K</th></tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+  overlay.classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+}
+document.getElementById('modalOverlay').addEventListener('click', (e) => {
+  if (e.target.id === 'modalOverlay') closeModal();
+});
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.filter;
+    render();
+  });
+});
+
+loadData();
+</script>
+
+</body>
+</html>
