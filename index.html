@@ -491,12 +491,12 @@ function render() {
         <div class="pitcher-box">
           <div class="pitcher-label">Visita · SP</div>
           <div class="pitcher-name">${g.away_pitcher || 'TBD'}</div>
-          <div class="pitcher-era">ERA L5: ${g.away_pitcher_era_l5 ?? '—'}</div>
+          <div class="pitcher-era">ERA L5: ${g.away_pitcher_era_l5 ?? '—'}${g.away_pitcher_low_sample ? ' <span style="color:var(--amber)">⚠ muestra baja</span>' : ''}</div>
         </div>
         <div class="pitcher-box">
           <div class="pitcher-label">Local · SP</div>
           <div class="pitcher-name">${g.home_pitcher || 'TBD'}</div>
-          <div class="pitcher-era">ERA L5: ${g.home_pitcher_era_l5 ?? '—'}</div>
+          <div class="pitcher-era">ERA L5: ${g.home_pitcher_era_l5 ?? '—'}${g.home_pitcher_low_sample ? ' <span style="color:var(--amber)">⚠ muestra baja</span>' : ''}</div>
         </div>
       </div>
 

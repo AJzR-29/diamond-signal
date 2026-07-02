@@ -106,7 +106,23 @@ def get_pitcher_l5(pitcher_id, season):
         "era_l5": era_l5,
         "ip_avg": ip_avg,
         "starts": results,
+        "starts_count": len(starts),          # cuantos arranques reales hay detras del promedio
+        "low_sample": len(starts) < 3,          # menos de 3 arranques = muestra poco confiable
+        "season_era": get_pitcher_season_era(pitcher_id, season),
     }
+
+
+def get_pitcher_season_era(pitcher_id, season):
+    """ERA de temporada completa, usado como respaldo cuando el L5 tiene muestra chica."""
+    url = f"{STATSAPI}/people/{pitcher_id}/stats?stats=season&group=pitching&season={season}"
+    data = get_json(url)
+    if not data:
+        return None
+    try:
+        stat = data["stats"][0]["splits"][0]["stat"]
+        return round(float(stat.get("era", 0)), 2) if stat.get("era") else None
+    except (KeyError, IndexError, TypeError, ValueError):
+        return None
 
 
 def _ip_to_float(ip_str):

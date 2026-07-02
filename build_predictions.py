@@ -37,18 +37,30 @@ def load_json(path, default):
 
 
 def pitcher_score(pitcher_l5):
-    """Menor ERA = mejor. Mas IP por arranque = mejor (menos carga al bullpen)."""
-    if not pitcher_l5 or pitcher_l5.get("era_l5") is None:
-        return 0.5  # neutral si no hay datos (ej. pitcher nuevo, poca muestra)
+    """Menor ERA = mejor. Mas IP por arranque = mejor (menos carga al bullpen).
 
-    era = pitcher_l5["era_l5"]
+    Si el L5 tiene menos de 3 arranques (muestra poco confiable), usa el ERA
+    de temporada completa como respaldo en vez del L5 volatil. Si tampoco hay
+    ERA de temporada (debut real), regresa neutral pero marcado como low_sample."""
+    if not pitcher_l5:
+        return 0.5, True
+
+    era = pitcher_l5.get("era_l5")
+    low_sample = pitcher_l5.get("low_sample", False)
+
+    if era is None or low_sample:
+        era = pitcher_l5.get("season_era")
+        if era is None:
+            return 0.5, True  # sin ningun dato confiable, neutral y marcado
+
     ip = pitcher_l5.get("ip_avg") or 5.0
 
     # normalizacion simple: ERA 2.50 -> score alto, ERA 6.00 -> score bajo
     era_component = max(0, min(1, (6.0 - era) / (6.0 - 2.5)))
     ip_component = max(0, min(1, (ip - 3.0) / (7.0 - 3.0)))
 
-    return round(era_component * 0.65 + ip_component * 0.35, 4)
+    score = round(era_component * 0.65 + ip_component * 0.35, 4)
+    return score, low_sample
 
 
 def offense_score(team_offense):
@@ -113,8 +125,8 @@ def main():
         home_pitcher_matchups = [m for m in game_matchups if m.get("pitcher_id") == g.get("home_pitcher_id")]
         away_pitcher_matchups = [m for m in game_matchups if m.get("pitcher_id") == g.get("away_pitcher_id")]
 
-        home_pscore = pitcher_score(g.get("home_pitcher_l5"))
-        away_pscore = pitcher_score(g.get("away_pitcher_l5"))
+        home_pscore, home_pitcher_low_sample = pitcher_score(g.get("home_pitcher_l5"))
+        away_pscore, away_pitcher_low_sample = pitcher_score(g.get("away_pitcher_l5"))
 
         home_off = offense_score(g.get("home_team_offense"))
         away_off = offense_score(g.get("away_team_offense"))
@@ -172,6 +184,8 @@ def main():
             "ev_away": away_ev,
             "matchup_sample_ok_home": home_matchup_ok,
             "matchup_sample_ok_away": away_matchup_ok,
+            "home_pitcher_low_sample": home_pitcher_low_sample,
+            "away_pitcher_low_sample": away_pitcher_low_sample,
             "matchup_detail": {
                 "home_pitcher_vs_away_batters": away_pitcher_matchups,
                 "away_pitcher_vs_home_batters": home_pitcher_matchups,
