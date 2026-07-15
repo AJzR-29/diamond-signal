@@ -1,32 +1,5 @@
 {
-  "generated_at": "2026-07-14T12:06:28.498509Z",
-  "date": "2026-07-14",
-  "games": [
-    {
-      "game_id": 823443,
-      "game_date": "2026-07-15T00:00:00Z",
-      "home_team": "National League All-Stars",
-      "away_team": "American League All-Stars",
-      "home_pitcher": "Cristopher Sánchez",
-      "away_pitcher": "Dylan Cease",
-      "home_pitcher_era_l5": 5.4,
-      "away_pitcher_era_l5": 1.78,
-      "model_prob_home": 0.3099,
-      "model_prob_away": 0.6901,
-      "market_prob_home": null,
-      "market_prob_away": null,
-      "edge_home": null,
-      "edge_away": null,
-      "ev_home": null,
-      "ev_away": null,
-      "matchup_sample_ok_home": false,
-      "matchup_sample_ok_away": false,
-      "home_pitcher_low_sample": false,
-      "away_pitcher_low_sample": false,
-      "matchup_detail": {
-        "home_pitcher_vs_away_batters": [],
-        "away_pitcher_vs_home_batters": []
-      }
-    }
-  ]
+  "generated_at": "2026-07-15T12:10:38.034115Z",
+  "date": "2026-07-15",
+  "games": []
 }
