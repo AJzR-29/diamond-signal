@@ -1,1 +1,148 @@
-{}
+{
+  "823440": [
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 666182,
+      "batter_name": "Bo Bichette",
+      "pitcher_id": 605400,
+      "pitcher_name": "Aaron Nola"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 701807,
+      "batter_name": "Carson Benge",
+      "pitcher_id": 605400,
+      "pitcher_name": "Aaron Nola"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 665742,
+      "batter_name": "Juan Soto",
+      "pitcher_id": 605400,
+      "pitcher_name": "Aaron Nola"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 683146,
+      "batter_name": "Brett Baty",
+      "pitcher_id": 605400,
+      "pitcher_name": "Aaron Nola"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 682626,
+      "batter_name": "Francisco Alvarez",
+      "pitcher_id": 605400,
+      "pitcher_name": "Aaron Nola"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 805999,
+      "batter_name": "A.J. Ewing",
+      "pitcher_id": 605400,
+      "pitcher_name": "Aaron Nola"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 620443,
+      "batter_name": "Luis Torrens",
+      "pitcher_id": 605400,
+      "pitcher_name": "Aaron Nola"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 596019,
+      "batter_name": "Francisco Lindor",
+      "pitcher_id": 605400,
+      "pitcher_name": "Aaron Nola"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 676724,
+      "batter_name": "Jared Young",
+      "pitcher_id": 605400,
+      "pitcher_name": "Aaron Nola"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 607208,
+      "batter_name": "Trea Turner",
+      "pitcher_id": 681035,
+      "pitcher_name": "Christian Scott"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 656941,
+      "batter_name": "Kyle Schwarber",
+      "pitcher_id": 681035,
+      "pitcher_name": "Christian Scott"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 547180,
+      "batter_name": "Bryce Harper",
+      "pitcher_id": 681035,
+      "pitcher_name": "Christian Scott"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 664761,
+      "batter_name": "Alec Bohm",
+      "pitcher_id": 681035,
+      "pitcher_name": "Christian Scott"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 669016,
+      "batter_name": "Brandon Marsh",
+      "pitcher_id": 681035,
+      "pitcher_name": "Christian Scott"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 681082,
+      "batter_name": "Bryson Stott",
+      "pitcher_id": 681035,
+      "pitcher_name": "Christian Scott"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 702222,
+      "batter_name": "Justin Crawford",
+      "pitcher_id": 681035,
+      "pitcher_name": "Christian Scott"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 592663,
+      "batter_name": "J.T. Realmuto",
+      "pitcher_id": 681035,
+      "pitcher_name": "Christian Scott"
+    },
+    {
+      "pa": 0,
+      "sample_size_ok": false,
+      "batter_id": 624641,
+      "batter_name": "Edmundo Sosa",
+      "pitcher_id": 681035,
+      "pitcher_name": "Christian Scott"
+    }
+  ]
+}

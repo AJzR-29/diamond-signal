@@ -1,3 +1,79 @@
 {
-  "games": []
+  "games": [
+    {
+      "home_team": "Philadelphia Phillies",
+      "away_team": "New York Mets",
+      "commence_time": "2026-07-16T23:11:00Z",
+      "odds": {
+        "New York Mets": {
+          "american": 116,
+          "implied_prob": 0.463
+        },
+        "Philadelphia Phillies": {
+          "american": -126,
+          "implied_prob": 0.5575
+        }
+      }
+    },
+    {
+      "home_team": "New York Yankees",
+      "away_team": "Los Angeles Dodgers",
+      "commence_time": "2026-07-17T23:06:00Z",
+      "odds": {
+        "Los Angeles Dodgers": {
+          "american": -108,
+          "implied_prob": 0.5192
+        },
+        "New York Yankees": {
+          "american": -108,
+          "implied_prob": 0.5192
+        }
+      }
+    },
+    {
+      "home_team": "Cleveland Guardians",
+      "away_team": "Pittsburgh Pirates",
+      "commence_time": "2026-07-17T23:11:00Z",
+      "odds": {
+        "Cleveland Guardians": {
+          "american": -124,
+          "implied_prob": 0.5536
+        },
+        "Pittsburgh Pirates": {
+          "american": 106,
+          "implied_prob": 0.4854
+        }
+      }
+    },
+    {
+      "home_team": "Toronto Blue Jays",
+      "away_team": "Chicago White Sox",
+      "commence_time": "2026-07-17T23:16:00Z",
+      "odds": {
+        "Chicago White Sox": {
+          "american": 112,
+          "implied_prob": 0.4717
+        },
+        "Toronto Blue Jays": {
+          "american": -132,
+          "implied_prob": 0.569
+        }
+      }
+    },
+    {
+      "home_team": "Kansas City Royals",
+      "away_team": "San Diego Padres",
+      "commence_time": "2026-07-18T00:11:00Z",
+      "odds": {
+        "Kansas City Royals": {
+          "american": -120,
+          "implied_prob": 0.5455
+        },
+        "San Diego Padres": {
+          "american": 102,
+          "implied_prob": 0.495
+        }
+      }
+    }
+  ]
 }
