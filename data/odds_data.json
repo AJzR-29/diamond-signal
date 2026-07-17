@@ -1,17 +1,17 @@
 {
   "games": [
     {
-      "home_team": "Philadelphia Phillies",
-      "away_team": "New York Mets",
-      "commence_time": "2026-07-16T23:11:00Z",
+      "home_team": "Boston Red Sox",
+      "away_team": "Tampa Bay Rays",
+      "commence_time": "2026-07-17T17:36:00Z",
       "odds": {
-        "New York Mets": {
-          "american": 116,
-          "implied_prob": 0.463
+        "Boston Red Sox": {
+          "american": -115,
+          "implied_prob": 0.5349
         },
-        "Philadelphia Phillies": {
-          "american": -126,
-          "implied_prob": 0.5575
+        "Tampa Bay Rays": {
+          "american": 111,
+          "implied_prob": 0.4739
         }
       }
     },
@@ -21,12 +21,27 @@
       "commence_time": "2026-07-17T23:06:00Z",
       "odds": {
         "Los Angeles Dodgers": {
+          "american": -105,
+          "implied_prob": 0.5122
+        },
+        "New York Yankees": {
+          "american": -104,
+          "implied_prob": 0.5098
+        }
+      }
+    },
+    {
+      "home_team": "Boston Red Sox",
+      "away_team": "Tampa Bay Rays",
+      "commence_time": "2026-07-17T23:11:00Z",
+      "odds": {
+        "Boston Red Sox": {
           "american": -108,
           "implied_prob": 0.5192
         },
-        "New York Yankees": {
-          "american": -108,
-          "implied_prob": 0.5192
+        "Tampa Bay Rays": {
+          "american": 100,
+          "implied_prob": 0.5
         }
       }
     },
@@ -36,12 +51,27 @@
       "commence_time": "2026-07-17T23:11:00Z",
       "odds": {
         "Cleveland Guardians": {
-          "american": -124,
-          "implied_prob": 0.5536
+          "american": -122,
+          "implied_prob": 0.5495
         },
         "Pittsburgh Pirates": {
-          "american": 106,
-          "implied_prob": 0.4854
+          "american": 115,
+          "implied_prob": 0.4651
+        }
+      }
+    },
+    {
+      "home_team": "Atlanta Braves",
+      "away_team": "Texas Rangers",
+      "commence_time": "2026-07-17T23:16:00Z",
+      "odds": {
+        "Atlanta Braves": {
+          "american": -200,
+          "implied_prob": 0.6667
+        },
+        "Texas Rangers": {
+          "american": 184,
+          "implied_prob": 0.3521
         }
       }
     },
@@ -51,12 +81,57 @@
       "commence_time": "2026-07-17T23:16:00Z",
       "odds": {
         "Chicago White Sox": {
-          "american": 112,
-          "implied_prob": 0.4717
+          "american": 118,
+          "implied_prob": 0.4587
         },
         "Toronto Blue Jays": {
-          "american": -132,
-          "implied_prob": 0.569
+          "american": -130,
+          "implied_prob": 0.5652
+        }
+      }
+    },
+    {
+      "home_team": "Milwaukee Brewers",
+      "away_team": "Miami Marlins",
+      "commence_time": "2026-07-17T23:41:00Z",
+      "odds": {
+        "Miami Marlins": {
+          "american": 130,
+          "implied_prob": 0.4348
+        },
+        "Milwaukee Brewers": {
+          "american": -140,
+          "implied_prob": 0.5833
+        }
+      }
+    },
+    {
+      "home_team": "Chicago Cubs",
+      "away_team": "Minnesota Twins",
+      "commence_time": "2026-07-18T00:06:00Z",
+      "odds": {
+        "Chicago Cubs": {
+          "american": -137,
+          "implied_prob": 0.5781
+        },
+        "Minnesota Twins": {
+          "american": 128,
+          "implied_prob": 0.4386
+        }
+      }
+    },
+    {
+      "home_team": "Houston Astros",
+      "away_team": "Baltimore Orioles",
+      "commence_time": "2026-07-18T00:11:00Z",
+      "odds": {
+        "Baltimore Orioles": {
+          "american": 100,
+          "implied_prob": 0.5
+        },
+        "Houston Astros": {
+          "american": -110,
+          "implied_prob": 0.5238
         }
       }
     },
@@ -66,12 +141,87 @@
       "commence_time": "2026-07-18T00:11:00Z",
       "odds": {
         "Kansas City Royals": {
-          "american": -120,
-          "implied_prob": 0.5455
+          "american": 100,
+          "implied_prob": 0.5
         },
         "San Diego Padres": {
-          "american": 102,
-          "implied_prob": 0.495
+          "american": -109,
+          "implied_prob": 0.5215
+        }
+      }
+    },
+    {
+      "home_team": "Colorado Rockies",
+      "away_team": "Cincinnati Reds",
+      "commence_time": "2026-07-18T00:41:00Z",
+      "odds": {
+        "Cincinnati Reds": {
+          "american": 101,
+          "implied_prob": 0.4975
+        },
+        "Colorado Rockies": {
+          "american": -111,
+          "implied_prob": 0.5261
+        }
+      }
+    },
+    {
+      "home_team": "Los Angeles Angels",
+      "away_team": "Detroit Tigers",
+      "commence_time": "2026-07-18T01:39:00Z",
+      "odds": {
+        "Detroit Tigers": {
+          "american": -108,
+          "implied_prob": 0.5192
+        },
+        "Los Angeles Angels": {
+          "american": 100,
+          "implied_prob": 0.5
+        }
+      }
+    },
+    {
+      "home_team": "Arizona Diamondbacks",
+      "away_team": "St. Louis Cardinals",
+      "commence_time": "2026-07-18T01:41:00Z",
+      "odds": {
+        "Arizona Diamondbacks": {
+          "american": -104,
+          "implied_prob": 0.5098
+        },
+        "St. Louis Cardinals": {
+          "american": -108,
+          "implied_prob": 0.5192
+        }
+      }
+    },
+    {
+      "home_team": "Athletics",
+      "away_team": "Washington Nationals",
+      "commence_time": "2026-07-18T01:41:00Z",
+      "odds": {
+        "Athletics": {
+          "american": -105,
+          "implied_prob": 0.5122
+        },
+        "Washington Nationals": {
+          "american": -103,
+          "implied_prob": 0.5074
+        }
+      }
+    },
+    {
+      "home_team": "Seattle Mariners",
+      "away_team": "San Francisco Giants",
+      "commence_time": "2026-07-18T02:11:00Z",
+      "odds": {
+        "San Francisco Giants": {
+          "american": 139,
+          "implied_prob": 0.4184
+        },
+        "Seattle Mariners": {
+          "american": -154,
+          "implied_prob": 0.6063
         }
       }
     }
