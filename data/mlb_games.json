@@ -1,251 +1,120 @@
 {
-  "date": "2026-07-19",
+  "date": "2026-07-20",
   "games": [
     {
-      "game_id": 822786,
-      "game_date": "2026-07-19T16:15:00Z",
+      "game_id": 824410,
+      "game_date": "2026-07-20T22:40:00Z",
       "status": "Scheduled",
-      "home_team": "Toronto Blue Jays",
-      "home_team_id": 141,
-      "away_team": "Chicago White Sox",
-      "away_team_id": 145,
-      "home_pitcher": "Trey Yesavage",
-      "home_pitcher_id": 702056,
-      "away_pitcher": "Sean Burke",
-      "away_pitcher_id": 680732,
+      "home_team": "Cleveland Guardians",
+      "home_team_id": 114,
+      "away_team": "Minnesota Twins",
+      "away_team_id": 142,
+      "home_pitcher": "Tanner Bibee",
+      "home_pitcher_id": 676440,
+      "away_pitcher": "Joe Ryan",
+      "away_pitcher_id": 657746,
       "home_pitcher_l5": {
-        "era_l5": 3.62,
-        "ip_avg": 5.47,
+        "era_l5": 3.72,
+        "ip_avg": 5.8,
         "starts": [
           {
             "date": "2026-07-11",
-            "opponent": "San Diego Padres",
-            "ip": 1.6666666666666665,
-            "er": 4.0,
-            "era_game": 21.6,
-            "so": 1,
-            "bb": 7
-          },
-          {
-            "date": "2026-07-05",
-            "opponent": "Seattle Mariners",
-            "ip": 6.0,
-            "er": 2.0,
-            "era_game": 3.0,
-            "so": 7,
-            "bb": 2
-          },
-          {
-            "date": "2026-06-29",
-            "opponent": "New York Mets",
+            "opponent": "Miami Marlins",
             "ip": 6.666666666666667,
             "er": 1.0,
             "era_game": 1.35,
             "so": 3,
+            "bb": 4
+          },
+          {
+            "date": "2026-07-05",
+            "opponent": "Chicago White Sox",
+            "ip": 4.0,
+            "er": 6.0,
+            "era_game": 13.5,
+            "so": 1,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-30",
+            "opponent": "Texas Rangers",
+            "ip": 7.0,
+            "er": 2.0,
+            "era_game": 2.57,
+            "so": 2,
             "bb": 0
           },
           {
             "date": "2026-06-24",
-            "opponent": "Houston Astros",
-            "ip": 5.666666666666667,
-            "er": 1.0,
-            "era_game": 1.59,
-            "so": 5,
-            "bb": 5
-          },
-          {
-            "date": "2026-06-18",
-            "opponent": "Boston Red Sox",
-            "ip": 7.333333333333333,
-            "er": 3.0,
-            "era_game": 3.68,
-            "so": 6,
-            "bb": 0
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 3.72
-      },
-      "away_pitcher_l5": {
-        "era_l5": 2.83,
-        "ip_avg": 5.73,
-        "starts": [
-          {
-            "date": "2026-07-10",
-            "opponent": "Athletics",
-            "ip": 7.0,
-            "er": 1.0,
-            "era_game": 1.29,
-            "so": 9,
-            "bb": 0
-          },
-          {
-            "date": "2026-07-04",
-            "opponent": "Cleveland Guardians",
+            "opponent": "Chicago White Sox",
             "ip": 6.0,
-            "er": 1.0,
-            "era_game": 1.5,
-            "so": 11,
-            "bb": 0
-          },
-          {
-            "date": "2026-06-29",
-            "opponent": "Baltimore Orioles",
-            "ip": 5.333333333333333,
-            "er": 2.0,
-            "era_game": 3.38,
-            "so": 8,
-            "bb": 3
-          },
-          {
-            "date": "2026-06-23",
-            "opponent": "Cleveland Guardians",
-            "ip": 6.333333333333333,
-            "er": 1.0,
-            "era_game": 1.42,
-            "so": 6,
-            "bb": 1
-          },
-          {
-            "date": "2026-06-13",
-            "opponent": "Los Angeles Dodgers",
-            "ip": 4.0,
-            "er": 4.0,
-            "era_game": 9.0,
-            "so": 6,
-            "bb": 5
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 3.41
-      },
-      "home_team_offense": {
-        "runs_per_game": 4.05,
-        "avg": ".243",
-        "ops": ".690"
-      },
-      "away_team_offense": {
-        "runs_per_game": 4.8,
-        "avg": ".241",
-        "ops": ".731"
-      }
-    },
-    {
-      "game_id": 823523,
-      "game_date": "2026-07-19T16:35:00Z",
-      "status": "Scheduled",
-      "home_team": "New York Yankees",
-      "home_team_id": 147,
-      "away_team": "Los Angeles Dodgers",
-      "away_team_id": 119,
-      "home_pitcher": "Cam Schlittler",
-      "home_pitcher_id": 693645,
-      "away_pitcher": "Yoshinobu Yamamoto",
-      "away_pitcher_id": 808967,
-      "home_pitcher_l5": {
-        "era_l5": 2.73,
-        "ip_avg": 5.93,
-        "starts": [
-          {
-            "date": "2026-07-11",
-            "opponent": "Washington Nationals",
-            "ip": 6.666666666666667,
-            "er": 2.0,
-            "era_game": 2.7,
-            "so": 6,
-            "bb": 4
-          },
-          {
-            "date": "2026-07-06",
-            "opponent": "Tampa Bay Rays",
-            "ip": 8.0,
-            "er": 1.0,
-            "era_game": 1.12,
-            "so": 8,
-            "bb": 0
-          },
-          {
-            "date": "2026-06-30",
-            "opponent": "Detroit Tigers",
-            "ip": 4.0,
-            "er": 6.0,
-            "era_game": 13.5,
-            "so": 5,
-            "bb": 1
-          },
-          {
-            "date": "2026-06-25",
-            "opponent": "Boston Red Sox",
-            "ip": 5.0,
             "er": 0.0,
             "era_game": 0.0,
-            "so": 9,
-            "bb": 2
+            "so": 3,
+            "bb": 1
           },
           {
             "date": "2026-06-19",
-            "opponent": "Cincinnati Reds",
-            "ip": 6.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 13,
-            "bb": 0
+            "opponent": "Houston Astros",
+            "ip": 5.333333333333333,
+            "er": 3.0,
+            "era_game": 5.06,
+            "so": 7,
+            "bb": 2
           }
         ],
         "starts_count": 5,
         "low_sample": false,
-        "season_era": 2.05
+        "season_era": 3.9
       },
       "away_pitcher_l5": {
-        "era_l5": 3.24,
-        "ip_avg": 6.67,
+        "era_l5": 1.93,
+        "ip_avg": 5.6,
         "starts": [
           {
             "date": "2026-07-11",
-            "opponent": "Arizona Diamondbacks",
-            "ip": 6.0,
-            "er": 6.0,
-            "era_game": 9.0,
-            "so": 6,
-            "bb": 4
-          },
-          {
-            "date": "2026-07-04",
-            "opponent": "San Diego Padres",
-            "ip": 7.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 10,
-            "bb": 2
-          },
-          {
-            "date": "2026-06-27",
-            "opponent": "San Diego Padres",
+            "opponent": "Los Angeles Angels",
             "ip": 6.0,
             "er": 2.0,
             "era_game": 3.0,
-            "so": 4,
-            "bb": 2
-          },
-          {
-            "date": "2026-06-20",
-            "opponent": "Baltimore Orioles",
-            "ip": 6.0,
-            "er": 3.0,
-            "era_game": 4.5,
             "so": 6,
             "bb": 2
           },
           {
-            "date": "2026-06-13",
-            "opponent": "Chicago White Sox",
-            "ip": 8.333333333333334,
-            "er": 1.0,
-            "era_game": 1.08,
+            "date": "2026-07-05",
+            "opponent": "New York Yankees",
+            "ip": 7.0,
+            "er": 0.0,
+            "era_game": 0.0,
+            "so": 9,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-30",
+            "opponent": "Houston Astros",
+            "ip": 4.0,
+            "er": 0.0,
+            "era_game": 0.0,
+            "so": 5,
+            "bb": 3
+          },
+          {
+            "date": "2026-06-24",
+            "opponent": "Los Angeles Dodgers",
+            "ip": 6.0,
+            "er": 4.0,
+            "era_game": 6.0,
+            "so": 9,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-18",
+            "opponent": "Texas Rangers",
+            "ip": 5.0,
+            "er": 0.0,
+            "era_game": 0.0,
             "so": 7,
-            "bb": 0
+            "bb": 2
           }
         ],
         "starts_count": 5,
@@ -253,662 +122,402 @@
         "season_era": 2.85
       },
       "home_team_offense": {
-        "runs_per_game": 4.77,
-        "avg": ".237",
-        "ops": ".740"
+        "runs_per_game": 3.92,
+        "avg": ".230",
+        "ops": ".678"
       },
       "away_team_offense": {
-        "runs_per_game": 5.18,
-        "avg": ".261",
-        "ops": ".774"
+        "runs_per_game": 4.79,
+        "avg": ".248",
+        "ops": ".735"
       }
     },
     {
-      "game_id": 823521,
-      "game_date": "2026-07-19T23:20:00Z",
+      "game_id": 823522,
+      "game_date": "2026-07-20T23:05:00Z",
       "status": "Scheduled",
       "home_team": "New York Yankees",
       "home_team_id": 147,
-      "away_team": "Los Angeles Dodgers",
-      "away_team_id": 119,
-      "home_pitcher": null,
-      "home_pitcher_id": null,
-      "away_pitcher": null,
-      "away_pitcher_id": null,
-      "home_pitcher_l5": null,
-      "away_pitcher_l5": null,
-      "home_team_offense": {
-        "runs_per_game": 4.77,
-        "avg": ".237",
-        "ops": ".740"
-      },
-      "away_team_offense": {
-        "runs_per_game": 5.18,
-        "avg": ".261",
-        "ops": ".774"
-      }
-    },
-    {
-      "game_id": 824739,
-      "game_date": "2026-07-19T17:35:00Z",
-      "status": "Scheduled",
-      "home_team": "Boston Red Sox",
-      "home_team_id": 111,
-      "away_team": "Tampa Bay Rays",
-      "away_team_id": 139,
-      "home_pitcher": "Sonny Gray",
-      "home_pitcher_id": 543243,
-      "away_pitcher": "Shane McClanahan",
-      "away_pitcher_id": 663556,
+      "away_team": "Pittsburgh Pirates",
+      "away_team_id": 134,
+      "home_pitcher": "Ryan Weathers",
+      "home_pitcher_id": 677960,
+      "away_pitcher": "Braxton Ashcraft",
+      "away_pitcher_id": 677952,
       "home_pitcher_l5": {
-        "era_l5": 1.62,
-        "ip_avg": 6.67,
+        "era_l5": 3.47,
+        "ip_avg": 4.67,
         "starts": [
           {
             "date": "2026-07-10",
-            "opponent": "New York Mets",
-            "ip": 6.0,
+            "opponent": "Washington Nationals",
+            "ip": 5.333333333333333,
             "er": 1.0,
-            "era_game": 1.5,
+            "era_game": 1.69,
+            "so": 6,
+            "bb": 0
+          },
+          {
+            "date": "2026-07-05",
+            "opponent": "Minnesota Twins",
+            "ip": 4.0,
+            "er": 4.0,
+            "era_game": 9.0,
+            "so": 6,
+            "bb": 2
+          },
+          {
+            "date": "2026-06-29",
+            "opponent": "Detroit Tigers",
+            "ip": 1.6666666666666665,
+            "er": 2.0,
+            "era_game": 10.8,
             "so": 3,
             "bb": 1
           },
           {
-            "date": "2026-07-04",
-            "opponent": "Los Angeles Angels",
+            "date": "2026-06-24",
+            "opponent": "Detroit Tigers",
             "ip": 6.0,
             "er": 1.0,
             "era_game": 1.5,
+            "so": 6,
+            "bb": 2
+          },
+          {
+            "date": "2026-06-18",
+            "opponent": "Chicago White Sox",
+            "ip": 6.333333333333333,
+            "er": 1.0,
+            "era_game": 1.42,
+            "so": 8,
+            "bb": 1
+          }
+        ],
+        "starts_count": 5,
+        "low_sample": false,
+        "season_era": 4.15
+      },
+      "away_pitcher_l5": {
+        "era_l5": 4.08,
+        "ip_avg": 5.73,
+        "starts": [
+          {
+            "date": "2026-07-11",
+            "opponent": "Milwaukee Brewers",
+            "ip": 5.0,
+            "er": 5.0,
+            "era_game": 9.0,
+            "so": 6,
+            "bb": 2
+          },
+          {
+            "date": "2026-07-04",
+            "opponent": "Washington Nationals",
+            "ip": 5.666666666666667,
+            "er": 1.0,
+            "era_game": 1.59,
             "so": 7,
             "bb": 2
           },
           {
-            "date": "2026-06-28",
-            "opponent": "New York Yankees",
-            "ip": 7.333333333333333,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 9,
+            "date": "2026-06-29",
+            "opponent": "Philadelphia Phillies",
+            "ip": 6.0,
+            "er": 5.0,
+            "era_game": 7.5,
+            "so": 8,
             "bb": 1
           },
           {
-            "date": "2026-06-23",
-            "opponent": "Colorado Rockies",
-            "ip": 7.0,
+            "date": "2026-06-24",
+            "opponent": "Seattle Mariners",
+            "ip": 6.0,
             "er": 1.0,
-            "era_game": 1.29,
+            "era_game": 1.5,
+            "so": 10,
+            "bb": 0
+          },
+          {
+            "date": "2026-06-17",
+            "opponent": "Athletics",
+            "ip": 6.0,
+            "er": 1.0,
+            "era_game": 1.5,
+            "so": 7,
+            "bb": 3
+          }
+        ],
+        "starts_count": 5,
+        "low_sample": false,
+        "season_era": 3.49
+      },
+      "home_team_offense": {
+        "runs_per_game": 4.72,
+        "avg": ".236",
+        "ops": ".738"
+      },
+      "away_team_offense": {
+        "runs_per_game": 5.33,
+        "avg": ".263",
+        "ops": ".769"
+      }
+    },
+    {
+      "game_id": 822788,
+      "game_date": "2026-07-20T23:07:00Z",
+      "status": "Scheduled",
+      "home_team": "Toronto Blue Jays",
+      "home_team_id": 141,
+      "away_team": "Tampa Bay Rays",
+      "away_team_id": 139,
+      "home_pitcher": "Dylan Cease",
+      "home_pitcher_id": 656302,
+      "away_pitcher": "Nick Martinez",
+      "away_pitcher_id": 607259,
+      "home_pitcher_l5": {
+        "era_l5": 1.78,
+        "ip_avg": 6.07,
+        "starts": [
+          {
+            "date": "2026-07-08",
+            "opponent": "San Francisco Giants",
+            "ip": 8.0,
+            "er": 0.0,
+            "era_game": 0.0,
             "so": 11,
             "bb": 3
           },
           {
-            "date": "2026-06-18",
-            "opponent": "Toronto Blue Jays",
+            "date": "2026-07-03",
+            "opponent": "Seattle Mariners",
             "ip": 7.0,
-            "er": 3.0,
-            "era_game": 3.86,
-            "so": 4,
-            "bb": 1
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 2.54
-      },
-      "away_pitcher_l5": {
-        "era_l5": 2.77,
-        "ip_avg": 5.2,
-        "starts": [
-          {
-            "date": "2026-07-08",
-            "opponent": "New York Yankees",
-            "ip": 6.333333333333333,
             "er": 0.0,
             "era_game": 0.0,
-            "so": 5,
-            "bb": 0
-          },
-          {
-            "date": "2026-07-01",
-            "opponent": "Kansas City Royals",
-            "ip": 6.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 4,
-            "bb": 0
-          },
-          {
-            "date": "2026-06-23",
-            "opponent": "Kansas City Royals",
-            "ip": 6.0,
-            "er": 2.0,
-            "era_game": 3.0,
-            "so": 4,
+            "so": 9,
             "bb": 1
           },
           {
-            "date": "2026-06-17",
-            "opponent": "Los Angeles Dodgers",
-            "ip": 3.6666666666666665,
-            "er": 2.0,
-            "era_game": 4.91,
-            "so": 3,
+            "date": "2026-06-27",
+            "opponent": "Texas Rangers",
+            "ip": 4.666666666666667,
+            "er": 4.0,
+            "era_game": 7.71,
+            "so": 10,
             "bb": 5
           },
           {
-            "date": "2026-06-12",
-            "opponent": "Los Angeles Angels",
-            "ip": 4.0,
-            "er": 4.0,
-            "era_game": 9.0,
-            "so": 7,
-            "bb": 1
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 2.83
-      },
-      "home_team_offense": {
-        "runs_per_game": 4.2,
-        "avg": ".244",
-        "ops": ".709"
-      },
-      "away_team_offense": {
-        "runs_per_game": 4.47,
-        "avg": ".257",
-        "ops": ".731"
-      }
-    },
-    {
-      "game_id": 823439,
-      "game_date": "2026-07-19T17:35:00Z",
-      "status": "Scheduled",
-      "home_team": "Philadelphia Phillies",
-      "home_team_id": 143,
-      "away_team": "New York Mets",
-      "away_team_id": 121,
-      "home_pitcher": "Alan Rangel",
-      "home_pitcher_id": 660604,
-      "away_pitcher": "Nolan McLean",
-      "away_pitcher_id": 690997,
-      "home_pitcher_l5": {
-        "era_l5": 3.68,
-        "ip_avg": 3.67,
-        "starts": [
-          {
-            "date": "2026-07-08",
-            "opponent": "Cincinnati Reds",
-            "ip": 3.3333333333333335,
-            "er": 3.0,
-            "era_game": 8.1,
-            "so": 5,
-            "bb": 3
-          },
-          {
-            "date": "2026-07-02",
-            "opponent": "Pittsburgh Pirates",
-            "ip": 4.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 4,
-            "bb": 4
-          }
-        ],
-        "starts_count": 2,
-        "low_sample": true,
-        "season_era": 4.19
-      },
-      "away_pitcher_l5": {
-        "era_l5": 2.32,
-        "ip_avg": 6.2,
-        "starts": [
-          {
-            "date": "2026-07-10",
-            "opponent": "Boston Red Sox",
-            "ip": 6.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 7,
-            "bb": 2
-          },
-          {
-            "date": "2026-07-05",
-            "opponent": "Atlanta Braves",
-            "ip": 6.0,
+            "date": "2026-06-22",
+            "opponent": "Houston Astros",
+            "ip": 5.666666666666667,
             "er": 2.0,
-            "era_game": 3.0,
-            "so": 5,
-            "bb": 1
+            "era_game": 3.18,
+            "so": 8,
+            "bb": 4
           },
           {
-            "date": "2026-06-30",
-            "opponent": "Toronto Blue Jays",
-            "ip": 6.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 7,
-            "bb": 2
-          },
-          {
-            "date": "2026-06-24",
-            "opponent": "Chicago Cubs",
-            "ip": 6.0,
-            "er": 6.0,
-            "era_game": 9.0,
-            "so": 9,
-            "bb": 2
-          },
-          {
-            "date": "2026-06-17",
-            "opponent": "Cincinnati Reds",
-            "ip": 7.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 9,
-            "bb": 1
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 3.52
-      },
-      "home_team_offense": {
-        "runs_per_game": 4.35,
-        "avg": ".236",
-        "ops": ".702"
-      },
-      "away_team_offense": {
-        "runs_per_game": 4.07,
-        "avg": ".232",
-        "ops": ".682"
-      }
-    },
-    {
-      "game_id": 824897,
-      "game_date": "2026-07-19T17:35:00Z",
-      "status": "Scheduled",
-      "home_team": "Atlanta Braves",
-      "home_team_id": 144,
-      "away_team": "Texas Rangers",
-      "away_team_id": 140,
-      "home_pitcher": "Grant Holmes",
-      "home_pitcher_id": 656550,
-      "away_pitcher": "Nathan Eovaldi",
-      "away_pitcher_id": 543135,
-      "home_pitcher_l5": {
-        "era_l5": 3.54,
-        "ip_avg": 4.07,
-        "starts": [
-          {
-            "date": "2026-07-08",
-            "opponent": "Pittsburgh Pirates",
+            "date": "2026-06-16",
+            "opponent": "Boston Red Sox",
             "ip": 5.0,
             "er": 0.0,
             "era_game": 0.0,
-            "so": 5,
+            "so": 7,
+            "bb": 4
+          }
+        ],
+        "starts_count": 5,
+        "low_sample": false,
+        "season_era": 2.56
+      },
+      "away_pitcher_l5": {
+        "era_l5": 3.25,
+        "ip_avg": 5.53,
+        "starts": [
+          {
+            "date": "2026-07-10",
+            "opponent": "Seattle Mariners",
+            "ip": 5.333333333333333,
+            "er": 2.0,
+            "era_game": 3.38,
+            "so": 1,
             "bb": 1
           },
           {
             "date": "2026-07-03",
-            "opponent": "New York Mets",
-            "ip": 5.0,
+            "opponent": "Houston Astros",
+            "ip": 5.333333333333333,
             "er": 1.0,
-            "era_game": 1.8,
-            "so": 2,
-            "bb": 1
-          },
-          {
-            "date": "2026-06-22",
-            "opponent": "San Diego Padres",
-            "ip": 4.666666666666667,
-            "er": 1.0,
-            "era_game": 1.93,
-            "so": 4,
-            "bb": 5
-          },
-          {
-            "date": "2026-06-16",
-            "opponent": "San Francisco Giants",
-            "ip": 2.0,
-            "er": 3.0,
-            "era_game": 13.5,
-            "so": 2,
-            "bb": 3
-          },
-          {
-            "date": "2026-06-09",
-            "opponent": "Chicago White Sox",
-            "ip": 3.6666666666666665,
-            "er": 3.0,
-            "era_game": 7.36,
-            "so": 2,
-            "bb": 2
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 3.61
-      },
-      "away_pitcher_l5": {
-        "era_l5": 3.48,
-        "ip_avg": 6.2,
-        "starts": [
-          {
-            "date": "2026-07-09",
-            "opponent": "Los Angeles Angels",
-            "ip": 6.0,
-            "er": 3.0,
-            "era_game": 4.5,
-            "so": 10,
-            "bb": 2
-          },
-          {
-            "date": "2026-07-02",
-            "opponent": "Detroit Tigers",
-            "ip": 5.0,
-            "er": 3.0,
-            "era_game": 5.4,
-            "so": 9,
+            "era_game": 1.69,
+            "so": 3,
             "bb": 1
           },
           {
             "date": "2026-06-26",
-            "opponent": "Toronto Blue Jays",
-            "ip": 7.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 9,
-            "bb": 1
+            "opponent": "Arizona Diamondbacks",
+            "ip": 5.666666666666667,
+            "er": 1.0,
+            "era_game": 1.59,
+            "so": 3,
+            "bb": 0
           },
           {
             "date": "2026-06-21",
-            "opponent": "San Diego Padres",
+            "opponent": "Washington Nationals",
             "ip": 6.0,
             "er": 3.0,
             "era_game": 4.5,
-            "so": 9,
-            "bb": 1
+            "so": 5,
+            "bb": 3
           },
           {
-            "date": "2026-06-14",
-            "opponent": "Boston Red Sox",
-            "ip": 7.0,
+            "date": "2026-06-15",
+            "opponent": "Los Angeles Dodgers",
+            "ip": 5.333333333333333,
             "er": 3.0,
-            "era_game": 3.86,
+            "era_game": 5.06,
             "so": 6,
             "bb": 1
           }
         ],
         "starts_count": 5,
         "low_sample": false,
-        "season_era": 4.04
+        "season_era": 2.65
       },
       "home_team_offense": {
-        "runs_per_game": 4.96,
-        "avg": ".249",
-        "ops": ".730"
+        "runs_per_game": 4.01,
+        "avg": ".242",
+        "ops": ".687"
       },
       "away_team_offense": {
-        "runs_per_game": 4.15,
-        "avg": ".245",
-        "ops": ".719"
+        "runs_per_game": 4.44,
+        "avg": ".257",
+        "ops": ".731"
       }
     },
     {
-      "game_id": 824411,
-      "game_date": "2026-07-19T17:40:00Z",
+      "game_id": 824736,
+      "game_date": "2026-07-20T23:10:00Z",
       "status": "Scheduled",
-      "home_team": "Cleveland Guardians",
-      "home_team_id": 114,
-      "away_team": "Pittsburgh Pirates",
-      "away_team_id": 134,
-      "home_pitcher": "Joey Cantillo",
-      "home_pitcher_id": 676282,
-      "away_pitcher": "Paul Skenes",
-      "away_pitcher_id": 694973,
+      "home_team": "Boston Red Sox",
+      "home_team_id": 111,
+      "away_team": "Baltimore Orioles",
+      "away_team_id": 110,
+      "home_pitcher": "Payton Tolle",
+      "home_pitcher_id": 801139,
+      "away_pitcher": "Shane Baz",
+      "away_pitcher_id": 669358,
       "home_pitcher_l5": {
-        "era_l5": 1.55,
-        "ip_avg": 5.8,
+        "era_l5": 3.51,
+        "ip_avg": 5.13,
         "starts": [
           {
             "date": "2026-07-12",
-            "opponent": "Miami Marlins",
-            "ip": 5.0,
+            "opponent": "New York Mets",
+            "ip": 3.6666666666666665,
             "er": 1.0,
-            "era_game": 1.8,
-            "so": 9,
-            "bb": 2
+            "era_game": 2.45,
+            "so": 7,
+            "bb": 1
           },
           {
             "date": "2026-07-07",
-            "opponent": "Minnesota Twins",
-            "ip": 5.0,
+            "opponent": "Chicago White Sox",
+            "ip": 6.0,
+            "er": 0.0,
+            "era_game": 0.0,
+            "so": 6,
+            "bb": 1
+          },
+          {
+            "date": "2026-07-01",
+            "opponent": "Washington Nationals",
+            "ip": 3.0,
+            "er": 6.0,
+            "era_game": 18.0,
+            "so": 5,
+            "bb": 3
+          },
+          {
+            "date": "2026-06-26",
+            "opponent": "New York Yankees",
+            "ip": 7.0,
             "er": 0.0,
             "era_game": 0.0,
             "so": 7,
-            "bb": 3
-          },
-          {
-            "date": "2026-07-01",
-            "opponent": "Texas Rangers",
-            "ip": 5.0,
-            "er": 2.0,
-            "era_game": 3.6,
-            "so": 4,
-            "bb": 5
-          },
-          {
-            "date": "2026-06-26",
-            "opponent": "Seattle Mariners",
-            "ip": 6.0,
-            "er": 1.0,
-            "era_game": 1.5,
-            "so": 9,
-            "bb": 2
-          },
-          {
-            "date": "2026-06-20",
-            "opponent": "Houston Astros",
-            "ip": 8.0,
-            "er": 1.0,
-            "era_game": 1.12,
-            "so": 9,
-            "bb": 1
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 3.56
-      },
-      "away_pitcher_l5": {
-        "era_l5": 5.81,
-        "ip_avg": 5.27,
-        "starts": [
-          {
-            "date": "2026-07-12",
-            "opponent": "Milwaukee Brewers",
-            "ip": 5.333333333333333,
-            "er": 2.0,
-            "era_game": 3.38,
-            "so": 7,
-            "bb": 1
-          },
-          {
-            "date": "2026-07-07",
-            "opponent": "Atlanta Braves",
-            "ip": 6.0,
-            "er": 2.0,
-            "era_game": 3.0,
-            "so": 4,
-            "bb": 1
-          },
-          {
-            "date": "2026-07-01",
-            "opponent": "Philadelphia Phillies",
-            "ip": 4.0,
-            "er": 7.0,
-            "era_game": 15.75,
-            "so": 5,
-            "bb": 2
-          },
-          {
-            "date": "2026-06-26",
-            "opponent": "Cincinnati Reds",
-            "ip": 5.0,
-            "er": 4.0,
-            "era_game": 7.2,
-            "so": 7,
-            "bb": 2
-          },
-          {
-            "date": "2026-06-20",
-            "opponent": "Colorado Rockies",
-            "ip": 6.0,
-            "er": 2.0,
-            "era_game": 3.0,
-            "so": 8,
-            "bb": 2
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 3.57
-      },
-      "home_team_offense": {
-        "runs_per_game": 3.95,
-        "avg": ".230",
-        "ops": ".679"
-      },
-      "away_team_offense": {
-        "runs_per_game": 5.31,
-        "avg": ".263",
-        "ops": ".768"
-      }
-    },
-    {
-      "game_id": 824168,
-      "game_date": "2026-07-19T18:10:00Z",
-      "status": "Scheduled",
-      "home_team": "Houston Astros",
-      "home_team_id": 117,
-      "away_team": "Baltimore Orioles",
-      "away_team_id": 110,
-      "home_pitcher": "Hunter Brown",
-      "home_pitcher_id": 686613,
-      "away_pitcher": "Brandon Young",
-      "away_pitcher_id": 687064,
-      "home_pitcher_l5": {
-        "era_l5": 4.74,
-        "ip_avg": 4.93,
-        "starts": [
-          {
-            "date": "2026-07-10",
-            "opponent": "Texas Rangers",
-            "ip": 6.0,
-            "er": 3.0,
-            "era_game": 4.5,
-            "so": 4,
-            "bb": 5
-          },
-          {
-            "date": "2026-07-04",
-            "opponent": "Tampa Bay Rays",
-            "ip": 4.0,
-            "er": 6.0,
-            "era_game": 13.5,
-            "so": 3,
-            "bb": 4
-          },
-          {
-            "date": "2026-06-28",
-            "opponent": "Detroit Tigers",
-            "ip": 6.0,
-            "er": 2.0,
-            "era_game": 3.0,
-            "so": 4,
-            "bb": 2
-          },
-          {
-            "date": "2026-06-22",
-            "opponent": "Toronto Blue Jays",
-            "ip": 3.0,
-            "er": 1.0,
-            "era_game": 3.0,
-            "so": 4,
-            "bb": 2
-          },
-          {
-            "date": "2026-06-16",
-            "opponent": "Detroit Tigers",
-            "ip": 5.666666666666667,
-            "er": 1.0,
-            "era_game": 1.59,
-            "so": 7,
-            "bb": 3
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 3.57
-      },
-      "away_pitcher_l5": {
-        "era_l5": 4.18,
-        "ip_avg": 5.6,
-        "starts": [
-          {
-            "date": "2026-07-10",
-            "opponent": "Kansas City Royals",
-            "ip": 7.0,
-            "er": 3.0,
-            "era_game": 3.86,
-            "so": 5,
-            "bb": 1
-          },
-          {
-            "date": "2026-07-04",
-            "opponent": "Cincinnati Reds",
-            "ip": 5.0,
-            "er": 4.0,
-            "era_game": 7.2,
-            "so": 5,
-            "bb": 3
-          },
-          {
-            "date": "2026-06-27",
-            "opponent": "Washington Nationals",
-            "ip": 5.0,
-            "er": 2.0,
-            "era_game": 3.6,
-            "so": 8,
             "bb": 2
           },
           {
             "date": "2026-06-21",
-            "opponent": "Los Angeles Dodgers",
-            "ip": 5.0,
-            "er": 1.0,
-            "era_game": 1.8,
-            "so": 5,
-            "bb": 2
-          },
-          {
-            "date": "2026-06-16",
             "opponent": "Seattle Mariners",
             "ip": 6.0,
             "er": 3.0,
             "era_game": 4.5,
             "so": 2,
-            "bb": 4
+            "bb": 2
           }
         ],
         "starts_count": 5,
         "low_sample": false,
-        "season_era": 3.42
+        "season_era": 3.11
+      },
+      "away_pitcher_l5": {
+        "era_l5": 4.55,
+        "ip_avg": 5.93,
+        "starts": [
+          {
+            "date": "2026-07-12",
+            "opponent": "Kansas City Royals",
+            "ip": 4.666666666666667,
+            "er": 2.0,
+            "era_game": 3.86,
+            "so": 9,
+            "bb": 0
+          },
+          {
+            "date": "2026-07-07",
+            "opponent": "Chicago Cubs",
+            "ip": 6.0,
+            "er": 3.0,
+            "era_game": 4.5,
+            "so": 3,
+            "bb": 3
+          },
+          {
+            "date": "2026-06-29",
+            "opponent": "Chicago White Sox",
+            "ip": 7.0,
+            "er": 2.0,
+            "era_game": 2.57,
+            "so": 6,
+            "bb": 4
+          },
+          {
+            "date": "2026-06-23",
+            "opponent": "Los Angeles Angels",
+            "ip": 5.0,
+            "er": 5.0,
+            "era_game": 9.0,
+            "so": 5,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-18",
+            "opponent": "Seattle Mariners",
+            "ip": 7.0,
+            "er": 3.0,
+            "era_game": 3.86,
+            "so": 9,
+            "bb": 2
+          }
+        ],
+        "starts_count": 5,
+        "low_sample": false,
+        "season_era": 4.19
       },
       "home_team_offense": {
-        "runs_per_game": 4.53,
-        "avg": ".241",
-        "ops": ".726"
+        "runs_per_game": 4.21,
+        "avg": ".244",
+        "ops": ".708"
       },
       "away_team_offense": {
         "runs_per_game": 4.59,
@@ -917,181 +526,434 @@
       }
     },
     {
-      "game_id": 824086,
-      "game_date": "2026-07-19T18:10:00Z",
+      "game_id": 823436,
+      "game_date": "2026-07-20T23:10:00Z",
       "status": "Scheduled",
-      "home_team": "Kansas City Royals",
-      "home_team_id": 118,
-      "away_team": "San Diego Padres",
-      "away_team_id": 135,
-      "home_pitcher": "Noah Cameron",
-      "home_pitcher_id": 702070,
-      "away_pitcher": "Germán Márquez",
-      "away_pitcher_id": 608566,
+      "home_team": "Philadelphia Phillies",
+      "home_team_id": 143,
+      "away_team": "Los Angeles Dodgers",
+      "away_team_id": 119,
+      "home_pitcher": "Cristopher Sánchez",
+      "home_pitcher_id": 650911,
+      "away_pitcher": "Emmet Sheehan",
+      "away_pitcher_id": 686218,
       "home_pitcher_l5": {
-        "era_l5": 7.01,
-        "ip_avg": 5.13,
+        "era_l5": 5.4,
+        "ip_avg": 5.67,
         "starts": [
           {
             "date": "2026-07-11",
-            "opponent": "Baltimore Orioles",
+            "opponent": "Detroit Tigers",
             "ip": 7.0,
-            "er": 5.0,
-            "era_game": 6.43,
+            "er": 2.0,
+            "era_game": 2.57,
+            "so": 7,
+            "bb": 1
+          },
+          {
+            "date": "2026-07-06",
+            "opponent": "Kansas City Royals",
+            "ip": 3.3333333333333335,
+            "er": 9.0,
+            "era_game": 24.3,
+            "so": 1,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-30",
+            "opponent": "Pittsburgh Pirates",
+            "ip": 7.0,
+            "er": 0.0,
+            "era_game": 0.0,
             "so": 9,
             "bb": 2
           },
           {
-            "date": "2026-07-06",
-            "opponent": "Philadelphia Phillies",
-            "ip": 5.0,
-            "er": 1.0,
-            "era_game": 1.8,
-            "so": 7,
-            "bb": 5
-          },
-          {
-            "date": "2026-06-30",
-            "opponent": "Tampa Bay Rays",
-            "ip": 3.6666666666666665,
-            "er": 6.0,
-            "era_game": 14.73,
-            "so": 0,
-            "bb": 3
-          },
-          {
-            "date": "2026-06-24",
-            "opponent": "Tampa Bay Rays",
+            "date": "2026-06-25",
+            "opponent": "Washington Nationals",
             "ip": 5.0,
             "er": 5.0,
             "era_game": 9.0,
+            "so": 6,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-20",
+            "opponent": "New York Mets",
+            "ip": 6.0,
+            "er": 1.0,
+            "era_game": 1.5,
+            "so": 5,
+            "bb": 1
+          }
+        ],
+        "starts_count": 5,
+        "low_sample": false,
+        "season_era": 2.62
+      },
+      "away_pitcher_l5": {
+        "era_l5": 5.09,
+        "ip_avg": 4.6,
+        "starts": [
+          {
+            "date": "2026-07-12",
+            "opponent": "Arizona Diamondbacks",
+            "ip": 5.333333333333333,
+            "er": 2.0,
+            "era_game": 3.38,
+            "so": 7,
+            "bb": 1
+          },
+          {
+            "date": "2026-07-05",
+            "opponent": "San Diego Padres",
+            "ip": 4.333333333333333,
+            "er": 1.0,
+            "era_game": 2.08,
             "so": 5,
             "bb": 3
           },
           {
-            "date": "2026-06-18",
-            "opponent": "St. Louis Cardinals",
+            "date": "2026-06-28",
+            "opponent": "San Diego Padres",
+            "ip": 5.0,
+            "er": 1.0,
+            "era_game": 1.8,
+            "so": 5,
+            "bb": 2
+          },
+          {
+            "date": "2026-06-21",
+            "opponent": "Baltimore Orioles",
+            "ip": 3.3333333333333335,
+            "er": 6.0,
+            "era_game": 16.2,
+            "so": 4,
+            "bb": 3
+          },
+          {
+            "date": "2026-06-14",
+            "opponent": "Chicago White Sox",
             "ip": 5.0,
             "er": 3.0,
             "era_game": 5.4,
-            "so": 6,
-            "bb": 2
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 4.89
-      },
-      "away_pitcher_l5": {
-        "era_l5": 4.91,
-        "ip_avg": 5.13,
-        "starts": [
-          {
-            "date": "2026-07-12",
-            "opponent": "Toronto Blue Jays",
-            "ip": 4.0,
-            "er": 3.0,
-            "era_game": 6.75,
-            "so": 4,
-            "bb": 2
-          },
-          {
-            "date": "2026-07-07",
-            "opponent": "Arizona Diamondbacks",
-            "ip": 5.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 4,
-            "bb": 3
-          },
-          {
-            "date": "2026-05-01",
-            "opponent": "Chicago White Sox",
-            "ip": 5.0,
-            "er": 7.0,
-            "era_game": 12.6,
-            "so": 2,
-            "bb": 5
-          },
-          {
-            "date": "2026-04-25",
-            "opponent": "Arizona Diamondbacks",
-            "ip": 6.0,
-            "er": 4.0,
-            "era_game": 6.0,
-            "so": 2,
+            "so": 8,
             "bb": 1
-          },
-          {
-            "date": "2026-04-18",
-            "opponent": "Los Angeles Angels",
-            "ip": 5.666666666666667,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 5,
-            "bb": 2
           }
         ],
         "starts_count": 5,
         "low_sample": false,
-        "season_era": 5.18
+        "season_era": 4.81
       },
       "home_team_offense": {
-        "runs_per_game": 4.28,
-        "avg": ".248",
-        "ops": ".716"
+        "runs_per_game": 4.32,
+        "avg": ".236",
+        "ops": ".701"
       },
       "away_team_offense": {
-        "runs_per_game": 3.94,
-        "avg": ".226",
-        "ops": ".673"
+        "runs_per_game": 5.17,
+        "avg": ".260",
+        "ops": ".772"
       }
     },
     {
-      "game_id": 823764,
-      "game_date": "2026-07-19T18:10:00Z",
+      "game_id": 824898,
+      "game_date": "2026-07-20T23:15:00Z",
       "status": "Scheduled",
-      "home_team": "Milwaukee Brewers",
-      "home_team_id": 158,
-      "away_team": "Miami Marlins",
-      "away_team_id": 146,
-      "home_pitcher": "Robert Gasser",
-      "home_pitcher_id": 688107,
-      "away_pitcher": "Eury Pérez",
-      "away_pitcher_id": 691587,
+      "home_team": "Atlanta Braves",
+      "home_team_id": 144,
+      "away_team": "San Diego Padres",
+      "away_team_id": 135,
+      "home_pitcher": "Bryce Elder",
+      "home_pitcher_id": 693821,
+      "away_pitcher": "JP Sears",
+      "away_pitcher_id": 676664,
       "home_pitcher_l5": {
-        "era_l5": 4.5,
-        "ip_avg": 5.6,
+        "era_l5": 9.0,
+        "ip_avg": 4.8,
         "starts": [
           {
-            "date": "2026-07-12",
+            "date": "2026-07-09",
             "opponent": "Pittsburgh Pirates",
-            "ip": 3.0,
-            "er": 7.0,
-            "era_game": 21.0,
-            "so": 3,
-            "bb": 0
-          },
-          {
-            "date": "2026-07-07",
-            "opponent": "St. Louis Cardinals",
-            "ip": 7.666666666666667,
-            "er": 2.0,
-            "era_game": 2.35,
-            "so": 4,
-            "bb": 1
-          },
-          {
-            "date": "2026-06-29",
-            "opponent": "Cincinnati Reds",
-            "ip": 5.666666666666667,
+            "ip": 4.0,
             "er": 3.0,
-            "era_game": 4.76,
-            "so": 5,
+            "era_game": 6.75,
+            "so": 3,
+            "bb": 2
+          },
+          {
+            "date": "2026-06-27",
+            "opponent": "San Francisco Giants",
+            "ip": 4.0,
+            "er": 5.0,
+            "era_game": 11.25,
+            "so": 4,
             "bb": 1
           },
           {
             "date": "2026-06-21",
+            "opponent": "Milwaukee Brewers",
+            "ip": 6.0,
+            "er": 8.0,
+            "era_game": 12.0,
+            "so": 6,
+            "bb": 2
+          },
+          {
+            "date": "2026-06-14",
+            "opponent": "New York Mets",
+            "ip": 4.0,
+            "er": 6.0,
+            "era_game": 13.5,
+            "so": 2,
+            "bb": 2
+          },
+          {
+            "date": "2026-06-07",
+            "opponent": "Pittsburgh Pirates",
+            "ip": 6.0,
+            "er": 2.0,
+            "era_game": 3.0,
+            "so": 4,
+            "bb": 2
+          }
+        ],
+        "starts_count": 5,
+        "low_sample": false,
+        "season_era": 4.12
+      },
+      "away_pitcher_l5": {
+        "era_l5": 5.03,
+        "ip_avg": 4.92,
+        "starts": [
+          {
+            "date": "2026-07-10",
+            "opponent": "Toronto Blue Jays",
+            "ip": 4.333333333333333,
+            "er": 3.0,
+            "era_game": 6.23,
+            "so": 3,
+            "bb": 1
+          },
+          {
+            "date": "2026-07-05",
+            "opponent": "Los Angeles Dodgers",
+            "ip": 5.0,
+            "er": 0.0,
+            "era_game": 0.0,
+            "so": 5,
+            "bb": 2
+          },
+          {
+            "date": "2026-06-30",
+            "opponent": "Chicago Cubs",
+            "ip": 4.666666666666667,
+            "er": 6.0,
+            "era_game": 11.57,
+            "so": 4,
+            "bb": 3
+          },
+          {
+            "date": "2026-06-24",
+            "opponent": "Atlanta Braves",
+            "ip": 5.666666666666667,
+            "er": 2.0,
+            "era_game": 3.18,
+            "so": 5,
+            "bb": 2
+          }
+        ],
+        "starts_count": 4,
+        "low_sample": false,
+        "season_era": 5.03
+      },
+      "home_team_offense": {
+        "runs_per_game": 4.99,
+        "avg": ".250",
+        "ops": ".734"
+      },
+      "away_team_offense": {
+        "runs_per_game": 4.09,
+        "avg": ".228",
+        "ops": ".682"
+      }
+    },
+    {
+      "game_id": 824087,
+      "game_date": "2026-07-20T23:40:00Z",
+      "status": "Scheduled",
+      "home_team": "Kansas City Royals",
+      "home_team_id": 118,
+      "away_team": "San Francisco Giants",
+      "away_team_id": 137,
+      "home_pitcher": "Michael Wacha",
+      "home_pitcher_id": 608379,
+      "away_pitcher": "Trevor McDonald",
+      "away_pitcher_id": 686790,
+      "home_pitcher_l5": {
+        "era_l5": 4.31,
+        "ip_avg": 6.27,
+        "starts": [
+          {
+            "date": "2026-07-09",
+            "opponent": "New York Mets",
+            "ip": 4.666666666666667,
+            "er": 6.0,
+            "era_game": 11.57,
+            "so": 5,
+            "bb": 3
+          },
+          {
+            "date": "2026-07-04",
+            "opponent": "Philadelphia Phillies",
+            "ip": 6.0,
+            "er": 4.0,
+            "era_game": 6.0,
+            "so": 7,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-27",
+            "opponent": "Chicago White Sox",
+            "ip": 7.666666666666667,
+            "er": 1.0,
+            "era_game": 1.17,
+            "so": 7,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-22",
+            "opponent": "Tampa Bay Rays",
+            "ip": 7.0,
+            "er": 1.0,
+            "era_game": 1.29,
+            "so": 5,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-16",
+            "opponent": "Washington Nationals",
+            "ip": 6.0,
+            "er": 3.0,
+            "era_game": 4.5,
+            "so": 3,
+            "bb": 1
+          }
+        ],
+        "starts_count": 5,
+        "low_sample": false,
+        "season_era": 3.77
+      },
+      "away_pitcher_l5": {
+        "era_l5": 5.7,
+        "ip_avg": 4.73,
+        "starts": [
+          {
+            "date": "2026-07-12",
+            "opponent": "Colorado Rockies",
+            "ip": 7.0,
+            "er": 1.0,
+            "era_game": 1.29,
+            "so": 4,
+            "bb": 1
+          },
+          {
+            "date": "2026-07-07",
+            "opponent": "Toronto Blue Jays",
+            "ip": 2.3333333333333335,
+            "er": 8.0,
+            "era_game": 30.86,
+            "so": 0,
+            "bb": 1
+          },
+          {
+            "date": "2026-07-01",
+            "opponent": "Arizona Diamondbacks",
+            "ip": 6.0,
+            "er": 0.0,
+            "era_game": 0.0,
+            "so": 5,
+            "bb": 0
+          },
+          {
+            "date": "2026-06-26",
+            "opponent": "Atlanta Braves",
+            "ip": 5.333333333333333,
+            "er": 3.0,
+            "era_game": 5.06,
+            "so": 3,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-20",
+            "opponent": "Miami Marlins",
+            "ip": 3.0,
+            "er": 3.0,
+            "era_game": 9.0,
+            "so": 1,
+            "bb": 3
+          }
+        ],
+        "starts_count": 5,
+        "low_sample": false,
+        "season_era": 5.02
+      },
+      "home_team_offense": {
+        "runs_per_game": 4.26,
+        "avg": ".247",
+        "ops": ".715"
+      },
+      "away_team_offense": {
+        "runs_per_game": 4.12,
+        "avg": ".255",
+        "ops": ".727"
+      }
+    },
+    {
+      "game_id": 823762,
+      "game_date": "2026-07-20T23:40:00Z",
+      "status": "Scheduled",
+      "home_team": "Milwaukee Brewers",
+      "home_team_id": 158,
+      "away_team": "New York Mets",
+      "away_team_id": 121,
+      "home_pitcher": "Jacob Misiorowski",
+      "home_pitcher_id": 694819,
+      "away_pitcher": "Freddy Peralta",
+      "away_pitcher_id": 642547,
+      "home_pitcher_l5": {
+        "era_l5": 1.91,
+        "ip_avg": 6.6,
+        "starts": [
+          {
+            "date": "2026-07-07",
+            "opponent": "St. Louis Cardinals",
+            "ip": 7.0,
+            "er": 3.0,
+            "era_game": 3.86,
+            "so": 11,
+            "bb": 0
+          },
+          {
+            "date": "2026-07-02",
+            "opponent": "Cincinnati Reds",
+            "ip": 5.0,
+            "er": 1.0,
+            "era_game": 1.8,
+            "so": 10,
+            "bb": 0
+          },
+          {
+            "date": "2026-06-26",
+            "opponent": "Chicago Cubs",
+            "ip": 6.0,
+            "er": 1.0,
+            "era_game": 1.5,
+            "so": 8,
+            "bb": 4
+          },
+          {
+            "date": "2026-06-19",
             "opponent": "Atlanta Braves",
             "ip": 6.0,
             "er": 2.0,
@@ -1100,198 +962,407 @@
             "bb": 1
           },
           {
-            "date": "2026-06-16",
-            "opponent": "Cleveland Guardians",
-            "ip": 5.666666666666667,
+            "date": "2026-06-12",
+            "opponent": "Philadelphia Phillies",
+            "ip": 9.0,
             "er": 0.0,
             "era_game": 0.0,
-            "so": 5,
-            "bb": 2
+            "so": 15,
+            "bb": 0
           }
         ],
         "starts_count": 5,
         "low_sample": false,
-        "season_era": 5.24
+        "season_era": 1.62
       },
       "away_pitcher_l5": {
-        "era_l5": 1.33,
-        "ip_avg": 5.4,
+        "era_l5": 7.59,
+        "ip_avg": 4.27,
         "starts": [
           {
             "date": "2026-07-11",
-            "opponent": "Cleveland Guardians",
-            "ip": 6.0,
+            "opponent": "Boston Red Sox",
+            "ip": 4.333333333333333,
             "er": 2.0,
-            "era_game": 3.0,
+            "era_game": 4.15,
             "so": 6,
-            "bb": 2
+            "bb": 5
           },
           {
-            "date": "2026-07-05",
-            "opponent": "Athletics",
-            "ip": 7.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 8,
-            "bb": 0
-          },
-          {
-            "date": "2026-06-30",
-            "opponent": "Colorado Rockies",
-            "ip": 5.333333333333333,
-            "er": 1.0,
-            "era_game": 1.69,
-            "so": 8,
-            "bb": 4
-          },
-          {
-            "date": "2026-06-24",
-            "opponent": "Texas Rangers",
+            "date": "2026-07-06",
+            "opponent": "Atlanta Braves",
             "ip": 4.666666666666667,
             "er": 1.0,
             "era_game": 1.93,
-            "so": 1,
-            "bb": 0
+            "so": 6,
+            "bb": 1
           },
           {
-            "date": "2026-05-27",
+            "date": "2026-07-01",
             "opponent": "Toronto Blue Jays",
             "ip": 4.0,
+            "er": 5.0,
+            "era_game": 11.25,
+            "so": 4,
+            "bb": 3
+          },
+          {
+            "date": "2026-06-25",
+            "opponent": "Chicago Cubs",
+            "ip": 5.666666666666667,
             "er": 0.0,
             "era_game": 0.0,
-            "so": 9,
-            "bb": 0
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 3.78
-      },
-      "home_team_offense": {
-        "runs_per_game": 5.09,
-        "avg": ".254",
-        "ops": ".735"
-      },
-      "away_team_offense": {
-        "runs_per_game": 4.51,
-        "avg": ".252",
-        "ops": ".738"
-      }
-    },
-    {
-      "game_id": 824653,
-      "game_date": "2026-07-19T18:20:00Z",
-      "status": "Scheduled",
-      "home_team": "Chicago Cubs",
-      "home_team_id": 112,
-      "away_team": "Minnesota Twins",
-      "away_team_id": 142,
-      "home_pitcher": "Shota Imanaga",
-      "home_pitcher_id": 684007,
-      "away_pitcher": "Zebby Matthews",
-      "away_pitcher_id": 805673,
-      "home_pitcher_l5": {
-        "era_l5": 3.33,
-        "ip_avg": 5.4,
-        "starts": [
-          {
-            "date": "2026-07-10",
-            "opponent": "Cincinnati Reds",
-            "ip": 5.0,
-            "er": 1.0,
-            "era_game": 1.8,
             "so": 5,
             "bb": 1
           },
           {
-            "date": "2026-07-04",
-            "opponent": "St. Louis Cardinals",
-            "ip": 4.666666666666667,
-            "er": 2.0,
-            "era_game": 3.86,
-            "so": 8,
-            "bb": 3
-          },
-          {
-            "date": "2026-06-29",
-            "opponent": "San Diego Padres",
-            "ip": 6.333333333333333,
-            "er": 2.0,
-            "era_game": 2.84,
-            "so": 4,
-            "bb": 0
-          },
-          {
-            "date": "2026-06-24",
-            "opponent": "New York Mets",
-            "ip": 5.333333333333333,
-            "er": 4.0,
-            "era_game": 6.75,
-            "so": 4,
-            "bb": 1
-          },
-          {
-            "date": "2026-06-15",
-            "opponent": "Colorado Rockies",
-            "ip": 5.666666666666667,
-            "er": 1.0,
-            "era_game": 1.59,
-            "so": 3,
+            "date": "2026-06-20",
+            "opponent": "Philadelphia Phillies",
+            "ip": 2.6666666666666665,
+            "er": 10.0,
+            "era_game": 33.75,
+            "so": 2,
             "bb": 1
           }
         ],
         "starts_count": 5,
         "low_sample": false,
-        "season_era": 4.17
+        "season_era": 4.66
       },
-      "away_pitcher_l5": {
-        "era_l5": 3.82,
-        "ip_avg": 6.13,
+      "home_team_offense": {
+        "runs_per_game": 5.07,
+        "avg": ".253",
+        "ops": ".733"
+      },
+      "away_team_offense": {
+        "runs_per_game": 4.09,
+        "avg": ".234",
+        "ops": ".686"
+      }
+    },
+    {
+      "game_id": 824654,
+      "game_date": "2026-07-21T00:05:00Z",
+      "status": "Scheduled",
+      "home_team": "Chicago Cubs",
+      "home_team_id": 112,
+      "away_team": "Detroit Tigers",
+      "away_team_id": 116,
+      "home_pitcher": "Jameson Taillon",
+      "home_pitcher_id": 592791,
+      "away_pitcher": "Jack Flaherty",
+      "away_pitcher_id": 656427,
+      "home_pitcher_l5": {
+        "era_l5": 7.77,
+        "ip_avg": 4.4,
         "starts": [
           {
-            "date": "2026-07-10",
-            "opponent": "Los Angeles Angels",
-            "ip": 6.0,
-            "er": 4.0,
-            "era_game": 6.0,
-            "so": 3,
+            "date": "2026-06-07",
+            "opponent": "San Francisco Giants",
+            "ip": 1.0,
+            "er": 1.0,
+            "era_game": 9.0,
+            "so": 2,
             "bb": 2
           },
           {
-            "date": "2026-07-04",
-            "opponent": "New York Yankees",
+            "date": "2026-06-02",
+            "opponent": "Athletics",
+            "ip": 6.333333333333333,
+            "er": 2.0,
+            "era_game": 2.84,
+            "so": 6,
+            "bb": 1
+          },
+          {
+            "date": "2026-05-27",
+            "opponent": "Pittsburgh Pirates",
+            "ip": 5.0,
+            "er": 4.0,
+            "era_game": 7.2,
+            "so": 4,
+            "bb": 2
+          },
+          {
+            "date": "2026-05-22",
+            "opponent": "Houston Astros",
             "ip": 4.666666666666667,
             "er": 4.0,
             "era_game": 7.71,
             "so": 5,
-            "bb": 4
-          },
-          {
-            "date": "2026-06-29",
-            "opponent": "Houston Astros",
-            "ip": 7.0,
-            "er": 1.0,
-            "era_game": 1.29,
-            "so": 7,
             "bb": 1
           },
           {
-            "date": "2026-06-22",
-            "opponent": "Los Angeles Dodgers",
+            "date": "2026-05-16",
+            "opponent": "Chicago White Sox",
+            "ip": 5.0,
+            "er": 8.0,
+            "era_game": 14.4,
+            "so": 2,
+            "bb": 1
+          }
+        ],
+        "starts_count": 5,
+        "low_sample": false,
+        "season_era": 5.19
+      },
+      "away_pitcher_l5": {
+        "era_l5": 2.55,
+        "ip_avg": 4.93,
+        "starts": [
+          {
+            "date": "2026-07-10",
+            "opponent": "Philadelphia Phillies",
+            "ip": 6.0,
+            "er": 2.0,
+            "era_game": 3.0,
+            "so": 6,
+            "bb": 3
+          },
+          {
+            "date": "2026-07-04",
+            "opponent": "Texas Rangers",
+            "ip": 5.666666666666667,
+            "er": 0.0,
+            "era_game": 0.0,
+            "so": 5,
+            "bb": 0
+          },
+          {
+            "date": "2026-06-28",
+            "opponent": "Houston Astros",
+            "ip": 5.0,
+            "er": 0.0,
+            "era_game": 0.0,
+            "so": 9,
+            "bb": 3
+          },
+          {
+            "date": "2026-06-12",
+            "opponent": "Cleveland Guardians",
+            "ip": 3.0,
+            "er": 2.0,
+            "era_game": 6.0,
+            "so": 1,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-07",
+            "opponent": "Seattle Mariners",
+            "ip": 5.0,
+            "er": 3.0,
+            "era_game": 5.4,
+            "so": 7,
+            "bb": 1
+          }
+        ],
+        "starts_count": 5,
+        "low_sample": false,
+        "season_era": 4.48
+      },
+      "home_team_offense": {
+        "runs_per_game": 5.07,
+        "avg": ".245",
+        "ops": ".749"
+      },
+      "away_team_offense": {
+        "runs_per_game": 4.22,
+        "avg": ".234",
+        "ops": ".710"
+      }
+    },
+    {
+      "game_id": 822874,
+      "game_date": "2026-07-21T00:05:00Z",
+      "status": "Scheduled",
+      "home_team": "Texas Rangers",
+      "home_team_id": 140,
+      "away_team": "Chicago White Sox",
+      "away_team_id": 145,
+      "home_pitcher": "Jacob deGrom",
+      "home_pitcher_id": 594798,
+      "away_pitcher": "Erick Fedde",
+      "away_pitcher_id": 607200,
+      "home_pitcher_l5": {
+        "era_l5": 4.2,
+        "ip_avg": 6.0,
+        "starts": [
+          {
+            "date": "2026-07-07",
+            "opponent": "Los Angeles Angels",
+            "ip": 5.0,
+            "er": 2.0,
+            "era_game": 3.6,
+            "so": 7,
+            "bb": 2
+          },
+          {
+            "date": "2026-06-30",
+            "opponent": "Cleveland Guardians",
+            "ip": 7.0,
+            "er": 2.0,
+            "era_game": 2.57,
+            "so": 9,
+            "bb": 0
+          },
+          {
+            "date": "2026-06-24",
+            "opponent": "Miami Marlins",
+            "ip": 6.0,
+            "er": 2.0,
+            "era_game": 3.0,
+            "so": 8,
+            "bb": 2
+          },
+          {
+            "date": "2026-06-19",
+            "opponent": "San Diego Padres",
+            "ip": 6.0,
+            "er": 6.0,
+            "era_game": 9.0,
+            "so": 9,
+            "bb": 3
+          },
+          {
+            "date": "2026-06-13",
+            "opponent": "Boston Red Sox",
             "ip": 6.0,
             "er": 2.0,
             "era_game": 3.0,
             "so": 5,
-            "bb": 2
+            "bb": 0
+          }
+        ],
+        "starts_count": 5,
+        "low_sample": false,
+        "season_era": 3.49
+      },
+      "away_pitcher_l5": {
+        "era_l5": 5.16,
+        "ip_avg": 4.53,
+        "starts": [
+          {
+            "date": "2026-06-30",
+            "opponent": "Baltimore Orioles",
+            "ip": 5.0,
+            "er": 3.0,
+            "era_game": 5.4,
+            "so": 3,
+            "bb": 3
           },
           {
-            "date": "2026-06-16",
-            "opponent": "Texas Rangers",
-            "ip": 7.0,
+            "date": "2026-06-03",
+            "opponent": "Minnesota Twins",
+            "ip": 5.0,
+            "er": 0.0,
+            "era_game": 0.0,
+            "so": 2,
+            "bb": 1
+          },
+          {
+            "date": "2026-05-17",
+            "opponent": "Chicago Cubs",
+            "ip": 3.0,
+            "er": 4.0,
+            "era_game": 12.0,
+            "so": 2,
+            "bb": 4
+          },
+          {
+            "date": "2026-05-12",
+            "opponent": "Kansas City Royals",
+            "ip": 5.0,
             "er": 2.0,
-            "era_game": 2.57,
-            "so": 4,
+            "era_game": 3.6,
+            "so": 2,
+            "bb": 1
+          },
+          {
+            "date": "2026-05-05",
+            "opponent": "Los Angeles Angels",
+            "ip": 4.666666666666667,
+            "er": 4.0,
+            "era_game": 7.71,
+            "so": 2,
+            "bb": 2
+          }
+        ],
+        "starts_count": 5,
+        "low_sample": false,
+        "season_era": 4.15
+      },
+      "home_team_offense": {
+        "runs_per_game": 4.16,
+        "avg": ".245",
+        "ops": ".719"
+      },
+      "away_team_offense": {
+        "runs_per_game": 4.79,
+        "avg": ".240",
+        "ops": ".729"
+      }
+    },
+    {
+      "game_id": 824167,
+      "game_date": "2026-07-21T00:10:00Z",
+      "status": "Scheduled",
+      "home_team": "Houston Astros",
+      "home_team_id": 117,
+      "away_team": "Miami Marlins",
+      "away_team_id": 146,
+      "home_pitcher": "Ronel Blanco",
+      "home_pitcher_id": 669854,
+      "away_pitcher": "Janson Junk",
+      "away_pitcher_id": 676083,
+      "home_pitcher_l5": null,
+      "away_pitcher_l5": {
+        "era_l5": 7.09,
+        "ip_avg": 5.33,
+        "starts": [
+          {
+            "date": "2026-07-09",
+            "opponent": "Seattle Mariners",
+            "ip": 5.0,
+            "er": 1.0,
+            "era_game": 1.8,
+            "so": 5,
+            "bb": 4
+          },
+          {
+            "date": "2026-05-25",
+            "opponent": "Toronto Blue Jays",
+            "ip": 5.0,
+            "er": 1.0,
+            "era_game": 1.8,
+            "so": 3,
             "bb": 0
+          },
+          {
+            "date": "2026-05-20",
+            "opponent": "Atlanta Braves",
+            "ip": 5.0,
+            "er": 8.0,
+            "era_game": 14.4,
+            "so": 3,
+            "bb": 0
+          },
+          {
+            "date": "2026-05-15",
+            "opponent": "Tampa Bay Rays",
+            "ip": 5.666666666666667,
+            "er": 7.0,
+            "era_game": 11.12,
+            "so": 4,
+            "bb": 3
+          },
+          {
+            "date": "2026-05-09",
+            "opponent": "Washington Nationals",
+            "ip": 6.0,
+            "er": 4.0,
+            "era_game": 6.0,
+            "so": 6,
+            "bb": 2
           }
         ],
         "starts_count": 5,
@@ -1299,244 +1370,140 @@
         "season_era": 4.57
       },
       "home_team_offense": {
-        "runs_per_game": 5.02,
-        "avg": ".244",
-        "ops": ".746"
+        "runs_per_game": 4.5,
+        "avg": ".241",
+        "ops": ".724"
       },
       "away_team_offense": {
-        "runs_per_game": 4.83,
-        "avg": ".248",
-        "ops": ".737"
+        "runs_per_game": 4.47,
+        "avg": ".252",
+        "ops": ".736"
       }
     },
     {
-      "game_id": 824330,
-      "game_date": "2026-07-19T19:10:00Z",
+      "game_id": 824328,
+      "game_date": "2026-07-21T00:40:00Z",
       "status": "Scheduled",
       "home_team": "Colorado Rockies",
       "home_team_id": 115,
-      "away_team": "Cincinnati Reds",
-      "away_team_id": 113,
-      "home_pitcher": "Ryan Feltner",
-      "home_pitcher_id": 663372,
-      "away_pitcher": "Hunter Greene",
-      "away_pitcher_id": 668881,
+      "away_team": "Washington Nationals",
+      "away_team_id": 120,
+      "home_pitcher": "Kyle Freeland",
+      "home_pitcher_id": 607536,
+      "away_pitcher": "Andrew Alvarez",
+      "away_pitcher_id": 674841,
       "home_pitcher_l5": {
-        "era_l5": 3.67,
-        "ip_avg": 5.4,
+        "era_l5": 6.14,
+        "ip_avg": 5.87,
         "starts": [
           {
-            "date": "2026-07-09",
-            "opponent": "San Francisco Giants",
-            "ip": 4.333333333333333,
-            "er": 4.0,
-            "era_game": 8.31,
-            "so": 3,
-            "bb": 4
-          },
-          {
-            "date": "2026-07-03",
+            "date": "2026-07-11",
             "opponent": "San Francisco Giants",
             "ip": 6.0,
-            "er": 2.0,
-            "era_game": 3.0,
+            "er": 4.0,
+            "era_game": 6.0,
             "so": 9,
             "bb": 0
           },
           {
-            "date": "2026-06-28",
-            "opponent": "Minnesota Twins",
-            "ip": 6.0,
-            "er": 1.0,
-            "era_game": 1.5,
-            "so": 0,
+            "date": "2026-07-06",
+            "opponent": "Los Angeles Dodgers",
+            "ip": 5.0,
+            "er": 6.0,
+            "era_game": 10.8,
+            "so": 2,
             "bb": 0
           },
           {
-            "date": "2026-06-22",
-            "opponent": "Boston Red Sox",
-            "ip": 6.0,
-            "er": 2.0,
-            "era_game": 3.0,
-            "so": 2,
-            "bb": 4
-          },
-          {
-            "date": "2026-06-16",
-            "opponent": "Chicago Cubs",
-            "ip": 4.666666666666667,
-            "er": 2.0,
-            "era_game": 3.86,
-            "so": 7,
-            "bb": 3
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 4.55
-      },
-      "away_pitcher_l5": {
-        "era_l5": 6.97,
-        "ip_avg": 5.17,
-        "starts": [
-          {
-            "date": "2026-07-10",
-            "opponent": "Chicago Cubs",
-            "ip": 7.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 12,
-            "bb": 1
-          },
-          {
-            "date": "2026-07-04",
-            "opponent": "Baltimore Orioles",
-            "ip": 3.3333333333333335,
-            "er": 8.0,
-            "era_game": 21.6,
-            "so": 7,
-            "bb": 4
-          }
-        ],
-        "starts_count": 2,
-        "low_sample": true,
-        "season_era": 6.97
-      },
-      "home_team_offense": {
-        "runs_per_game": 4.78,
-        "avg": ".255",
-        "ops": ".746"
-      },
-      "away_team_offense": {
-        "runs_per_game": 4.18,
-        "avg": ".231",
-        "ops": ".708"
-      }
-    },
-    {
-      "game_id": 824978,
-      "game_date": "2026-07-19T20:05:00Z",
-      "status": "Scheduled",
-      "home_team": "Athletics",
-      "home_team_id": 133,
-      "away_team": "Washington Nationals",
-      "away_team_id": 120,
-      "home_pitcher": "Jacob Lopez",
-      "home_pitcher_id": 682052,
-      "away_pitcher": "Foster Griffin",
-      "away_pitcher_id": 656492,
-      "home_pitcher_l5": {
-        "era_l5": 7.64,
-        "ip_avg": 3.53,
-        "starts": [
-          {
-            "date": "2026-07-10",
-            "opponent": "Chicago White Sox",
-            "ip": 1.6666666666666665,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 1,
-            "bb": 0
-          },
-          {
-            "date": "2026-05-31",
-            "opponent": "New York Yankees",
-            "ip": 2.0,
-            "er": 7.0,
-            "era_game": 31.5,
-            "so": 3,
-            "bb": 2
-          },
-          {
-            "date": "2026-05-19",
-            "opponent": "Los Angeles Angels",
-            "ip": 3.6666666666666665,
-            "er": 4.0,
-            "era_game": 9.82,
-            "so": 2,
-            "bb": 3
-          },
-          {
-            "date": "2026-05-14",
-            "opponent": "St. Louis Cardinals",
+            "date": "2026-07-01",
+            "opponent": "Miami Marlins",
             "ip": 5.0,
             "er": 2.0,
             "era_game": 3.6,
-            "so": 2,
-            "bb": 3
-          },
-          {
-            "date": "2026-05-08",
-            "opponent": "Baltimore Orioles",
-            "ip": 5.333333333333333,
-            "er": 2.0,
-            "era_game": 3.38,
-            "so": 5,
-            "bb": 2
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 6.83
-      },
-      "away_pitcher_l5": {
-        "era_l5": 1.11,
-        "ip_avg": 6.47,
-        "starts": [
-          {
-            "date": "2026-07-08",
-            "opponent": "Houston Astros",
-            "ip": 7.0,
-            "er": 1.0,
-            "era_game": 1.29,
-            "so": 9,
-            "bb": 0
-          },
-          {
-            "date": "2026-07-03",
-            "opponent": "Pittsburgh Pirates",
-            "ip": 5.0,
-            "er": 1.0,
-            "era_game": 1.8,
-            "so": 2,
+            "so": 7,
             "bb": 1
           },
           {
-            "date": "2026-06-27",
-            "opponent": "Baltimore Orioles",
-            "ip": 7.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 9,
-            "bb": 2
-          },
-          {
-            "date": "2026-06-22",
-            "opponent": "Philadelphia Phillies",
-            "ip": 7.333333333333333,
-            "er": 1.0,
-            "era_game": 1.23,
-            "so": 9,
-            "bb": 0
-          },
-          {
-            "date": "2026-06-16",
-            "opponent": "Kansas City Royals",
+            "date": "2026-06-24",
+            "opponent": "Boston Red Sox",
             "ip": 6.0,
-            "er": 1.0,
-            "era_game": 1.5,
-            "so": 6,
-            "bb": 2
+            "er": 6.0,
+            "era_game": 9.0,
+            "so": 4,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-19",
+            "opponent": "Pittsburgh Pirates",
+            "ip": 7.333333333333333,
+            "er": 2.0,
+            "era_game": 2.45,
+            "so": 8,
+            "bb": 0
           }
         ],
         "starts_count": 5,
         "low_sample": false,
-        "season_era": 2.77
+        "season_era": 7.36
+      },
+      "away_pitcher_l5": {
+        "era_l5": 4.5,
+        "ip_avg": 4.4,
+        "starts": [
+          {
+            "date": "2026-07-07",
+            "opponent": "Houston Astros",
+            "ip": 5.666666666666667,
+            "er": 5.0,
+            "era_game": 7.94,
+            "so": 3,
+            "bb": 5
+          },
+          {
+            "date": "2026-06-26",
+            "opponent": "Baltimore Orioles",
+            "ip": 4.333333333333333,
+            "er": 2.0,
+            "era_game": 4.15,
+            "so": 5,
+            "bb": 3
+          },
+          {
+            "date": "2026-06-21",
+            "opponent": "Tampa Bay Rays",
+            "ip": 4.0,
+            "er": 1.0,
+            "era_game": 2.25,
+            "so": 6,
+            "bb": 0
+          },
+          {
+            "date": "2026-06-15",
+            "opponent": "Kansas City Royals",
+            "ip": 4.0,
+            "er": 1.0,
+            "era_game": 2.25,
+            "so": 5,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-09",
+            "opponent": "San Francisco Giants",
+            "ip": 4.0,
+            "er": 2.0,
+            "era_game": 4.5,
+            "so": 4,
+            "bb": 5
+          }
+        ],
+        "starts_count": 5,
+        "low_sample": false,
+        "season_era": 4.04
       },
       "home_team_offense": {
-        "runs_per_game": 4.5,
-        "avg": ".245",
-        "ops": ".728"
+        "runs_per_game": 4.79,
+        "avg": ".255",
+        "ops": ".747"
       },
       "away_team_offense": {
         "runs_per_game": 5.45,
@@ -1545,396 +1512,369 @@
       }
     },
     {
-      "game_id": 824007,
-      "game_date": "2026-07-19T20:07:00Z",
+      "game_id": 825058,
+      "game_date": "2026-07-21T01:40:00Z",
       "status": "Scheduled",
-      "home_team": "Los Angeles Angels",
-      "home_team_id": 108,
-      "away_team": "Detroit Tigers",
-      "away_team_id": 116,
-      "home_pitcher": "Ryan Johnson",
-      "home_pitcher_id": 696270,
-      "away_pitcher": "Casey Mize",
-      "away_pitcher_id": 663554,
+      "home_team": "Arizona Diamondbacks",
+      "home_team_id": 109,
+      "away_team": "Athletics",
+      "away_team_id": 133,
+      "home_pitcher": "Mitch Bratt",
+      "home_pitcher_id": 683352,
+      "away_pitcher": "Jeffrey Springs",
+      "away_pitcher_id": 605488,
       "home_pitcher_l5": {
-        "era_l5": 3.96,
-        "ip_avg": 5.0,
+        "era_l5": 6.0,
+        "ip_avg": 3.0,
         "starts": [
           {
-            "date": "2026-07-11",
-            "opponent": "Minnesota Twins",
-            "ip": 5.0,
+            "date": "2026-07-12",
+            "opponent": "Los Angeles Dodgers",
+            "ip": 3.0,
             "er": 3.0,
-            "era_game": 5.4,
-            "so": 1,
+            "era_game": 9.0,
+            "so": 0,
             "bb": 3
           },
           {
-            "date": "2026-07-05",
-            "opponent": "Boston Red Sox",
-            "ip": 4.0,
-            "er": 2.0,
-            "era_game": 4.5,
-            "so": 6,
-            "bb": 1
-          },
-          {
-            "date": "2026-06-29",
-            "opponent": "Seattle Mariners",
-            "ip": 5.0,
+            "date": "2026-06-24",
+            "opponent": "St. Louis Cardinals",
+            "ip": 3.0,
             "er": 1.0,
-            "era_game": 1.8,
+            "era_game": 3.0,
             "so": 3,
-            "bb": 0
+            "bb": 2
+          }
+        ],
+        "starts_count": 2,
+        "low_sample": true,
+        "season_era": 6.0
+      },
+      "away_pitcher_l5": {
+        "era_l5": 10.72,
+        "ip_avg": 4.53,
+        "starts": [
+          {
+            "date": "2026-07-08",
+            "opponent": "Detroit Tigers",
+            "ip": 4.333333333333333,
+            "er": 6.0,
+            "era_game": 12.46,
+            "so": 4,
+            "bb": 4
           },
           {
-            "date": "2026-06-23",
-            "opponent": "Baltimore Orioles",
-            "ip": 6.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 8,
-            "bb": 1
-          },
-          {
-            "date": "2026-06-18",
-            "opponent": "Athletics",
-            "ip": 5.0,
-            "er": 5.0,
-            "era_game": 9.0,
+            "date": "2026-06-30",
+            "opponent": "Los Angeles Dodgers",
+            "ip": 5.333333333333333,
+            "er": 6.0,
+            "era_game": 10.12,
             "so": 2,
-            "bb": 1
+            "bb": 4
+          },
+          {
+            "date": "2026-06-25",
+            "opponent": "San Francisco Giants",
+            "ip": 5.333333333333333,
+            "er": 3.0,
+            "era_game": 5.06,
+            "so": 6,
+            "bb": 2
+          },
+          {
+            "date": "2026-06-19",
+            "opponent": "Los Angeles Angels",
+            "ip": 3.6666666666666665,
+            "er": 6.0,
+            "era_game": 14.73,
+            "so": 4,
+            "bb": 4
+          },
+          {
+            "date": "2026-06-14",
+            "opponent": "Colorado Rockies",
+            "ip": 4.0,
+            "er": 6.0,
+            "era_game": 13.5,
+            "so": 5,
+            "bb": 0
           }
         ],
         "starts_count": 5,
         "low_sample": false,
-        "season_era": 6.75
+        "season_era": 6.08
       },
-      "away_pitcher_l5": {
-        "era_l5": 3.64,
-        "ip_avg": 5.93,
+      "home_team_offense": {
+        "runs_per_game": 4.37,
+        "avg": ".237",
+        "ops": ".695"
+      },
+      "away_team_offense": {
+        "runs_per_game": 4.47,
+        "avg": ".246",
+        "ops": ".728"
+      }
+    },
+    {
+      "game_id": 823112,
+      "game_date": "2026-07-21T01:40:00Z",
+      "status": "Scheduled",
+      "home_team": "Seattle Mariners",
+      "home_team_id": 136,
+      "away_team": "Cincinnati Reds",
+      "away_team_id": 113,
+      "home_pitcher": "George Kirby",
+      "home_pitcher_id": 669923,
+      "away_pitcher": "Andrew Abbott",
+      "away_pitcher_id": 671096,
+      "home_pitcher_l5": {
+        "era_l5": 3.09,
+        "ip_avg": 6.4,
         "starts": [
           {
-            "date": "2026-07-11",
-            "opponent": "Philadelphia Phillies",
-            "ip": 5.666666666666667,
-            "er": 3.0,
-            "era_game": 4.76,
+            "date": "2026-07-08",
+            "opponent": "Miami Marlins",
+            "ip": 6.0,
+            "er": 2.0,
+            "era_game": 3.0,
+            "so": 7,
+            "bb": 0
+          },
+          {
+            "date": "2026-06-29",
+            "opponent": "Los Angeles Angels",
+            "ip": 8.0,
+            "er": 2.0,
+            "era_game": 2.25,
+            "so": 7,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-23",
+            "opponent": "Pittsburgh Pirates",
+            "ip": 6.0,
+            "er": 1.0,
+            "era_game": 1.5,
             "so": 5,
             "bb": 2
           },
           {
-            "date": "2026-07-05",
-            "opponent": "Texas Rangers",
-            "ip": 6.666666666666667,
-            "er": 2.0,
-            "era_game": 2.7,
-            "so": 4,
-            "bb": 2
-          },
-          {
-            "date": "2026-06-29",
-            "opponent": "New York Yankees",
-            "ip": 7.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 10,
+            "date": "2026-06-17",
+            "opponent": "Baltimore Orioles",
+            "ip": 6.0,
+            "er": 3.0,
+            "era_game": 4.5,
+            "so": 5,
             "bb": 0
           },
           {
-            "date": "2026-06-23",
-            "opponent": "New York Yankees",
-            "ip": 5.666666666666667,
-            "er": 4.0,
-            "era_game": 6.35,
-            "so": 6,
-            "bb": 1
-          },
-          {
-            "date": "2026-06-17",
-            "opponent": "Houston Astros",
-            "ip": 4.666666666666667,
+            "date": "2026-06-10",
+            "opponent": "Baltimore Orioles",
+            "ip": 6.0,
             "er": 3.0,
-            "era_game": 5.79,
-            "so": 3,
-            "bb": 1
+            "era_game": 4.5,
+            "so": 10,
+            "bb": 3
           }
         ],
         "starts_count": 5,
         "low_sample": false,
-        "season_era": 2.79
+        "season_era": 3.76
+      },
+      "away_pitcher_l5": {
+        "era_l5": 4.62,
+        "ip_avg": 5.07,
+        "starts": [
+          {
+            "date": "2026-07-12",
+            "opponent": "Chicago Cubs",
+            "ip": 4.0,
+            "er": 4.0,
+            "era_game": 9.0,
+            "so": 3,
+            "bb": 3
+          },
+          {
+            "date": "2026-07-07",
+            "opponent": "Philadelphia Phillies",
+            "ip": 6.0,
+            "er": 3.0,
+            "era_game": 4.5,
+            "so": 8,
+            "bb": 0
+          },
+          {
+            "date": "2026-07-01",
+            "opponent": "Milwaukee Brewers",
+            "ip": 5.0,
+            "er": 2.0,
+            "era_game": 3.6,
+            "so": 3,
+            "bb": 5
+          },
+          {
+            "date": "2026-06-26",
+            "opponent": "Pittsburgh Pirates",
+            "ip": 5.333333333333333,
+            "er": 3.0,
+            "era_game": 5.06,
+            "so": 6,
+            "bb": 1
+          },
+          {
+            "date": "2026-06-20",
+            "opponent": "New York Yankees",
+            "ip": 5.0,
+            "er": 1.0,
+            "era_game": 1.8,
+            "so": 6,
+            "bb": 3
+          }
+        ],
+        "starts_count": 5,
+        "low_sample": false,
+        "season_era": 4.11
       },
       "home_team_offense": {
-        "runs_per_game": 4.35,
-        "avg": ".239",
-        "ops": ".703"
+        "runs_per_game": 4.02,
+        "avg": ".228",
+        "ops": ".686"
       },
       "away_team_offense": {
-        "runs_per_game": 4.24,
-        "avg": ".235",
+        "runs_per_game": 4.22,
+        "avg": ".231",
         "ops": ".712"
       }
     },
     {
-      "game_id": 823113,
-      "game_date": "2026-07-19T20:10:00Z",
+      "game_id": 824006,
+      "game_date": "2026-07-21T02:10:00Z",
       "status": "Scheduled",
-      "home_team": "Seattle Mariners",
-      "home_team_id": 136,
-      "away_team": "San Francisco Giants",
-      "away_team_id": 137,
-      "home_pitcher": "Logan Gilbert",
-      "home_pitcher_id": 669302,
-      "away_pitcher": "Robbie Ray",
-      "away_pitcher_id": 592662,
+      "home_team": "Los Angeles Angels",
+      "home_team_id": 108,
+      "away_team": "St. Louis Cardinals",
+      "away_team_id": 138,
+      "home_pitcher": "José Soriano",
+      "home_pitcher_id": 667755,
+      "away_pitcher": "Kyle Leahy",
+      "away_pitcher_id": 681517,
       "home_pitcher_l5": {
-        "era_l5": 2.62,
-        "ip_avg": 6.87,
+        "era_l5": 6.0,
+        "ip_avg": 4.8,
         "starts": [
           {
-            "date": "2026-07-11",
-            "opponent": "Tampa Bay Rays",
-            "ip": 6.666666666666667,
-            "er": 4.0,
+            "date": "2026-07-12",
+            "opponent": "Minnesota Twins",
+            "ip": 5.0,
+            "er": 3.0,
             "era_game": 5.4,
-            "so": 5,
+            "so": 0,
             "bb": 2
           },
           {
-            "date": "2026-07-04",
-            "opponent": "Toronto Blue Jays",
-            "ip": 7.333333333333333,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 7,
-            "bb": 0
-          },
-          {
-            "date": "2026-06-27",
-            "opponent": "Cleveland Guardians",
-            "ip": 7.0,
-            "er": 4.0,
-            "era_game": 5.14,
-            "so": 7,
-            "bb": 0
-          },
-          {
-            "date": "2026-06-21",
-            "opponent": "Boston Red Sox",
-            "ip": 6.333333333333333,
-            "er": 1.0,
-            "era_game": 1.42,
-            "so": 8,
+            "date": "2026-07-07",
+            "opponent": "Texas Rangers",
+            "ip": 6.0,
+            "er": 2.0,
+            "era_game": 3.0,
+            "so": 4,
             "bb": 2
           },
           {
-            "date": "2026-06-16",
-            "opponent": "Baltimore Orioles",
-            "ip": 7.0,
-            "er": 1.0,
-            "era_game": 1.29,
-            "so": 10,
+            "date": "2026-06-30",
+            "opponent": "Seattle Mariners",
+            "ip": 5.0,
+            "er": 3.0,
+            "era_game": 5.4,
+            "so": 9,
             "bb": 1
+          },
+          {
+            "date": "2026-06-24",
+            "opponent": "Baltimore Orioles",
+            "ip": 3.0,
+            "er": 5.0,
+            "era_game": 15.0,
+            "so": 4,
+            "bb": 2
+          },
+          {
+            "date": "2026-06-19",
+            "opponent": "Athletics",
+            "ip": 5.0,
+            "er": 3.0,
+            "era_game": 5.4,
+            "so": 6,
+            "bb": 4
           }
         ],
         "starts_count": 5,
         "low_sample": false,
-        "season_era": 3.32
+        "season_era": 3.49
       },
       "away_pitcher_l5": {
-        "era_l5": 2.48,
-        "ip_avg": 6.53,
+        "era_l5": 1.42,
+        "ip_avg": 5.07,
         "starts": [
           {
             "date": "2026-07-10",
-            "opponent": "Colorado Rockies",
-            "ip": 5.0,
-            "er": 1.0,
-            "era_game": 1.8,
-            "so": 4,
-            "bb": 6
+            "opponent": "Atlanta Braves",
+            "ip": 3.0,
+            "er": 0.0,
+            "era_game": 0.0,
+            "so": 2,
+            "bb": 0
           },
           {
             "date": "2026-07-04",
-            "opponent": "Colorado Rockies",
-            "ip": 6.0,
-            "er": 3.0,
-            "era_game": 4.5,
-            "so": 4,
-            "bb": 3
+            "opponent": "Chicago Cubs",
+            "ip": 5.0,
+            "er": 0.0,
+            "era_game": 0.0,
+            "so": 6,
+            "bb": 2
           },
           {
             "date": "2026-06-28",
-            "opponent": "Atlanta Braves",
-            "ip": 8.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 2,
-            "bb": 1
-          },
-          {
-            "date": "2026-06-23",
-            "opponent": "Athletics",
-            "ip": 8.0,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 6,
-            "bb": 4
-          },
-          {
-            "date": "2026-06-10",
-            "opponent": "Washington Nationals",
-            "ip": 5.666666666666667,
-            "er": 5.0,
-            "era_game": 7.94,
-            "so": 3,
-            "bb": 0
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 3.38
-      },
-      "home_team_offense": {
-        "runs_per_game": 4.0,
-        "avg": ".227",
-        "ops": ".684"
-      },
-      "away_team_offense": {
-        "runs_per_game": 4.13,
-        "avg": ".256",
-        "ops": ".729"
-      }
-    },
-    {
-      "game_id": 825057,
-      "game_date": "2026-07-19T20:10:00Z",
-      "status": "Scheduled",
-      "home_team": "Arizona Diamondbacks",
-      "home_team_id": 109,
-      "away_team": "St. Louis Cardinals",
-      "away_team_id": 138,
-      "home_pitcher": "Eduardo Rodriguez",
-      "home_pitcher_id": 593958,
-      "away_pitcher": "Andre Pallante",
-      "away_pitcher_id": 669467,
-      "home_pitcher_l5": {
-        "era_l5": 1.65,
-        "ip_avg": 6.53,
-        "starts": [
-          {
-            "date": "2026-07-10",
-            "opponent": "Los Angeles Dodgers",
-            "ip": 6.0,
-            "er": 2.0,
-            "era_game": 3.0,
-            "so": 5,
-            "bb": 1
-          },
-          {
-            "date": "2026-07-05",
-            "opponent": "Milwaukee Brewers",
-            "ip": 6.0,
-            "er": 2.0,
-            "era_game": 3.0,
-            "so": 3,
-            "bb": 0
-          },
-          {
-            "date": "2026-06-29",
-            "opponent": "San Francisco Giants",
-            "ip": 7.0,
-            "er": 1.0,
-            "era_game": 1.29,
-            "so": 1,
-            "bb": 0
-          },
-          {
-            "date": "2026-06-23",
-            "opponent": "St. Louis Cardinals",
-            "ip": 6.666666666666667,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 5,
-            "bb": 3
-          },
-          {
-            "date": "2026-06-17",
-            "opponent": "Los Angeles Angels",
-            "ip": 7.0,
-            "er": 1.0,
-            "era_game": 1.29,
-            "so": 5,
-            "bb": 3
-          }
-        ],
-        "starts_count": 5,
-        "low_sample": false,
-        "season_era": 2.29
-      },
-      "away_pitcher_l5": {
-        "era_l5": 4.15,
-        "ip_avg": 6.07,
-        "starts": [
-          {
-            "date": "2026-07-09",
-            "opponent": "Milwaukee Brewers",
+            "opponent": "Miami Marlins",
             "ip": 5.0,
-            "er": 6.0,
-            "era_game": 10.8,
-            "so": 2,
+            "er": 1.0,
+            "era_game": 1.8,
+            "so": 5,
+            "bb": 3
+          },
+          {
+            "date": "2026-06-23",
+            "opponent": "Arizona Diamondbacks",
+            "ip": 6.333333333333333,
+            "er": 0.0,
+            "era_game": 0.0,
+            "so": 3,
             "bb": 2
           },
           {
-            "date": "2026-07-03",
-            "opponent": "Chicago Cubs",
-            "ip": 5.666666666666667,
-            "er": 0.0,
-            "era_game": 0.0,
-            "so": 2,
-            "bb": 1
-          },
-          {
-            "date": "2026-06-27",
-            "opponent": "Miami Marlins",
-            "ip": 6.666666666666667,
-            "er": 5.0,
-            "era_game": 6.75,
-            "so": 4,
-            "bb": 1
-          },
-          {
-            "date": "2026-06-22",
-            "opponent": "Arizona Diamondbacks",
-            "ip": 6.0,
-            "er": 1.0,
-            "era_game": 1.5,
-            "so": 2,
-            "bb": 0
-          },
-          {
-            "date": "2026-06-16",
+            "date": "2026-06-17",
             "opponent": "San Diego Padres",
-            "ip": 7.0,
-            "er": 2.0,
-            "era_game": 2.57,
-            "so": 6,
-            "bb": 0
+            "ip": 6.0,
+            "er": 3.0,
+            "era_game": 4.5,
+            "so": 7,
+            "bb": 1
           }
         ],
         "starts_count": 5,
         "low_sample": false,
-        "season_era": 3.96
+        "season_era": 3.73
       },
       "home_team_offense": {
         "runs_per_game": 4.34,
-        "avg": ".237",
-        "ops": ".693"
+        "avg": ".239",
+        "ops": ".703"
       },
       "away_team_offense": {
-        "runs_per_game": 4.51,
-        "avg": ".242",
-        "ops": ".707"
+        "runs_per_game": 4.53,
+        "avg": ".243",
+        "ops": ".708"
       }
     }
   ]
