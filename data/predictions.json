@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-23T12:30:59.863978Z",
-  "date": "2026-07-23",
+  "generated_at": "2026-07-24T12:44:35.412466Z",
+  "date": "2026-07-24",
   "games": [
     {
-      "game_id": 824893,
-      "game_date": "2026-07-23T16:15:00Z",
-      "home_team": "Atlanta Braves",
-      "away_team": "San Diego Padres",
-      "home_pitcher": "Chris Sale",
-      "away_pitcher": "Griffin Canning",
-      "home_pitcher_era_l5": 1.35,
-      "away_pitcher_era_l5": 6.35,
-      "model_prob_home": 0.8056,
-      "model_prob_away": 0.1944,
-      "market_prob_home": 0.6944,
-      "market_prob_away": 0.3056,
-      "edge_home": 0.1112,
-      "edge_away": -0.1112,
-      "ev_home": 14.13,
-      "ev_away": -37.4,
+      "game_id": 823759,
+      "game_date": "2026-07-24T20:10:00Z",
+      "home_team": "Milwaukee Brewers",
+      "away_team": "Colorado Rockies",
+      "home_pitcher": "Shane Drohan",
+      "away_pitcher": "Tomoyuki Sugano",
+      "home_pitcher_era_l5": 2.86,
+      "away_pitcher_era_l5": 6.59,
+      "model_prob_home": 0.7209,
+      "model_prob_away": 0.2791,
+      "market_prob_home": 0.6909,
+      "market_prob_away": 0.3091,
+      "edge_home": 0.03,
+      "edge_away": -0.03,
+      "ev_home": 1.88,
+      "ev_away": -11.8,
       "matchup_sample_ok_home": false,
       "matchup_sample_ok_away": false,
       "home_pitcher_low_sample": false,
@@ -28,685 +28,169 @@
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 621566,
-            "batter_name": "Matt Olson",
-            "pitcher_id": 656288,
-            "pitcher_name": "Griffin Canning"
+            "batter_id": 668930,
+            "batter_name": "Brice Turang",
+            "pitcher_id": 608372,
+            "pitcher_name": "Tomoyuki Sugano"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 645277,
-            "batter_name": "Ozzie Albies",
-            "pitcher_id": 656288,
-            "pitcher_name": "Griffin Canning"
+            "batter_id": 661388,
+            "batter_name": "William Contreras",
+            "pitcher_id": 608372,
+            "pitcher_name": "Tomoyuki Sugano"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 663586,
-            "batter_name": "Austin Riley",
-            "pitcher_id": 656288,
-            "pitcher_name": "Griffin Canning"
+            "batter_id": 641343,
+            "batter_name": "Jake Bauers",
+            "pitcher_id": 608372,
+            "pitcher_name": "Tomoyuki Sugano"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 643289,
-            "batter_name": "Mauricio Dubón",
-            "pitcher_id": 656288,
-            "pitcher_name": "Griffin Canning"
+            "batter_id": 669003,
+            "batter_name": "Garrett Mitchell",
+            "pitcher_id": 608372,
+            "pitcher_name": "Tomoyuki Sugano"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 671739,
-            "batter_name": "Michael Harris II",
-            "pitcher_id": 656288,
-            "pitcher_name": "Griffin Canning"
+            "batter_id": 694192,
+            "batter_name": "Jackson Chourio",
+            "pitcher_id": 608372,
+            "pitcher_name": "Tomoyuki Sugano"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 686948,
-            "batter_name": "Drake Baldwin",
-            "pitcher_id": 656288,
-            "pitcher_name": "Griffin Canning"
+            "batter_id": 592885,
+            "batter_name": "Christian Yelich",
+            "pitcher_id": 608372,
+            "pitcher_name": "Tomoyuki Sugano"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 573262,
-            "batter_name": "Mike Yastrzemski",
-            "pitcher_id": 656288,
-            "pitcher_name": "Griffin Canning"
+            "batter_id": 687401,
+            "batter_name": "Joey Ortiz",
+            "pitcher_id": 608372,
+            "pitcher_name": "Tomoyuki Sugano"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 642086,
-            "batter_name": "Dominic Smith",
-            "pitcher_id": 656288,
-            "pitcher_name": "Griffin Canning"
+            "batter_id": 683734,
+            "batter_name": "Andrew Vaughn",
+            "pitcher_id": 608372,
+            "pitcher_name": "Tomoyuki Sugano"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 622761,
-            "batter_name": "Jorge Mateo",
-            "pitcher_id": 656288,
-            "pitcher_name": "Griffin Canning"
+            "batter_id": 596142,
+            "batter_name": "Gary Sánchez",
+            "pitcher_id": 608372,
+            "pitcher_name": "Tomoyuki Sugano"
           }
         ],
         "away_pitcher_vs_home_batters": [
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 665487,
-            "batter_name": "Fernando Tatis Jr.",
-            "pitcher_id": 519242,
-            "pitcher_name": "Chris Sale"
+            "batter_id": 681198,
+            "batter_name": "TJ Rumfield",
+            "pitcher_id": 675660,
+            "pitcher_name": "Shane Drohan"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 701538,
-            "batter_name": "Jackson Merrill",
-            "pitcher_id": 519242,
-            "pitcher_name": "Chris Sale"
+            "batter_id": 696100,
+            "batter_name": "Hunter Goodman",
+            "pitcher_id": 675660,
+            "pitcher_name": "Shane Drohan"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 592518,
-            "batter_name": "Manny Machado",
-            "pitcher_id": 519242,
-            "pitcher_name": "Chris Sale"
+            "batter_id": 678662,
+            "batter_name": "Ezequiel Tovar",
+            "pitcher_id": 675660,
+            "pitcher_name": "Shane Drohan"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 593428,
-            "batter_name": "Xander Bogaerts",
-            "pitcher_id": 519242,
-            "pitcher_name": "Chris Sale"
+            "batter_id": 650489,
+            "batter_name": "Willi Castro",
+            "pitcher_id": 675660,
+            "pitcher_name": "Shane Drohan"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 657757,
-            "batter_name": "Gavin Sheets",
-            "pitcher_id": 519242,
-            "pitcher_name": "Chris Sale"
+            "batter_id": 691720,
+            "batter_name": "Kyle Karros",
+            "pitcher_id": 675660,
+            "pitcher_name": "Shane Drohan"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 664034,
-            "batter_name": "Ty France",
-            "pitcher_id": 519242,
-            "pitcher_name": "Chris Sale"
+            "batter_id": 664983,
+            "batter_name": "Jake McCarthy",
+            "pitcher_id": 675660,
+            "pitcher_name": "Shane Drohan"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 650859,
-            "batter_name": "Luis Rengifo",
-            "pitcher_id": 519242,
-            "pitcher_name": "Chris Sale"
+            "batter_id": 687859,
+            "batter_name": "Troy Johnston",
+            "pitcher_id": 675660,
+            "pitcher_name": "Shane Drohan"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 630105,
-            "batter_name": "Jake Cronenworth",
-            "pitcher_id": 519242,
-            "pitcher_name": "Chris Sale"
+            "batter_id": 671289,
+            "batter_name": "Tyler Freeman",
+            "pitcher_id": 675660,
+            "pitcher_name": "Shane Drohan"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
-            "batter_id": 666023,
-            "batter_name": "Freddy Fermin",
-            "pitcher_id": 519242,
-            "pitcher_name": "Chris Sale"
+            "batter_id": 666397,
+            "batter_name": "Edouard Julien",
+            "pitcher_id": 675660,
+            "pitcher_name": "Shane Drohan"
           }
         ]
       }
     },
     {
-      "game_id": 824406,
-      "game_date": "2026-07-23T17:10:00Z",
-      "home_team": "Cleveland Guardians",
-      "away_team": "Minnesota Twins",
-      "home_pitcher": "Gavin Williams",
-      "away_pitcher": "Taj Bradley",
-      "home_pitcher_era_l5": 4.55,
-      "away_pitcher_era_l5": 3.19,
-      "model_prob_home": 0.3746,
-      "model_prob_away": 0.6254,
-      "market_prob_home": 0.5661,
-      "market_prob_away": 0.4339,
-      "edge_home": -0.1915,
-      "edge_away": 0.1915,
-      "ev_home": -35.4,
-      "ev_away": 40.71,
-      "matchup_sample_ok_home": false,
-      "matchup_sample_ok_away": false,
-      "home_pitcher_low_sample": false,
-      "away_pitcher_low_sample": false,
-      "matchup_detail": {
-        "home_pitcher_vs_away_batters": [
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 677587,
-            "batter_name": "Brayan Rocchio",
-            "pitcher_id": 671737,
-            "pitcher_name": "Taj Bradley"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 680757,
-            "batter_name": "Steven Kwan",
-            "pitcher_id": 671737,
-            "pitcher_name": "Taj Bradley"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 800050,
-            "batter_name": "Chase DeLauter",
-            "pitcher_id": 671737,
-            "pitcher_name": "Taj Bradley"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 700932,
-            "batter_name": "Kyle Manzardo",
-            "pitcher_id": 671737,
-            "pitcher_name": "Taj Bradley"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 608070,
-            "batter_name": "José Ramírez",
-            "pitcher_id": 671737,
-            "pitcher_name": "Taj Bradley"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 683953,
-            "batter_name": "Travis Bazzana",
-            "pitcher_id": 671737,
-            "pitcher_name": "Taj Bradley"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 656555,
-            "batter_name": "Rhys Hoskins",
-            "pitcher_id": 671737,
-            "pitcher_name": "Taj Bradley"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 682177,
-            "batter_name": "Daniel Schneemann",
-            "pitcher_id": 671737,
-            "pitcher_name": "Taj Bradley"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 672275,
-            "batter_name": "Patrick Bailey",
-            "pitcher_id": 671737,
-            "pitcher_name": "Taj Bradley"
-          }
-        ],
-        "away_pitcher_vs_home_batters": [
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 605137,
-            "batter_name": "Josh Bell",
-            "pitcher_id": 668909,
-            "pitcher_name": "Gavin Williams"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 686797,
-            "batter_name": "Brooks Lee",
-            "pitcher_id": 668909,
-            "pitcher_name": "Gavin Williams"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 807712,
-            "batter_name": "Luke Keaschall",
-            "pitcher_id": 668909,
-            "pitcher_name": "Gavin Williams"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 665019,
-            "batter_name": "Kody Clemens",
-            "pitcher_id": 668909,
-            "pitcher_name": "Gavin Williams"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 621439,
-            "batter_name": "Byron Buxton",
-            "pitcher_id": 668909,
-            "pitcher_name": "Gavin Williams"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 663616,
-            "batter_name": "Trevor Larnach",
-            "pitcher_id": 668909,
-            "pitcher_name": "Gavin Williams"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 668885,
-            "batter_name": "Austin Martin",
-            "pitcher_id": 668909,
-            "pitcher_name": "Gavin Williams"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 605170,
-            "batter_name": "Victor Caratini",
-            "pitcher_id": 668909,
-            "pitcher_name": "Gavin Williams"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 668904,
-            "batter_name": "Royce Lewis",
-            "pitcher_id": 668909,
-            "pitcher_name": "Gavin Williams"
-          }
-        ]
-      }
-    },
-    {
-      "game_id": 822785,
-      "game_date": "2026-07-23T19:07:00Z",
-      "home_team": "Toronto Blue Jays",
-      "away_team": "Tampa Bay Rays",
-      "home_pitcher": "Shane Bieber",
-      "away_pitcher": "Ian Seymour",
-      "home_pitcher_era_l5": 5.7,
-      "away_pitcher_era_l5": 5.96,
-      "model_prob_home": 0.5084,
-      "model_prob_away": 0.4916,
-      "market_prob_home": 0.5047,
-      "market_prob_away": 0.4953,
-      "edge_home": 0.0037,
-      "edge_away": -0.0037,
-      "ev_home": -1.2,
-      "ev_away": -2.64,
-      "matchup_sample_ok_home": false,
-      "matchup_sample_ok_away": false,
-      "home_pitcher_low_sample": false,
-      "away_pitcher_low_sample": false,
-      "matchup_detail": {
-        "home_pitcher_vs_away_batters": [
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 665489,
-            "batter_name": "Vladimir Guerrero Jr.",
-            "pitcher_id": 693855,
-            "pitcher_name": "Ian Seymour"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 672960,
-            "batter_name": "Kazuma Okamoto",
-            "pitcher_id": 693855,
-            "pitcher_name": "Ian Seymour"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 676391,
-            "batter_name": "Ernie Clement",
-            "pitcher_id": 693855,
-            "pitcher_name": "Ian Seymour"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 662139,
-            "batter_name": "Daulton Varsho",
-            "pitcher_id": 693855,
-            "pitcher_name": "Ian Seymour"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 665926,
-            "batter_name": "Andrés Giménez",
-            "pitcher_id": 693855,
-            "pitcher_name": "Ian Seymour"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 543807,
-            "batter_name": "George Springer",
-            "pitcher_id": 693855,
-            "pitcher_name": "Ian Seymour"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 664770,
-            "batter_name": "Nathan Lukes",
-            "pitcher_id": 693855,
-            "pitcher_name": "Ian Seymour"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 678218,
-            "batter_name": "Brandon Valenzuela",
-            "pitcher_id": 693855,
-            "pitcher_name": "Ian Seymour"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 664702,
-            "batter_name": "Myles Straw",
-            "pitcher_id": 693855,
-            "pitcher_name": "Ian Seymour"
-          }
-        ],
-        "away_pitcher_vs_home_batters": [
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 691406,
-            "batter_name": "Junior Caminero",
-            "pitcher_id": 669456,
-            "pitcher_name": "Shane Bieber"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 666018,
-            "batter_name": "Jonathan Aranda",
-            "pitcher_id": 669456,
-            "pitcher_name": "Shane Bieber"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 650490,
-            "batter_name": "Yandy Díaz",
-            "pitcher_id": 669456,
-            "pitcher_name": "Shane Bieber"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 802415,
-            "batter_name": "Chandler Simpson",
-            "pitcher_id": 669456,
-            "pitcher_name": "Shane Bieber"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 656775,
-            "batter_name": "Cedric Mullins",
-            "pitcher_id": 669456,
-            "pitcher_name": "Shane Bieber"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 670764,
-            "batter_name": "Taylor Walls",
-            "pitcher_id": 669456,
-            "pitcher_name": "Shane Bieber"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 680700,
-            "batter_name": "Richie Palacios",
-            "pitcher_id": 669456,
-            "pitcher_name": "Shane Bieber"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 663743,
-            "batter_name": "Nick Fortes",
-            "pitcher_id": 669456,
-            "pitcher_name": "Shane Bieber"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 810938,
-            "batter_name": "Ben Williamson",
-            "pitcher_id": 669456,
-            "pitcher_name": "Shane Bieber"
-          }
-        ]
-      }
-    },
-    {
-      "game_id": 823042,
-      "game_date": "2026-07-23T21:15:00Z",
-      "home_team": "St. Louis Cardinals",
-      "away_team": "Arizona Diamondbacks",
-      "home_pitcher": "Michael McGreevy",
-      "away_pitcher": "Brandon Pfaadt",
-      "home_pitcher_era_l5": 2.73,
-      "away_pitcher_era_l5": 2.67,
-      "model_prob_home": 0.5177,
-      "model_prob_away": 0.4823,
-      "market_prob_home": 0.5296,
-      "market_prob_away": 0.4704,
-      "edge_home": -0.0119,
-      "edge_away": 0.0119,
-      "ev_home": -4.36,
-      "ev_away": 0.32,
-      "matchup_sample_ok_home": false,
-      "matchup_sample_ok_away": false,
-      "home_pitcher_low_sample": false,
-      "away_pitcher_low_sample": false,
-      "matchup_detail": {
-        "home_pitcher_vs_away_batters": [
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 671056,
-            "batter_name": "Iván Herrera",
-            "pitcher_id": 694297,
-            "pitcher_name": "Brandon Pfaadt"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 802139,
-            "batter_name": "JJ Wetherholt",
-            "pitcher_id": 694297,
-            "pitcher_name": "Brandon Pfaadt"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 676475,
-            "batter_name": "Alec Burleson",
-            "pitcher_id": 694297,
-            "pitcher_name": "Brandon Pfaadt"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 691023,
-            "batter_name": "Jordan Walker",
-            "pitcher_id": 694297,
-            "pitcher_name": "Brandon Pfaadt"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 691026,
-            "batter_name": "Masyn Winn",
-            "pitcher_id": 694297,
-            "pitcher_name": "Brandon Pfaadt"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 701675,
-            "batter_name": "Nathan Church",
-            "pitcher_id": 694297,
-            "pitcher_name": "Brandon Pfaadt"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 665877,
-            "batter_name": "José Fermín",
-            "pitcher_id": 694297,
-            "pitcher_name": "Brandon Pfaadt"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 686780,
-            "batter_name": "Pedro Pagés",
-            "pitcher_id": 694297,
-            "pitcher_name": "Brandon Pfaadt"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 663457,
-            "batter_name": "Lars Nootbaar",
-            "pitcher_id": 694297,
-            "pitcher_name": "Brandon Pfaadt"
-          }
-        ],
-        "away_pitcher_vs_home_batters": [
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 606466,
-            "batter_name": "Ketel Marte",
-            "pitcher_id": 700241,
-            "pitcher_name": "Michael McGreevy"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 682998,
-            "batter_name": "Corbin Carroll",
-            "pitcher_id": 700241,
-            "pitcher_name": "Michael McGreevy"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 672695,
-            "batter_name": "Geraldo Perdomo",
-            "pitcher_id": 700241,
-            "pitcher_name": "Michael McGreevy"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 571448,
-            "batter_name": "Nolan Arenado",
-            "pitcher_id": 700241,
-            "pitcher_name": "Michael McGreevy"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 545121,
-            "batter_name": "Ildemaro Vargas",
-            "pitcher_id": 700241,
-            "pitcher_name": "Michael McGreevy"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 672515,
-            "batter_name": "Gabriel Moreno",
-            "pitcher_id": 700241,
-            "pitcher_name": "Michael McGreevy"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 680728,
-            "batter_name": "Adrian Del Castillo",
-            "pitcher_id": 700241,
-            "pitcher_name": "Michael McGreevy"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 814439,
-            "batter_name": "Ryan Waldschmidt",
-            "pitcher_id": 700241,
-            "pitcher_name": "Michael McGreevy"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 678489,
-            "batter_name": "Jorge Barrosa",
-            "pitcher_id": 700241,
-            "pitcher_name": "Michael McGreevy"
-          }
-        ]
-      }
-    },
-    {
-      "game_id": 824247,
-      "game_date": "2026-07-23T22:40:00Z",
+      "game_id": 824248,
+      "game_date": "2026-07-24T22:40:00Z",
       "home_team": "Detroit Tigers",
       "away_team": "Kansas City Royals",
-      "home_pitcher": "Troy Melton",
-      "away_pitcher": "Randy Dobnak",
-      "home_pitcher_era_l5": 0.92,
-      "away_pitcher_era_l5": 2.08,
-      "model_prob_home": 0.551,
-      "model_prob_away": 0.449,
-      "market_prob_home": 0.6459,
-      "market_prob_away": 0.3541,
-      "edge_home": -0.0949,
-      "edge_away": 0.0949,
-      "ev_home": -16.64,
-      "ev_away": 23.92,
+      "home_pitcher": "Tarik Skubal",
+      "away_pitcher": "Beck Way",
+      "home_pitcher_era_l5": 2.48,
+      "away_pitcher_era_l5": null,
+      "model_prob_home": 0.644,
+      "model_prob_away": 0.356,
+      "market_prob_home": 0.7261,
+      "market_prob_away": 0.2739,
+      "edge_home": -0.0821,
+      "edge_away": 0.0821,
+      "ev_home": -13.0,
+      "ev_away": 27.45,
       "matchup_sample_ok_home": false,
       "matchup_sample_ok_away": false,
       "home_pitcher_low_sample": false,
@@ -718,72 +202,72 @@
             "sample_size_ok": false,
             "batter_id": 805808,
             "batter_name": "Kevin McGonigle",
-            "pitcher_id": 677976,
-            "pitcher_name": "Randy Dobnak"
+            "pitcher_id": 694360,
+            "pitcher_name": "Beck Way"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 682985,
             "batter_name": "Riley Greene",
-            "pitcher_id": 677976,
-            "pitcher_name": "Randy Dobnak"
+            "pitcher_id": 694360,
+            "pitcher_name": "Beck Way"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 679529,
             "batter_name": "Spencer Torkelson",
-            "pitcher_id": 677976,
-            "pitcher_name": "Randy Dobnak"
+            "pitcher_id": 694360,
+            "pitcher_name": "Beck Way"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 693307,
             "batter_name": "Dillon Dingler",
-            "pitcher_id": 677976,
-            "pitcher_name": "Randy Dobnak"
+            "pitcher_id": 694360,
+            "pitcher_name": "Beck Way"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 690993,
             "batter_name": "Colt Keith",
-            "pitcher_id": 677976,
-            "pitcher_name": "Randy Dobnak"
+            "pitcher_id": 694360,
+            "pitcher_name": "Beck Way"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 663837,
             "batter_name": "Matt Vierling",
-            "pitcher_id": 677976,
-            "pitcher_name": "Randy Dobnak"
+            "pitcher_id": 694360,
+            "pitcher_name": "Beck Way"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 656716,
             "batter_name": "Zach McKinstry",
-            "pitcher_id": 677976,
-            "pitcher_name": "Randy Dobnak"
+            "pitcher_id": 694360,
+            "pitcher_name": "Beck Way"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 681481,
             "batter_name": "Kerry Carpenter",
-            "pitcher_id": 677976,
-            "pitcher_name": "Randy Dobnak"
+            "pitcher_id": 694360,
+            "pitcher_name": "Beck Way"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 650402,
             "batter_name": "Gleyber Torres",
-            "pitcher_id": 677976,
-            "pitcher_name": "Randy Dobnak"
+            "pitcher_id": 694360,
+            "pitcher_name": "Beck Way"
           }
         ],
         "away_pitcher_vs_home_batters": [
@@ -792,72 +276,2162 @@
             "sample_size_ok": false,
             "batter_id": 521692,
             "batter_name": "Salvador Perez",
-            "pitcher_id": 675512,
-            "pitcher_name": "Troy Melton"
+            "pitcher_id": 669373,
+            "pitcher_name": "Tarik Skubal"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 695600,
             "batter_name": "Carter Jensen",
-            "pitcher_id": 675512,
-            "pitcher_name": "Troy Melton"
+            "pitcher_id": 669373,
+            "pitcher_name": "Tarik Skubal"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 695506,
             "batter_name": "Jac Caglianone",
-            "pitcher_id": 675512,
-            "pitcher_name": "Troy Melton"
+            "pitcher_id": 669373,
+            "pitcher_name": "Tarik Skubal"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 686555,
             "batter_name": "Isaac Collins",
-            "pitcher_id": 675512,
-            "pitcher_name": "Troy Melton"
+            "pitcher_id": 669373,
+            "pitcher_name": "Tarik Skubal"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 686469,
             "batter_name": "Vinnie Pasquantino",
-            "pitcher_id": 675512,
-            "pitcher_name": "Troy Melton"
+            "pitcher_id": 669373,
+            "pitcher_name": "Tarik Skubal"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 657041,
             "batter_name": "Lane Thomas",
-            "pitcher_id": 675512,
-            "pitcher_name": "Troy Melton"
+            "pitcher_id": 669373,
+            "pitcher_name": "Tarik Skubal"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 686681,
             "batter_name": "Michael Massey",
-            "pitcher_id": 675512,
-            "pitcher_name": "Troy Melton"
+            "pitcher_id": 669373,
+            "pitcher_name": "Tarik Skubal"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 679845,
             "batter_name": "Nick Loftin",
-            "pitcher_id": 675512,
-            "pitcher_name": "Troy Melton"
+            "pitcher_id": 669373,
+            "pitcher_name": "Tarik Skubal"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 516782,
             "batter_name": "Starling Marte",
-            "pitcher_id": 675512,
-            "pitcher_name": "Troy Melton"
+            "pitcher_id": 669373,
+            "pitcher_name": "Tarik Skubal"
+          }
+        ]
+      }
+    },
+    {
+      "game_id": 823352,
+      "game_date": "2026-07-24T22:40:00Z",
+      "home_team": "Pittsburgh Pirates",
+      "away_team": "Chicago Cubs",
+      "home_pitcher": "Jared Jones",
+      "away_pitcher": "Matthew Boyd",
+      "home_pitcher_era_l5": 2.38,
+      "away_pitcher_era_l5": 2.57,
+      "model_prob_home": 0.4884,
+      "model_prob_away": 0.5116,
+      "market_prob_home": 0.5187,
+      "market_prob_away": 0.4813,
+      "edge_home": -0.0303,
+      "edge_away": 0.0303,
+      "ev_home": -7.55,
+      "ev_away": 4.37,
+      "matchup_sample_ok_home": false,
+      "matchup_sample_ok_away": false,
+      "home_pitcher_low_sample": false,
+      "away_pitcher_low_sample": false,
+      "matchup_detail": {
+        "home_pitcher_vs_away_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 668804,
+            "batter_name": "Bryan Reynolds",
+            "pitcher_id": 571510,
+            "pitcher_name": "Matthew Boyd"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 664040,
+            "batter_name": "Brandon Lowe",
+            "pitcher_id": 571510,
+            "pitcher_name": "Matthew Boyd"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 693304,
+            "batter_name": "Nick Gonzales",
+            "pitcher_id": 571510,
+            "pitcher_name": "Matthew Boyd"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 656811,
+            "batter_name": "Ryan O'Hearn",
+            "pitcher_id": 571510,
+            "pitcher_name": "Matthew Boyd"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 663968,
+            "batter_name": "Jake Mangum",
+            "pitcher_id": 571510,
+            "pitcher_name": "Matthew Boyd"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 542303,
+            "batter_name": "Marcell Ozuna",
+            "pitcher_id": 571510,
+            "pitcher_name": "Matthew Boyd"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 669707,
+            "batter_name": "Jared Triolo",
+            "pitcher_id": 571510,
+            "pitcher_name": "Matthew Boyd"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 680779,
+            "batter_name": "Henry Davis",
+            "pitcher_id": 571510,
+            "pitcher_name": "Matthew Boyd"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 699013,
+            "batter_name": "Esmerlyn Valdez",
+            "pitcher_id": 571510,
+            "pitcher_name": "Matthew Boyd"
+          }
+        ],
+        "away_pitcher_vs_home_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 608324,
+            "batter_name": "Alex Bregman",
+            "pitcher_id": 683003,
+            "pitcher_name": "Jared Jones"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 683737,
+            "batter_name": "Michael Busch",
+            "pitcher_id": 683003,
+            "pitcher_name": "Jared Jones"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 663538,
+            "batter_name": "Nico Hoerner",
+            "pitcher_id": 683003,
+            "pitcher_name": "Jared Jones"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 691718,
+            "batter_name": "Pete Crow-Armstrong",
+            "pitcher_id": 683003,
+            "pitcher_name": "Jared Jones"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 664023,
+            "batter_name": "Ian Happ",
+            "pitcher_id": 683003,
+            "pitcher_name": "Jared Jones"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 621020,
+            "batter_name": "Dansby Swanson",
+            "pitcher_id": 683003,
+            "pitcher_name": "Jared Jones"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 673548,
+            "batter_name": "Seiya Suzuki",
+            "pitcher_id": 683003,
+            "pitcher_name": "Jared Jones"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 608348,
+            "batter_name": "Carson Kelly",
+            "pitcher_id": 683003,
+            "pitcher_name": "Jared Jones"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 624424,
+            "batter_name": "Michael Conforto",
+            "pitcher_id": 683003,
+            "pitcher_name": "Jared Jones"
+          }
+        ]
+      }
+    },
+    {
+      "game_id": 822707,
+      "game_date": "2026-07-24T22:45:00Z",
+      "home_team": "Washington Nationals",
+      "away_team": "Arizona Diamondbacks",
+      "home_pitcher": "Carson Palmquist",
+      "away_pitcher": "Eduardo Rodriguez",
+      "home_pitcher_era_l5": 10.0,
+      "away_pitcher_era_l5": 3.18,
+      "model_prob_home": 0.2644,
+      "model_prob_away": 0.7356,
+      "market_prob_home": 0.4656,
+      "market_prob_away": 0.5344,
+      "edge_home": -0.2012,
+      "edge_away": 0.2012,
+      "ev_home": -43.95,
+      "ev_away": 35.9,
+      "matchup_sample_ok_home": false,
+      "matchup_sample_ok_away": false,
+      "home_pitcher_low_sample": false,
+      "away_pitcher_low_sample": false,
+      "matchup_detail": {
+        "home_pitcher_vs_away_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 695578,
+            "batter_name": "James Wood",
+            "pitcher_id": 593958,
+            "pitcher_name": "Eduardo Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 695734,
+            "batter_name": "Daylen Lile",
+            "pitcher_id": 593958,
+            "pitcher_name": "Eduardo Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 682928,
+            "batter_name": "CJ Abrams",
+            "pitcher_id": 593958,
+            "pitcher_name": "Eduardo Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 671277,
+            "batter_name": "Luis García Jr.",
+            "pitcher_id": 593958,
+            "pitcher_name": "Eduardo Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 683083,
+            "batter_name": "Nasim Nuñez",
+            "pitcher_id": 593958,
+            "pitcher_name": "Eduardo Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 678554,
+            "batter_name": "Curtis Mead",
+            "pitcher_id": 593958,
+            "pitcher_name": "Eduardo Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 696285,
+            "batter_name": "Jacob Young",
+            "pitcher_id": 593958,
+            "pitcher_name": "Eduardo Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 660688,
+            "batter_name": "Keibert Ruiz",
+            "pitcher_id": 593958,
+            "pitcher_name": "Eduardo Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 678391,
+            "batter_name": "Jorbit Vivas",
+            "pitcher_id": 593958,
+            "pitcher_name": "Eduardo Rodriguez"
+          }
+        ],
+        "away_pitcher_vs_home_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 606466,
+            "batter_name": "Ketel Marte",
+            "pitcher_id": 687223,
+            "pitcher_name": "Carson Palmquist"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 682998,
+            "batter_name": "Corbin Carroll",
+            "pitcher_id": 687223,
+            "pitcher_name": "Carson Palmquist"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 672695,
+            "batter_name": "Geraldo Perdomo",
+            "pitcher_id": 687223,
+            "pitcher_name": "Carson Palmquist"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 571448,
+            "batter_name": "Nolan Arenado",
+            "pitcher_id": 687223,
+            "pitcher_name": "Carson Palmquist"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 545121,
+            "batter_name": "Ildemaro Vargas",
+            "pitcher_id": 687223,
+            "pitcher_name": "Carson Palmquist"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 672515,
+            "batter_name": "Gabriel Moreno",
+            "pitcher_id": 687223,
+            "pitcher_name": "Carson Palmquist"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 680728,
+            "batter_name": "Adrian Del Castillo",
+            "pitcher_id": 687223,
+            "pitcher_name": "Carson Palmquist"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 814439,
+            "batter_name": "Ryan Waldschmidt",
+            "pitcher_id": 687223,
+            "pitcher_name": "Carson Palmquist"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 678489,
+            "batter_name": "Jorge Barrosa",
+            "pitcher_id": 687223,
+            "pitcher_name": "Carson Palmquist"
+          }
+        ]
+      }
+    },
+    {
+      "game_id": 823434,
+      "game_date": "2026-07-24T22:45:00Z",
+      "home_team": "Philadelphia Phillies",
+      "away_team": "New York Yankees",
+      "home_pitcher": "Jesús Luzardo",
+      "away_pitcher": "Will Warren",
+      "home_pitcher_era_l5": 1.21,
+      "away_pitcher_era_l5": 5.61,
+      "model_prob_home": 0.7241,
+      "model_prob_away": 0.2759,
+      "market_prob_home": 0.5543,
+      "market_prob_away": 0.4457,
+      "edge_home": 0.1698,
+      "edge_away": -0.1698,
+      "ev_home": 28.11,
+      "ev_away": -39.3,
+      "matchup_sample_ok_home": false,
+      "matchup_sample_ok_away": false,
+      "home_pitcher_low_sample": false,
+      "away_pitcher_low_sample": false,
+      "matchup_detail": {
+        "home_pitcher_vs_away_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 607208,
+            "batter_name": "Trea Turner",
+            "pitcher_id": 701542,
+            "pitcher_name": "Will Warren"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 656941,
+            "batter_name": "Kyle Schwarber",
+            "pitcher_id": 701542,
+            "pitcher_name": "Will Warren"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 547180,
+            "batter_name": "Bryce Harper",
+            "pitcher_id": 701542,
+            "pitcher_name": "Will Warren"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 664761,
+            "batter_name": "Alec Bohm",
+            "pitcher_id": 701542,
+            "pitcher_name": "Will Warren"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 669016,
+            "batter_name": "Brandon Marsh",
+            "pitcher_id": 701542,
+            "pitcher_name": "Will Warren"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 681082,
+            "batter_name": "Bryson Stott",
+            "pitcher_id": 701542,
+            "pitcher_name": "Will Warren"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 702222,
+            "batter_name": "Justin Crawford",
+            "pitcher_id": 701542,
+            "pitcher_name": "Will Warren"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 592663,
+            "batter_name": "J.T. Realmuto",
+            "pitcher_id": 701542,
+            "pitcher_name": "Will Warren"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 624641,
+            "batter_name": "Edmundo Sosa",
+            "pitcher_id": 701542,
+            "pitcher_name": "Will Warren"
+          }
+        ],
+        "away_pitcher_vs_home_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 641355,
+            "batter_name": "Cody Bellinger",
+            "pitcher_id": 666200,
+            "pitcher_name": "Jesús Luzardo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 700250,
+            "batter_name": "Ben Rice",
+            "pitcher_id": 666200,
+            "pitcher_name": "Jesús Luzardo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 665862,
+            "batter_name": "Jazz Chisholm Jr.",
+            "pitcher_id": 666200,
+            "pitcher_name": "Jesús Luzardo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 663757,
+            "batter_name": "Trent Grisham",
+            "pitcher_id": 666200,
+            "pitcher_name": "Jesús Luzardo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 676609,
+            "batter_name": "José Caballero",
+            "pitcher_id": 666200,
+            "pitcher_name": "Jesús Luzardo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 502671,
+            "batter_name": "Paul Goldschmidt",
+            "pitcher_id": 666200,
+            "pitcher_name": "Jesús Luzardo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 641857,
+            "batter_name": "Ryan McMahon",
+            "pitcher_id": 666200,
+            "pitcher_name": "Jesús Luzardo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 669224,
+            "batter_name": "Austin Wells",
+            "pitcher_id": 666200,
+            "pitcher_name": "Jesús Luzardo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 642708,
+            "batter_name": "Amed Rosario",
+            "pitcher_id": 666200,
+            "pitcher_name": "Jesús Luzardo"
+          }
+        ]
+      }
+    },
+    {
+      "game_id": 824812,
+      "game_date": "2026-07-24T23:05:00Z",
+      "home_team": "Baltimore Orioles",
+      "away_team": "Atlanta Braves",
+      "home_pitcher": null,
+      "away_pitcher": "Grant Holmes",
+      "home_pitcher_era_l5": null,
+      "away_pitcher_era_l5": 3.32,
+      "model_prob_home": 0.457,
+      "model_prob_away": 0.543,
+      "market_prob_home": 0.522,
+      "market_prob_away": 0.478,
+      "edge_home": -0.065,
+      "edge_away": 0.065,
+      "ev_home": -14.21,
+      "ev_away": 11.32,
+      "matchup_sample_ok_home": false,
+      "matchup_sample_ok_away": false,
+      "home_pitcher_low_sample": true,
+      "away_pitcher_low_sample": false,
+      "matchup_detail": {
+        "home_pitcher_vs_away_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 621493,
+            "batter_name": "Taylor Ward",
+            "pitcher_id": 656550,
+            "pitcher_name": "Grant Holmes"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 683002,
+            "batter_name": "Gunnar Henderson",
+            "pitcher_id": 656550,
+            "pitcher_name": "Grant Holmes"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 624413,
+            "batter_name": "Pete Alonso",
+            "pitcher_id": 656550,
+            "pitcher_name": "Grant Holmes"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 665750,
+            "batter_name": "Leody Taveras",
+            "pitcher_id": 656550,
+            "pitcher_name": "Grant Holmes"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 691723,
+            "batter_name": "Coby Mayo",
+            "pitcher_id": 656550,
+            "pitcher_name": "Grant Holmes"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 681297,
+            "batter_name": "Colton Cowser",
+            "pitcher_id": 656550,
+            "pitcher_name": "Grant Holmes"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 669236,
+            "batter_name": "Jeremiah Jackson",
+            "pitcher_id": 656550,
+            "pitcher_name": "Grant Holmes"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 641933,
+            "batter_name": "Tyler O'Neill",
+            "pitcher_id": 656550,
+            "pitcher_name": "Grant Holmes"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 687637,
+            "batter_name": "Dylan Beavers",
+            "pitcher_id": 656550,
+            "pitcher_name": "Grant Holmes"
+          }
+        ],
+        "away_pitcher_vs_home_batters": []
+      }
+    },
+    {
+      "game_id": 823601,
+      "game_date": "2026-07-24T23:10:00Z",
+      "home_team": "New York Mets",
+      "away_team": "Los Angeles Dodgers",
+      "home_pitcher": "Sean Manaea",
+      "away_pitcher": "Roki Sasaki",
+      "home_pitcher_era_l5": 4.97,
+      "away_pitcher_era_l5": 5.55,
+      "model_prob_home": 0.5118,
+      "model_prob_away": 0.4882,
+      "market_prob_home": 0.4281,
+      "market_prob_away": 0.5719,
+      "edge_home": 0.0837,
+      "edge_away": -0.0837,
+      "ev_home": 17.2,
+      "ev_away": -16.31,
+      "matchup_sample_ok_home": false,
+      "matchup_sample_ok_away": false,
+      "home_pitcher_low_sample": false,
+      "away_pitcher_low_sample": false,
+      "matchup_detail": {
+        "home_pitcher_vs_away_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 666182,
+            "batter_name": "Bo Bichette",
+            "pitcher_id": 808963,
+            "pitcher_name": "Roki Sasaki"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 701807,
+            "batter_name": "Carson Benge",
+            "pitcher_id": 808963,
+            "pitcher_name": "Roki Sasaki"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 665742,
+            "batter_name": "Juan Soto",
+            "pitcher_id": 808963,
+            "pitcher_name": "Roki Sasaki"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 683146,
+            "batter_name": "Brett Baty",
+            "pitcher_id": 808963,
+            "pitcher_name": "Roki Sasaki"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 543760,
+            "batter_name": "Marcus Semien",
+            "pitcher_id": 808963,
+            "pitcher_name": "Roki Sasaki"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 805999,
+            "batter_name": "A.J. Ewing",
+            "pitcher_id": 808963,
+            "pitcher_name": "Roki Sasaki"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 682626,
+            "batter_name": "Francisco Alvarez",
+            "pitcher_id": 808963,
+            "pitcher_name": "Roki Sasaki"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 596019,
+            "batter_name": "Francisco Lindor",
+            "pitcher_id": 808963,
+            "pitcher_name": "Roki Sasaki"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 620443,
+            "batter_name": "Luis Torrens",
+            "pitcher_id": 808963,
+            "pitcher_name": "Roki Sasaki"
+          }
+        ],
+        "away_pitcher_vs_home_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 681624,
+            "batter_name": "Andy Pages",
+            "pitcher_id": 640455,
+            "pitcher_name": "Sean Manaea"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 518692,
+            "batter_name": "Freddie Freeman",
+            "pitcher_id": 640455,
+            "pitcher_name": "Sean Manaea"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 660271,
+            "batter_name": "Shohei Ohtani",
+            "pitcher_id": 640455,
+            "pitcher_name": "Sean Manaea"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 663656,
+            "batter_name": "Kyle Tucker",
+            "pitcher_id": 640455,
+            "pitcher_name": "Sean Manaea"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 571970,
+            "batter_name": "Max Muncy",
+            "pitcher_id": 640455,
+            "pitcher_name": "Sean Manaea"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 605141,
+            "batter_name": "Mookie Betts",
+            "pitcher_id": 640455,
+            "pitcher_name": "Sean Manaea"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 606192,
+            "batter_name": "Teoscar Hernández",
+            "pitcher_id": 640455,
+            "pitcher_name": "Sean Manaea"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 690976,
+            "batter_name": "Alex Freeland",
+            "pitcher_id": 640455,
+            "pitcher_name": "Sean Manaea"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 687221,
+            "batter_name": "Dalton Rushing",
+            "pitcher_id": 640455,
+            "pitcher_name": "Sean Manaea"
+          }
+        ]
+      }
+    },
+    {
+      "game_id": 822952,
+      "game_date": "2026-07-24T23:10:00Z",
+      "home_team": "Tampa Bay Rays",
+      "away_team": "Cleveland Guardians",
+      "home_pitcher": "Shane McClanahan",
+      "away_pitcher": "Joey Cantillo",
+      "home_pitcher_era_l5": 3.0,
+      "away_pitcher_era_l5": 2.77,
+      "model_prob_home": 0.5193,
+      "model_prob_away": 0.4807,
+      "market_prob_home": 0.5605,
+      "market_prob_away": 0.4395,
+      "edge_home": -0.0412,
+      "edge_away": 0.0412,
+      "ev_home": -9.6,
+      "ev_away": 6.72,
+      "matchup_sample_ok_home": false,
+      "matchup_sample_ok_away": false,
+      "home_pitcher_low_sample": false,
+      "away_pitcher_low_sample": false,
+      "matchup_detail": {
+        "home_pitcher_vs_away_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 691406,
+            "batter_name": "Junior Caminero",
+            "pitcher_id": 676282,
+            "pitcher_name": "Joey Cantillo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 666018,
+            "batter_name": "Jonathan Aranda",
+            "pitcher_id": 676282,
+            "pitcher_name": "Joey Cantillo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 650490,
+            "batter_name": "Yandy Díaz",
+            "pitcher_id": 676282,
+            "pitcher_name": "Joey Cantillo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 802415,
+            "batter_name": "Chandler Simpson",
+            "pitcher_id": 676282,
+            "pitcher_name": "Joey Cantillo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 656775,
+            "batter_name": "Cedric Mullins",
+            "pitcher_id": 676282,
+            "pitcher_name": "Joey Cantillo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 670764,
+            "batter_name": "Taylor Walls",
+            "pitcher_id": 676282,
+            "pitcher_name": "Joey Cantillo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 680700,
+            "batter_name": "Richie Palacios",
+            "pitcher_id": 676282,
+            "pitcher_name": "Joey Cantillo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 663743,
+            "batter_name": "Nick Fortes",
+            "pitcher_id": 676282,
+            "pitcher_name": "Joey Cantillo"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 810938,
+            "batter_name": "Ben Williamson",
+            "pitcher_id": 676282,
+            "pitcher_name": "Joey Cantillo"
+          }
+        ],
+        "away_pitcher_vs_home_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 677587,
+            "batter_name": "Brayan Rocchio",
+            "pitcher_id": 663556,
+            "pitcher_name": "Shane McClanahan"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 680757,
+            "batter_name": "Steven Kwan",
+            "pitcher_id": 663556,
+            "pitcher_name": "Shane McClanahan"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 800050,
+            "batter_name": "Chase DeLauter",
+            "pitcher_id": 663556,
+            "pitcher_name": "Shane McClanahan"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 700932,
+            "batter_name": "Kyle Manzardo",
+            "pitcher_id": 663556,
+            "pitcher_name": "Shane McClanahan"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 608070,
+            "batter_name": "José Ramírez",
+            "pitcher_id": 663556,
+            "pitcher_name": "Shane McClanahan"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 683953,
+            "batter_name": "Travis Bazzana",
+            "pitcher_id": 663556,
+            "pitcher_name": "Shane McClanahan"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 656555,
+            "batter_name": "Rhys Hoskins",
+            "pitcher_id": 663556,
+            "pitcher_name": "Shane McClanahan"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 682177,
+            "batter_name": "Daniel Schneemann",
+            "pitcher_id": 663556,
+            "pitcher_name": "Shane McClanahan"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 672275,
+            "batter_name": "Patrick Bailey",
+            "pitcher_id": 663556,
+            "pitcher_name": "Shane McClanahan"
+          }
+        ]
+      }
+    },
+    {
+      "game_id": 823843,
+      "game_date": "2026-07-24T23:10:00Z",
+      "home_team": "Miami Marlins",
+      "away_team": "San Diego Padres",
+      "home_pitcher": null,
+      "away_pitcher": "Germán Márquez",
+      "home_pitcher_era_l5": null,
+      "away_pitcher_era_l5": 6.26,
+      "model_prob_home": 0.6793,
+      "model_prob_away": 0.3207,
+      "market_prob_home": 0.5529,
+      "market_prob_away": 0.4471,
+      "edge_home": 0.1264,
+      "edge_away": -0.1264,
+      "ev_home": 18.62,
+      "ev_away": -30.73,
+      "matchup_sample_ok_home": false,
+      "matchup_sample_ok_away": false,
+      "home_pitcher_low_sample": true,
+      "away_pitcher_low_sample": false,
+      "matchup_detail": {
+        "home_pitcher_vs_away_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 669364,
+            "batter_name": "Xavier Edwards",
+            "pitcher_id": 608566,
+            "pitcher_name": "Germán Márquez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 672640,
+            "batter_name": "Otto Lopez",
+            "pitcher_id": 608566,
+            "pitcher_name": "Germán Márquez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 805300,
+            "batter_name": "Jakob Marsee",
+            "pitcher_id": 608566,
+            "pitcher_name": "Germán Márquez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 689414,
+            "batter_name": "Liam Hicks",
+            "pitcher_id": 608566,
+            "pitcher_name": "Germán Márquez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 669065,
+            "batter_name": "Kyle Stowers",
+            "pitcher_id": 608566,
+            "pitcher_name": "Germán Márquez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 691594,
+            "batter_name": "Javier Sanoja",
+            "pitcher_id": 608566,
+            "pitcher_name": "Germán Márquez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 681715,
+            "batter_name": "Heriberto Hernández",
+            "pitcher_id": 608566,
+            "pitcher_name": "Germán Márquez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 691788,
+            "batter_name": "Joe Mack",
+            "pitcher_id": 608566,
+            "pitcher_name": "Germán Márquez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 677870,
+            "batter_name": "Leo Jiménez",
+            "pitcher_id": 608566,
+            "pitcher_name": "Germán Márquez"
+          }
+        ],
+        "away_pitcher_vs_home_batters": []
+      }
+    },
+    {
+      "game_id": 824733,
+      "game_date": "2026-07-24T23:15:00Z",
+      "home_team": "Boston Red Sox",
+      "away_team": "Toronto Blue Jays",
+      "home_pitcher": "Patrick Sandoval",
+      "away_pitcher": "Trey Yesavage",
+      "home_pitcher_era_l5": 4.82,
+      "away_pitcher_era_l5": 3.81,
+      "model_prob_home": 0.43,
+      "model_prob_away": 0.57,
+      "market_prob_home": 0.5395,
+      "market_prob_away": 0.4605,
+      "edge_home": -0.1095,
+      "edge_away": 0.1095,
+      "ev_home": -21.46,
+      "ev_away": 21.98,
+      "matchup_sample_ok_home": false,
+      "matchup_sample_ok_away": false,
+      "home_pitcher_low_sample": true,
+      "away_pitcher_low_sample": false,
+      "matchup_detail": {
+        "home_pitcher_vs_away_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 677800,
+            "batter_name": "Wilyer Abreu",
+            "pitcher_id": 702056,
+            "pitcher_name": "Trey Yesavage"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 680776,
+            "batter_name": "Jarren Duran",
+            "pitcher_id": 702056,
+            "pitcher_name": "Trey Yesavage"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 678882,
+            "batter_name": "Ceddanne Rafaela",
+            "pitcher_id": 702056,
+            "pitcher_name": "Trey Yesavage"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 575929,
+            "batter_name": "Willson Contreras",
+            "pitcher_id": 702056,
+            "pitcher_name": "Trey Yesavage"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 702332,
+            "batter_name": "Caleb Durbin",
+            "pitcher_id": 702056,
+            "pitcher_name": "Trey Yesavage"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 807799,
+            "batter_name": "Masataka Yoshida",
+            "pitcher_id": 702056,
+            "pitcher_name": "Trey Yesavage"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 665966,
+            "batter_name": "Carlos Narváez",
+            "pitcher_id": 702056,
+            "pitcher_name": "Trey Yesavage"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 655316,
+            "batter_name": "Andruw Monasterio",
+            "pitcher_id": 702056,
+            "pitcher_name": "Trey Yesavage"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 657136,
+            "batter_name": "Connor Wong",
+            "pitcher_id": 702056,
+            "pitcher_name": "Trey Yesavage"
+          }
+        ],
+        "away_pitcher_vs_home_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 665489,
+            "batter_name": "Vladimir Guerrero Jr.",
+            "pitcher_id": 663776,
+            "pitcher_name": "Patrick Sandoval"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 672960,
+            "batter_name": "Kazuma Okamoto",
+            "pitcher_id": 663776,
+            "pitcher_name": "Patrick Sandoval"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 676391,
+            "batter_name": "Ernie Clement",
+            "pitcher_id": 663776,
+            "pitcher_name": "Patrick Sandoval"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 662139,
+            "batter_name": "Daulton Varsho",
+            "pitcher_id": 663776,
+            "pitcher_name": "Patrick Sandoval"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 665926,
+            "batter_name": "Andrés Giménez",
+            "pitcher_id": 663776,
+            "pitcher_name": "Patrick Sandoval"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 543807,
+            "batter_name": "George Springer",
+            "pitcher_id": 663776,
+            "pitcher_name": "Patrick Sandoval"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 664770,
+            "batter_name": "Nathan Lukes",
+            "pitcher_id": 663776,
+            "pitcher_name": "Patrick Sandoval"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 678218,
+            "batter_name": "Brandon Valenzuela",
+            "pitcher_id": 663776,
+            "pitcher_name": "Patrick Sandoval"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 664702,
+            "batter_name": "Myles Straw",
+            "pitcher_id": 663776,
+            "pitcher_name": "Patrick Sandoval"
+          }
+        ]
+      }
+    },
+    {
+      "game_id": 824573,
+      "game_date": "2026-07-24T23:40:00Z",
+      "home_team": "Chicago White Sox",
+      "away_team": "Houston Astros",
+      "home_pitcher": "Davis Martin",
+      "away_pitcher": "Spencer Arrighetti",
+      "home_pitcher_era_l5": 3.33,
+      "away_pitcher_era_l5": 9.0,
+      "model_prob_home": 0.7041,
+      "model_prob_away": 0.2959,
+      "market_prob_home": 0.5512,
+      "market_prob_away": 0.4488,
+      "edge_home": 0.1529,
+      "edge_away": -0.1529,
+      "ev_home": 24.99,
+      "ev_away": -35.49,
+      "matchup_sample_ok_home": false,
+      "matchup_sample_ok_away": false,
+      "home_pitcher_low_sample": false,
+      "away_pitcher_low_sample": false,
+      "matchup_detail": {
+        "home_pitcher_vs_away_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 678246,
+            "batter_name": "Miguel Vargas",
+            "pitcher_id": 681293,
+            "pitcher_name": "Spencer Arrighetti"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 805367,
+            "batter_name": "Chase Meidroth",
+            "pitcher_id": 681293,
+            "pitcher_name": "Spencer Arrighetti"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 695657,
+            "batter_name": "Colson Montgomery",
+            "pitcher_id": 681293,
+            "pitcher_name": "Spencer Arrighetti"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 803011,
+            "batter_name": "Sam Antonacci",
+            "pitcher_id": 681293,
+            "pitcher_name": "Spencer Arrighetti"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 643217,
+            "batter_name": "Andrew Benintendi",
+            "pitcher_id": 681293,
+            "pitcher_name": "Spencer Arrighetti"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 671976,
+            "batter_name": "Tristan Peters",
+            "pitcher_id": 681293,
+            "pitcher_name": "Spencer Arrighetti"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 808959,
+            "batter_name": "Munetaka Murakami",
+            "pitcher_id": 681293,
+            "pitcher_name": "Spencer Arrighetti"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 700337,
+            "batter_name": "Edgar Quero",
+            "pitcher_id": 681293,
+            "pitcher_name": "Spencer Arrighetti"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 682668,
+            "batter_name": "Luisangel Acuña",
+            "pitcher_id": 681293,
+            "pitcher_name": "Spencer Arrighetti"
+          }
+        ],
+        "away_pitcher_vs_home_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 670541,
+            "batter_name": "Yordan Alvarez",
+            "pitcher_id": 663436,
+            "pitcher_name": "Davis Martin"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 572233,
+            "batter_name": "Christian Walker",
+            "pitcher_id": 663436,
+            "pitcher_name": "Davis Martin"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 670623,
+            "batter_name": "Isaac Paredes",
+            "pitcher_id": 663436,
+            "pitcher_name": "Davis Martin"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 701358,
+            "batter_name": "Cam Smith",
+            "pitcher_id": 663436,
+            "pitcher_name": "Davis Martin"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 514888,
+            "batter_name": "Jose Altuve",
+            "pitcher_id": 663436,
+            "pitcher_name": "Davis Martin"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 665161,
+            "batter_name": "Jeremy Peña",
+            "pitcher_id": 663436,
+            "pitcher_name": "Davis Martin"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 543877,
+            "batter_name": "Christian Vázquez",
+            "pitcher_id": 663436,
+            "pitcher_name": "Davis Martin"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 673237,
+            "batter_name": "Yainer Diaz",
+            "pitcher_id": 663436,
+            "pitcher_name": "Davis Martin"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 666211,
+            "batter_name": "Taylor Trammell",
+            "pitcher_id": 663436,
+            "pitcher_name": "Davis Martin"
+          }
+        ]
+      }
+    },
+    {
+      "game_id": 822872,
+      "game_date": "2026-07-25T00:05:00Z",
+      "home_team": "Texas Rangers",
+      "away_team": "Seattle Mariners",
+      "home_pitcher": "MacKenzie Gore",
+      "away_pitcher": "Bryce Miller",
+      "home_pitcher_era_l5": 7.09,
+      "away_pitcher_era_l5": 3.18,
+      "model_prob_home": 0.3048,
+      "model_prob_away": 0.6952,
+      "market_prob_home": 0.4726,
+      "market_prob_away": 0.5274,
+      "edge_home": -0.1678,
+      "edge_away": 0.1678,
+      "ev_home": -36.91,
+      "ev_away": 28.94,
+      "matchup_sample_ok_home": false,
+      "matchup_sample_ok_away": false,
+      "home_pitcher_low_sample": false,
+      "away_pitcher_low_sample": false,
+      "matchup_detail": {
+        "home_pitcher_vs_away_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 607043,
+            "batter_name": "Brandon Nimmo",
+            "pitcher_id": 682243,
+            "pitcher_name": "Bryce Miller"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 669394,
+            "batter_name": "Jake Burger",
+            "pitcher_id": 682243,
+            "pitcher_name": "Bryce Miller"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 673962,
+            "batter_name": "Josh Jung",
+            "pitcher_id": 682243,
+            "pitcher_name": "Bryce Miller"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 677649,
+            "batter_name": "Ezequiel Duran",
+            "pitcher_id": 682243,
+            "pitcher_name": "Bryce Miller"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 592626,
+            "batter_name": "Joc Pederson",
+            "pitcher_id": 682243,
+            "pitcher_name": "Bryce Miller"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 694497,
+            "batter_name": "Evan Carter",
+            "pitcher_id": 682243,
+            "pitcher_name": "Bryce Miller"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 694671,
+            "batter_name": "Wyatt Langford",
+            "pitcher_id": 682243,
+            "pitcher_name": "Bryce Miller"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 696030,
+            "batter_name": "Alejandro Osuna",
+            "pitcher_id": 682243,
+            "pitcher_name": "Bryce Miller"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 670032,
+            "batter_name": "Nicky Lopez",
+            "pitcher_id": 682243,
+            "pitcher_name": "Bryce Miller"
+          }
+        ],
+        "away_pitcher_vs_home_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 647304,
+            "batter_name": "Josh Naylor",
+            "pitcher_id": 669022,
+            "pitcher_name": "MacKenzie Gore"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 702284,
+            "batter_name": "Cole Young",
+            "pitcher_id": 669022,
+            "pitcher_name": "MacKenzie Gore"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 668227,
+            "batter_name": "Randy Arozarena",
+            "pitcher_id": 669022,
+            "pitcher_name": "MacKenzie Gore"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 677594,
+            "batter_name": "Julio Rodríguez",
+            "pitcher_id": 669022,
+            "pitcher_name": "MacKenzie Gore"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 641487,
+            "batter_name": "J.P. Crawford",
+            "pitcher_id": 669022,
+            "pitcher_name": "MacKenzie Gore"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 663728,
+            "batter_name": "Cal Raleigh",
+            "pitcher_id": 669022,
+            "pitcher_name": "MacKenzie Gore"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 686527,
+            "batter_name": "Dominic Canzone",
+            "pitcher_id": 669022,
+            "pitcher_name": "MacKenzie Gore"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 670042,
+            "batter_name": "Luke Raley",
+            "pitcher_id": 669022,
+            "pitcher_name": "MacKenzie Gore"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 806068,
+            "batter_name": "Colt Emerson",
+            "pitcher_id": 669022,
+            "pitcher_name": "MacKenzie Gore"
+          }
+        ]
+      }
+    },
+    {
+      "game_id": 823680,
+      "game_date": "2026-07-25T00:10:00Z",
+      "home_team": "Minnesota Twins",
+      "away_team": "Athletics",
+      "home_pitcher": "Zebby Matthews",
+      "away_pitcher": "Jacob Lopez",
+      "home_pitcher_era_l5": 6.41,
+      "away_pitcher_era_l5": 8.1,
+      "model_prob_home": 0.5952,
+      "model_prob_away": 0.4048,
+      "market_prob_home": 0.5693,
+      "market_prob_away": 0.4307,
+      "edge_home": 0.0259,
+      "edge_away": -0.0259,
+      "ev_home": 2.65,
+      "ev_away": -7.71,
+      "matchup_sample_ok_home": false,
+      "matchup_sample_ok_away": false,
+      "home_pitcher_low_sample": false,
+      "away_pitcher_low_sample": false,
+      "matchup_detail": {
+        "home_pitcher_vs_away_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 605137,
+            "batter_name": "Josh Bell",
+            "pitcher_id": 682052,
+            "pitcher_name": "Jacob Lopez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 686797,
+            "batter_name": "Brooks Lee",
+            "pitcher_id": 682052,
+            "pitcher_name": "Jacob Lopez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 807712,
+            "batter_name": "Luke Keaschall",
+            "pitcher_id": 682052,
+            "pitcher_name": "Jacob Lopez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 665019,
+            "batter_name": "Kody Clemens",
+            "pitcher_id": 682052,
+            "pitcher_name": "Jacob Lopez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 621439,
+            "batter_name": "Byron Buxton",
+            "pitcher_id": 682052,
+            "pitcher_name": "Jacob Lopez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 663616,
+            "batter_name": "Trevor Larnach",
+            "pitcher_id": 682052,
+            "pitcher_name": "Jacob Lopez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 668885,
+            "batter_name": "Austin Martin",
+            "pitcher_id": 682052,
+            "pitcher_name": "Jacob Lopez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 668904,
+            "batter_name": "Royce Lewis",
+            "pitcher_id": 682052,
+            "pitcher_name": "Jacob Lopez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 605170,
+            "batter_name": "Victor Caratini",
+            "pitcher_id": 682052,
+            "pitcher_name": "Jacob Lopez"
+          }
+        ],
+        "away_pitcher_vs_home_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 669127,
+            "batter_name": "Shea Langeliers",
+            "pitcher_id": 805673,
+            "pitcher_name": "Zebby Matthews"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 691016,
+            "batter_name": "Tyler Soderstrom",
+            "pitcher_id": 805673,
+            "pitcher_name": "Zebby Matthews"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 643446,
+            "batter_name": "Jeff McNeil",
+            "pitcher_id": 805673,
+            "pitcher_name": "Zebby Matthews"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 671732,
+            "batter_name": "Lawrence Butler",
+            "pitcher_id": 805673,
+            "pitcher_name": "Zebby Matthews"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 805779,
+            "batter_name": "Jacob Wilson",
+            "pitcher_id": 805673,
+            "pitcher_name": "Zebby Matthews"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 666126,
+            "batter_name": "Carlos Cortes",
+            "pitcher_id": 805673,
+            "pitcher_name": "Zebby Matthews"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 703607,
+            "batter_name": "Henry Bolte",
+            "pitcher_id": 805673,
+            "pitcher_name": "Zebby Matthews"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 641680,
+            "batter_name": "Jonah Heim",
+            "pitcher_id": 805673,
+            "pitcher_name": "Zebby Matthews"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 691777,
+            "batter_name": "Max Muncy",
+            "pitcher_id": 805673,
+            "pitcher_name": "Zebby Matthews"
+          }
+        ]
+      }
+    },
+    {
+      "game_id": 823031,
+      "game_date": "2026-07-25T00:15:00Z",
+      "home_team": "St. Louis Cardinals",
+      "away_team": "Cincinnati Reds",
+      "home_pitcher": "Dustin May",
+      "away_pitcher": "Rhett Lowder",
+      "home_pitcher_era_l5": 9.92,
+      "away_pitcher_era_l5": 8.37,
+      "model_prob_home": 0.4543,
+      "model_prob_away": 0.5457,
+      "market_prob_home": 0.6012,
+      "market_prob_away": 0.3988,
+      "edge_home": -0.1469,
+      "edge_away": 0.1469,
+      "ev_home": -26.18,
+      "ev_away": 33.7,
+      "matchup_sample_ok_home": false,
+      "matchup_sample_ok_away": false,
+      "home_pitcher_low_sample": false,
+      "away_pitcher_low_sample": false,
+      "matchup_detail": {
+        "home_pitcher_vs_away_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 671056,
+            "batter_name": "Iván Herrera",
+            "pitcher_id": 695076,
+            "pitcher_name": "Rhett Lowder"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 802139,
+            "batter_name": "JJ Wetherholt",
+            "pitcher_id": 695076,
+            "pitcher_name": "Rhett Lowder"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 676475,
+            "batter_name": "Alec Burleson",
+            "pitcher_id": 695076,
+            "pitcher_name": "Rhett Lowder"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 691023,
+            "batter_name": "Jordan Walker",
+            "pitcher_id": 695076,
+            "pitcher_name": "Rhett Lowder"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 691026,
+            "batter_name": "Masyn Winn",
+            "pitcher_id": 695076,
+            "pitcher_name": "Rhett Lowder"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 701675,
+            "batter_name": "Nathan Church",
+            "pitcher_id": 695076,
+            "pitcher_name": "Rhett Lowder"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 665877,
+            "batter_name": "José Fermín",
+            "pitcher_id": 695076,
+            "pitcher_name": "Rhett Lowder"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 686780,
+            "batter_name": "Pedro Pagés",
+            "pitcher_id": 695076,
+            "pitcher_name": "Rhett Lowder"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 663457,
+            "batter_name": "Lars Nootbaar",
+            "pitcher_id": 695076,
+            "pitcher_name": "Rhett Lowder"
+          }
+        ],
+        "away_pitcher_vs_home_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 701398,
+            "batter_name": "Sal Stewart",
+            "pitcher_id": 669160,
+            "pitcher_name": "Dustin May"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 668715,
+            "batter_name": "Spencer Steer",
+            "pitcher_id": 669160,
+            "pitcher_name": "Dustin May"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 682829,
+            "batter_name": "Elly De La Cruz",
+            "pitcher_id": 669160,
+            "pitcher_name": "Dustin May"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 668709,
+            "batter_name": "JJ Bleday",
+            "pitcher_id": 669160,
+            "pitcher_name": "Dustin May"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 553993,
+            "batter_name": "Eugenio Suárez",
+            "pitcher_id": 669160,
+            "pitcher_name": "Dustin May"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 663886,
+            "batter_name": "Tyler Stephenson",
+            "pitcher_id": 669160,
+            "pitcher_name": "Dustin May"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 663993,
+            "batter_name": "Nathaniel Lowe",
+            "pitcher_id": 669160,
+            "pitcher_name": "Dustin May"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 670770,
+            "batter_name": "TJ Friedl",
+            "pitcher_id": 669160,
+            "pitcher_name": "Dustin May"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 667472,
+            "batter_name": "Dane Myers",
+            "pitcher_id": 669160,
+            "pitcher_name": "Dustin May"
+          }
+        ]
+      }
+    },
+    {
+      "game_id": 823196,
+      "game_date": "2026-07-25T02:15:00Z",
+      "home_team": "San Francisco Giants",
+      "away_team": "Los Angeles Angels",
+      "home_pitcher": "Logan Webb",
+      "away_pitcher": "Grayson Rodriguez",
+      "home_pitcher_era_l5": 4.83,
+      "away_pitcher_era_l5": 8.71,
+      "model_prob_home": 0.6858,
+      "model_prob_away": 0.3142,
+      "market_prob_home": 0.6062,
+      "market_prob_away": 0.3938,
+      "edge_home": 0.0796,
+      "edge_away": -0.0796,
+      "ev_home": 10.91,
+      "ev_away": -21.76,
+      "matchup_sample_ok_home": false,
+      "matchup_sample_ok_away": false,
+      "home_pitcher_low_sample": false,
+      "away_pitcher_low_sample": false,
+      "matchup_detail": {
+        "home_pitcher_vs_away_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 646240,
+            "batter_name": "Rafael Devers",
+            "pitcher_id": 680570,
+            "pitcher_name": "Grayson Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 650333,
+            "batter_name": "Luis Arraez",
+            "pitcher_id": 680570,
+            "pitcher_name": "Grayson Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 642715,
+            "batter_name": "Willy Adames",
+            "pitcher_id": 680570,
+            "pitcher_name": "Grayson Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 669477,
+            "batter_name": "Casey Schmitt",
+            "pitcher_id": 680570,
+            "pitcher_name": "Grayson Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 808982,
+            "batter_name": "Jung Hoo Lee",
+            "pitcher_id": 680570,
+            "pitcher_name": "Grayson Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 671218,
+            "batter_name": "Heliot Ramos",
+            "pitcher_id": 680570,
+            "pitcher_name": "Grayson Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 805811,
+            "batter_name": "Bryce Eldridge",
+            "pitcher_id": 680570,
+            "pitcher_name": "Grayson Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 687551,
+            "batter_name": "Drew Gilbert",
+            "pitcher_id": 680570,
+            "pitcher_name": "Grayson Rodriguez"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 691740,
+            "batter_name": "Daniel Susac",
+            "pitcher_id": 680570,
+            "pitcher_name": "Grayson Rodriguez"
+          }
+        ],
+        "away_pitcher_vs_home_batters": [
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 687263,
+            "batter_name": "Zach Neto",
+            "pitcher_id": 657277,
+            "pitcher_name": "Logan Webb"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 666176,
+            "batter_name": "Jo Adell",
+            "pitcher_id": 657277,
+            "pitcher_name": "Logan Webb"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 545361,
+            "batter_name": "Mike Trout",
+            "pitcher_id": 657277,
+            "pitcher_name": "Logan Webb"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 694384,
+            "batter_name": "Nolan Schanuel",
+            "pitcher_id": 657277,
+            "pitcher_name": "Logan Webb"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 624585,
+            "batter_name": "Jorge Soler",
+            "pitcher_id": 657277,
+            "pitcher_name": "Logan Webb"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 672724,
+            "batter_name": "Oswald Peraza",
+            "pitcher_id": 657277,
+            "pitcher_name": "Logan Webb"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 681351,
+            "batter_name": "Logan O'Hoppe",
+            "pitcher_id": 657277,
+            "pitcher_name": "Logan Webb"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 687093,
+            "batter_name": "Vaughn Grissom",
+            "pitcher_id": 657277,
+            "pitcher_name": "Logan Webb"
+          },
+          {
+            "pa": 0,
+            "sample_size_ok": false,
+            "batter_id": 666139,
+            "batter_name": "Josh Lowe",
+            "pitcher_id": 657277,
+            "pitcher_name": "Logan Webb"
           }
         ]
       }
