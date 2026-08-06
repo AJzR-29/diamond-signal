@@ -1,174 +1,54 @@
 {
   "games": [
     {
-      "home_team": "Houston Astros",
-      "away_team": "Toronto Blue Jays",
-      "commence_time": "2026-08-05T18:10:00Z",
-      "odds": {
-        "Houston Astros": {
-          "american": -177,
-          "implied_prob": 0.639
-        },
-        "Toronto Blue Jays": {
-          "american": 169,
-          "implied_prob": 0.3717
-        }
-      }
-    },
-    {
-      "home_team": "Chicago Cubs",
-      "away_team": "Los Angeles Dodgers",
-      "commence_time": "2026-08-05T18:21:00Z",
-      "odds": {
-        "Chicago Cubs": {
-          "american": -120,
-          "implied_prob": 0.5455
-        },
-        "Los Angeles Dodgers": {
-          "american": 115,
-          "implied_prob": 0.4651
-        }
-      }
-    },
-    {
-      "home_team": "Texas Rangers",
-      "away_team": "San Francisco Giants",
-      "commence_time": "2026-08-05T18:36:00Z",
-      "odds": {
-        "San Francisco Giants": {
-          "american": 159,
-          "implied_prob": 0.3861
-        },
-        "Texas Rangers": {
-          "american": -166,
-          "implied_prob": 0.6241
-        }
-      }
-    },
-    {
-      "home_team": "Colorado Rockies",
-      "away_team": "Tampa Bay Rays",
-      "commence_time": "2026-08-05T19:11:00Z",
-      "odds": {
-        "Colorado Rockies": {
-          "american": 147,
-          "implied_prob": 0.4049
-        },
-        "Tampa Bay Rays": {
-          "american": -154,
-          "implied_prob": 0.6063
-        }
-      }
-    },
-    {
       "home_team": "Baltimore Orioles",
       "away_team": "Los Angeles Angels",
-      "commence_time": "2026-08-05T22:36:00Z",
+      "commence_time": "2026-08-06T16:36:00Z",
       "odds": {
         "Baltimore Orioles": {
-          "american": -118,
-          "implied_prob": 0.5413
+          "american": -183,
+          "implied_prob": 0.6466
         },
         "Los Angeles Angels": {
-          "american": 115,
-          "implied_prob": 0.4651
+          "american": 172,
+          "implied_prob": 0.3676
         }
       }
     },
     {
       "home_team": "Cincinnati Reds",
       "away_team": "Athletics",
-      "commence_time": "2026-08-05T22:40:00Z",
+      "commence_time": "2026-08-06T16:40:00Z",
       "odds": {
         "Athletics": {
-          "american": 137,
-          "implied_prob": 0.4219
+          "american": 150,
+          "implied_prob": 0.4
         },
         "Cincinnati Reds": {
-          "american": -140,
-          "implied_prob": 0.5833
+          "american": -158,
+          "implied_prob": 0.6124
         }
       }
     },
     {
       "home_team": "Cleveland Guardians",
       "away_team": "New York Mets",
-      "commence_time": "2026-08-05T22:40:00Z",
+      "commence_time": "2026-08-06T17:11:00Z",
       "odds": {
         "Cleveland Guardians": {
-          "american": -103,
-          "implied_prob": 0.5074
+          "american": -112,
+          "implied_prob": 0.5283
         },
         "New York Mets": {
-          "american": -102,
-          "implied_prob": 0.505
-        }
-      }
-    },
-    {
-      "home_team": "Philadelphia Phillies",
-      "away_team": "Washington Nationals",
-      "commence_time": "2026-08-05T22:41:00Z",
-      "odds": {
-        "Philadelphia Phillies": {
-          "american": -175,
-          "implied_prob": 0.6364
-        },
-        "Washington Nationals": {
-          "american": 174,
-          "implied_prob": 0.365
-        }
-      }
-    },
-    {
-      "home_team": "New York Yankees",
-      "away_team": "St. Louis Cardinals",
-      "commence_time": "2026-08-05T23:06:00Z",
-      "odds": {
-        "New York Yankees": {
-          "american": -150,
-          "implied_prob": 0.6
-        },
-        "St. Louis Cardinals": {
-          "american": 143,
-          "implied_prob": 0.4115
-        }
-      }
-    },
-    {
-      "home_team": "Boston Red Sox",
-      "away_team": "Chicago White Sox",
-      "commence_time": "2026-08-05T23:11:00Z",
-      "odds": {
-        "Boston Red Sox": {
-          "american": -125,
-          "implied_prob": 0.5556
-        },
-        "Chicago White Sox": {
-          "american": 120,
-          "implied_prob": 0.4545
-        }
-      }
-    },
-    {
-      "home_team": "Atlanta Braves",
-      "away_team": "Miami Marlins",
-      "commence_time": "2026-08-05T23:16:00Z",
-      "odds": {
-        "Atlanta Braves": {
-          "american": -123,
-          "implied_prob": 0.5516
-        },
-        "Miami Marlins": {
-          "american": 116,
-          "implied_prob": 0.463
+          "american": 107,
+          "implied_prob": 0.4831
         }
       }
     },
     {
       "home_team": "Milwaukee Brewers",
       "away_team": "Pittsburgh Pirates",
-      "commence_time": "2026-08-05T23:40:00Z",
+      "commence_time": "2026-08-06T18:11:00Z",
       "odds": {
         "Milwaukee Brewers": {
           "american": -124,
@@ -181,47 +61,107 @@
       }
     },
     {
-      "home_team": "Kansas City Royals",
-      "away_team": "Minnesota Twins",
-      "commence_time": "2026-08-05T23:41:00Z",
+      "home_team": "Chicago Cubs",
+      "away_team": "Toronto Blue Jays",
+      "commence_time": "2026-08-06T18:21:00Z",
       "odds": {
-        "Kansas City Royals": {
-          "american": -114,
-          "implied_prob": 0.5327
+        "Chicago Cubs": {
+          "american": 106,
+          "implied_prob": 0.4854
         },
-        "Minnesota Twins": {
-          "american": 110,
-          "implied_prob": 0.4762
-        }
-      }
-    },
-    {
-      "home_team": "Arizona Diamondbacks",
-      "away_team": "San Diego Padres",
-      "commence_time": "2026-08-06T01:41:00Z",
-      "odds": {
-        "Arizona Diamondbacks": {
-          "american": 114,
-          "implied_prob": 0.4673
-        },
-        "San Diego Padres": {
-          "american": -118,
-          "implied_prob": 0.5413
+        "Toronto Blue Jays": {
+          "american": -112,
+          "implied_prob": 0.5283
         }
       }
     },
     {
       "home_team": "Seattle Mariners",
       "away_team": "Detroit Tigers",
-      "commence_time": "2026-08-06T01:41:00Z",
+      "commence_time": "2026-08-06T20:11:00Z",
       "odds": {
         "Detroit Tigers": {
-          "american": 135,
-          "implied_prob": 0.4255
+          "american": 116,
+          "implied_prob": 0.463
         },
         "Seattle Mariners": {
-          "american": -147,
-          "implied_prob": 0.5951
+          "american": -121,
+          "implied_prob": 0.5475
+        }
+      }
+    },
+    {
+      "home_team": "Philadelphia Phillies",
+      "away_team": "Washington Nationals",
+      "commence_time": "2026-08-06T22:06:00Z",
+      "odds": {
+        "Philadelphia Phillies": {
+          "american": -314,
+          "implied_prob": 0.7585
+        },
+        "Washington Nationals": {
+          "american": 300,
+          "implied_prob": 0.25
+        }
+      }
+    },
+    {
+      "home_team": "Boston Red Sox",
+      "away_team": "Chicago White Sox",
+      "commence_time": "2026-08-06T23:11:00Z",
+      "odds": {
+        "Boston Red Sox": {
+          "american": -177,
+          "implied_prob": 0.639
+        },
+        "Chicago White Sox": {
+          "american": 166,
+          "implied_prob": 0.3759
+        }
+      }
+    },
+    {
+      "home_team": "Atlanta Braves",
+      "away_team": "Miami Marlins",
+      "commence_time": "2026-08-06T23:16:00Z",
+      "odds": {
+        "Atlanta Braves": {
+          "american": -138,
+          "implied_prob": 0.5798
+        },
+        "Miami Marlins": {
+          "american": 143,
+          "implied_prob": 0.4115
+        }
+      }
+    },
+    {
+      "home_team": "Kansas City Royals",
+      "away_team": "Minnesota Twins",
+      "commence_time": "2026-08-06T23:41:00Z",
+      "odds": {
+        "Kansas City Royals": {
+          "american": -119,
+          "implied_prob": 0.5434
+        },
+        "Minnesota Twins": {
+          "american": 111,
+          "implied_prob": 0.4739
+        }
+      }
+    },
+    {
+      "home_team": "Arizona Diamondbacks",
+      "away_team": "San Diego Padres",
+      "commence_time": "2026-08-07T01:41:00Z",
+      "odds": {
+        "Arizona Diamondbacks": {
+          "american": 102,
+          "implied_prob": 0.495
+        },
+        "San Diego Padres": {
+          "american": -105,
+          "implied_prob": 0.5122
         }
       }
     }
