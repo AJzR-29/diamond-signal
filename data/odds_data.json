@@ -1,62 +1,62 @@
 {
   "games": [
     {
-      "home_team": "Cleveland Guardians",
-      "away_team": "Chicago White Sox",
-      "commence_time": "2026-10-03T17:01:00Z",
+      "home_team": "Milwaukee Brewers",
+      "away_team": "San Diego Padres",
+      "commence_time": "2026-10-04T20:00:00Z",
       "odds": {
-        "Chicago White Sox": {
-          "american": 128,
-          "implied_prob": 0.4386
+        "Milwaukee Brewers": {
+          "american": -130,
+          "implied_prob": 0.5652
         },
-        "Cleveland Guardians": {
-          "american": -139,
-          "implied_prob": 0.5816
+        "San Diego Padres": {
+          "american": 118,
+          "implied_prob": 0.4587
         }
       }
     },
     {
       "home_team": "Los Angeles Dodgers",
       "away_team": "Atlanta Braves",
-      "commence_time": "2026-10-03T20:00:00Z",
+      "commence_time": "2026-10-05T00:00:00Z",
       "odds": {
         "Atlanta Braves": {
-          "american": 190,
-          "implied_prob": 0.3448
+          "american": 136,
+          "implied_prob": 0.4237
         },
         "Los Angeles Dodgers": {
-          "american": -212,
-          "implied_prob": 0.6795
+          "american": -150,
+          "implied_prob": 0.6
+        }
+      }
+    },
+    {
+      "home_team": "Cleveland Guardians",
+      "away_team": "Chicago White Sox",
+      "commence_time": "2026-10-05T21:10:00Z",
+      "odds": {
+        "Chicago White Sox": {
+          "american": 136,
+          "implied_prob": 0.4237
+        },
+        "Cleveland Guardians": {
+          "american": -148,
+          "implied_prob": 0.5968
         }
       }
     },
     {
       "home_team": "Tampa Bay Rays",
       "away_team": "New York Yankees",
-      "commence_time": "2026-10-03T22:31:00Z",
+      "commence_time": "2026-10-06T00:00:00Z",
       "odds": {
         "New York Yankees": {
-          "american": 116,
-          "implied_prob": 0.463
+          "american": -125,
+          "implied_prob": 0.5556
         },
         "Tampa Bay Rays": {
-          "american": -127,
-          "implied_prob": 0.5595
-        }
-      }
-    },
-    {
-      "home_team": "Milwaukee Brewers",
-      "away_team": "San Diego Padres",
-      "commence_time": "2026-10-04T00:30:00Z",
-      "odds": {
-        "Milwaukee Brewers": {
-          "american": -198,
-          "implied_prob": 0.6644
-        },
-        "San Diego Padres": {
-          "american": 193,
-          "implied_prob": 0.3413
+          "american": 118,
+          "implied_prob": 0.4587
         }
       }
     }
