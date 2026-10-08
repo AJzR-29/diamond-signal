@@ -3,60 +3,30 @@
     {
       "home_team": "Chicago White Sox",
       "away_team": "Cleveland Guardians",
-      "commence_time": "2026-10-07T20:00:00Z",
+      "commence_time": "2026-10-09T00:00:00Z",
       "odds": {
         "Chicago White Sox": {
-          "american": -121,
-          "implied_prob": 0.5475
+          "american": 104,
+          "implied_prob": 0.4902
         },
         "Cleveland Guardians": {
-          "american": 110,
-          "implied_prob": 0.4762
+          "american": -110,
+          "implied_prob": 0.5238
         }
       }
     },
     {
-      "home_team": "Atlanta Braves",
+      "home_team": "Milwaukee Brewers",
       "away_team": "Los Angeles Dodgers",
-      "commence_time": "2026-10-07T22:10:00Z",
+      "commence_time": "2026-10-12T00:00:00Z",
       "odds": {
-        "Atlanta Braves": {
-          "american": 132,
-          "implied_prob": 0.431
-        },
         "Los Angeles Dodgers": {
-          "american": -146,
-          "implied_prob": 0.5935
-        }
-      }
-    },
-    {
-      "home_team": "New York Yankees",
-      "away_team": "Tampa Bay Rays",
-      "commence_time": "2026-10-08T00:08:00Z",
-      "odds": {
-        "New York Yankees": {
-          "american": -162,
-          "implied_prob": 0.6183
+          "american": 102,
+          "implied_prob": 0.495
         },
-        "Tampa Bay Rays": {
-          "american": 149,
-          "implied_prob": 0.4016
-        }
-      }
-    },
-    {
-      "home_team": "San Diego Padres",
-      "away_team": "Milwaukee Brewers",
-      "commence_time": "2026-10-08T02:00:00Z",
-      "odds": {
         "Milwaukee Brewers": {
-          "american": 100,
-          "implied_prob": 0.5
-        },
-        "San Diego Padres": {
-          "american": -108,
-          "implied_prob": 0.5192
+          "american": -110,
+          "implied_prob": 0.5238
         }
       }
     }
