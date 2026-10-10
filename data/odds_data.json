@@ -6,12 +6,12 @@
       "commence_time": "2026-10-11T00:01:00Z",
       "odds": {
         "Chicago White Sox": {
-          "american": 121,
-          "implied_prob": 0.4525
+          "american": 123,
+          "implied_prob": 0.4484
         },
         "Cleveland Guardians": {
-          "american": -131,
-          "implied_prob": 0.5671
+          "american": -135,
+          "implied_prob": 0.5745
         }
       }
     },
@@ -25,8 +25,8 @@
           "implied_prob": 0.5025
         },
         "Milwaukee Brewers": {
-          "american": -107,
-          "implied_prob": 0.5169
+          "american": -108,
+          "implied_prob": 0.5192
         }
       }
     }
