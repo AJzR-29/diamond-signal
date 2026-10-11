@@ -1,32 +1,32 @@
 {
   "games": [
     {
-      "home_team": "Cleveland Guardians",
-      "away_team": "Chicago White Sox",
-      "commence_time": "2026-10-11T00:01:00Z",
-      "odds": {
-        "Chicago White Sox": {
-          "american": 123,
-          "implied_prob": 0.4484
-        },
-        "Cleveland Guardians": {
-          "american": -135,
-          "implied_prob": 0.5745
-        }
-      }
-    },
-    {
       "home_team": "Milwaukee Brewers",
       "away_team": "Los Angeles Dodgers",
       "commence_time": "2026-10-12T00:00:00Z",
       "odds": {
         "Los Angeles Dodgers": {
-          "american": -101,
-          "implied_prob": 0.5025
+          "american": -103,
+          "implied_prob": 0.5074
         },
         "Milwaukee Brewers": {
-          "american": -108,
-          "implied_prob": 0.5192
+          "american": -107,
+          "implied_prob": 0.5169
+        }
+      }
+    },
+    {
+      "home_team": "Tampa Bay Rays",
+      "away_team": "Cleveland Guardians",
+      "commence_time": "2026-10-13T00:00:00Z",
+      "odds": {
+        "Cleveland Guardians": {
+          "american": 152,
+          "implied_prob": 0.3968
+        },
+        "Tampa Bay Rays": {
+          "american": -165,
+          "implied_prob": 0.6226
         }
       }
     }
