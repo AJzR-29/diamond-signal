@@ -1,32 +1,32 @@
 {
   "games": [
     {
-      "home_team": "Tampa Bay Rays",
-      "away_team": "Cleveland Guardians",
-      "commence_time": "2026-10-14T00:00:00Z",
-      "odds": {
-        "Cleveland Guardians": {
-          "american": 118,
-          "implied_prob": 0.4587
-        },
-        "Tampa Bay Rays": {
-          "american": -130,
-          "implied_prob": 0.5652
-        }
-      }
-    },
-    {
       "home_team": "Los Angeles Dodgers",
       "away_team": "Milwaukee Brewers",
       "commence_time": "2026-10-15T00:00:00Z",
       "odds": {
         "Los Angeles Dodgers": {
-          "american": -170,
-          "implied_prob": 0.6296
+          "american": -167,
+          "implied_prob": 0.6255
         },
         "Milwaukee Brewers": {
-          "american": 154,
-          "implied_prob": 0.3937
+          "american": 151,
+          "implied_prob": 0.3984
+        }
+      }
+    },
+    {
+      "home_team": "Cleveland Guardians",
+      "away_team": "Tampa Bay Rays",
+      "commence_time": "2026-10-15T22:00:00Z",
+      "odds": {
+        "Cleveland Guardians": {
+          "american": -126,
+          "implied_prob": 0.5575
+        },
+        "Tampa Bay Rays": {
+          "american": 117,
+          "implied_prob": 0.4608
         }
       }
     }
