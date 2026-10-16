@@ -1,222 +1,148 @@
 {
-  "849818": [
+  "849817": [
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 691406,
       "batter_name": "Junior Caminero",
-      "pitcher_id": 668909,
-      "pitcher_name": "Gavin Williams"
+      "pitcher_id": 542888,
+      "pitcher_name": "Shawn Armstrong"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 650490,
       "batter_name": "Yandy Díaz",
-      "pitcher_id": 668909,
-      "pitcher_name": "Gavin Williams"
+      "pitcher_id": 542888,
+      "pitcher_name": "Shawn Armstrong"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 666018,
       "batter_name": "Jonathan Aranda",
-      "pitcher_id": 668909,
-      "pitcher_name": "Gavin Williams"
+      "pitcher_id": 542888,
+      "pitcher_name": "Shawn Armstrong"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 802415,
       "batter_name": "Chandler Simpson",
-      "pitcher_id": 668909,
-      "pitcher_name": "Gavin Williams"
+      "pitcher_id": 542888,
+      "pitcher_name": "Shawn Armstrong"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 689414,
       "batter_name": "Liam Hicks",
-      "pitcher_id": 668909,
-      "pitcher_name": "Gavin Williams"
+      "pitcher_id": 542888,
+      "pitcher_name": "Shawn Armstrong"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 656775,
       "batter_name": "Cedric Mullins",
-      "pitcher_id": 668909,
-      "pitcher_name": "Gavin Williams"
+      "pitcher_id": 542888,
+      "pitcher_name": "Shawn Armstrong"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 670764,
       "batter_name": "Taylor Walls",
-      "pitcher_id": 668909,
-      "pitcher_name": "Gavin Williams"
+      "pitcher_id": 542888,
+      "pitcher_name": "Shawn Armstrong"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 680700,
       "batter_name": "Richie Palacios",
-      "pitcher_id": 668909,
-      "pitcher_name": "Gavin Williams"
+      "pitcher_id": 542888,
+      "pitcher_name": "Shawn Armstrong"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 676356,
       "batter_name": "Jonny DeLuca",
-      "pitcher_id": 668909,
-      "pitcher_name": "Gavin Williams"
+      "pitcher_id": 542888,
+      "pitcher_name": "Shawn Armstrong"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 666176,
       "batter_name": "Jo Adell",
-      "pitcher_id": 643377,
-      "pitcher_name": "Griffin Jax"
+      "pitcher_id": 607259,
+      "pitcher_name": "Nick Martinez"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 680757,
       "batter_name": "Steven Kwan",
-      "pitcher_id": 643377,
-      "pitcher_name": "Griffin Jax"
+      "pitcher_id": 607259,
+      "pitcher_name": "Nick Martinez"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 677587,
       "batter_name": "Brayan Rocchio",
-      "pitcher_id": 643377,
-      "pitcher_name": "Griffin Jax"
+      "pitcher_id": 607259,
+      "pitcher_name": "Nick Martinez"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 800050,
       "batter_name": "Chase DeLauter",
-      "pitcher_id": 643377,
-      "pitcher_name": "Griffin Jax"
+      "pitcher_id": 607259,
+      "pitcher_name": "Nick Martinez"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 608070,
       "batter_name": "José Ramírez",
-      "pitcher_id": 643377,
-      "pitcher_name": "Griffin Jax"
+      "pitcher_id": 607259,
+      "pitcher_name": "Nick Martinez"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 683953,
       "batter_name": "Travis Bazzana",
-      "pitcher_id": 643377,
-      "pitcher_name": "Griffin Jax"
+      "pitcher_id": 607259,
+      "pitcher_name": "Nick Martinez"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 663993,
       "batter_name": "Nathaniel Lowe",
-      "pitcher_id": 643377,
-      "pitcher_name": "Griffin Jax"
+      "pitcher_id": 607259,
+      "pitcher_name": "Nick Martinez"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 682657,
       "batter_name": "Angel Martínez",
-      "pitcher_id": 643377,
-      "pitcher_name": "Griffin Jax"
+      "pitcher_id": 607259,
+      "pitcher_name": "Nick Martinez"
     },
     {
       "pa": 0,
       "sample_size_ok": false,
       "batter_id": 672275,
       "batter_name": "Patrick Bailey",
-      "pitcher_id": 643377,
-      "pitcher_name": "Griffin Jax"
-    }
-  ],
-  "849810": [
-    {
-      "pa": 0,
-      "sample_size_ok": false,
-      "batter_id": 668930,
-      "batter_name": "Brice Turang",
-      "pitcher_id": 607192,
-      "pitcher_name": "Tyler Glasnow"
-    },
-    {
-      "pa": 0,
-      "sample_size_ok": false,
-      "batter_id": 661388,
-      "batter_name": "William Contreras",
-      "pitcher_id": 607192,
-      "pitcher_name": "Tyler Glasnow"
-    },
-    {
-      "pa": 0,
-      "sample_size_ok": false,
-      "batter_id": 641343,
-      "batter_name": "Jake Bauers",
-      "pitcher_id": 607192,
-      "pitcher_name": "Tyler Glasnow"
-    },
-    {
-      "pa": 0,
-      "sample_size_ok": false,
-      "batter_id": 694192,
-      "batter_name": "Jackson Chourio",
-      "pitcher_id": 607192,
-      "pitcher_name": "Tyler Glasnow"
-    },
-    {
-      "pa": 0,
-      "sample_size_ok": false,
-      "batter_id": 669003,
-      "batter_name": "Garrett Mitchell",
-      "pitcher_id": 607192,
-      "pitcher_name": "Tyler Glasnow"
-    },
-    {
-      "pa": 0,
-      "sample_size_ok": false,
-      "batter_id": 592885,
-      "batter_name": "Christian Yelich",
-      "pitcher_id": 607192,
-      "pitcher_name": "Tyler Glasnow"
-    },
-    {
-      "pa": 0,
-      "sample_size_ok": false,
-      "batter_id": 687401,
-      "batter_name": "Joey Ortiz",
-      "pitcher_id": 607192,
-      "pitcher_name": "Tyler Glasnow"
-    },
-    {
-      "pa": 0,
-      "sample_size_ok": false,
-      "batter_id": 666152,
-      "batter_name": "David Hamilton",
-      "pitcher_id": 607192,
-      "pitcher_name": "Tyler Glasnow"
-    },
-    {
-      "pa": 0,
-      "sample_size_ok": false,
-      "batter_id": 686217,
-      "batter_name": "Sal Frelick",
-      "pitcher_id": 607192,
-      "pitcher_name": "Tyler Glasnow"
+      "pitcher_id": 607259,
+      "pitcher_name": "Nick Martinez"
     }
   ]
 }
