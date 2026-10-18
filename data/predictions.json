@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-17T14:01:58.534542Z",
-  "date": "2026-10-17",
+  "generated_at": "2026-10-18T14:14:40.640841Z",
+  "date": "2026-10-18",
   "games": [
     {
-      "game_id": 849816,
-      "game_date": "2026-10-18T00:08:00Z",
+      "game_id": 849817,
+      "game_date": "2026-10-18T21:08:00Z",
       "home_team": "Cleveland Guardians",
       "away_team": "Tampa Bay Rays",
-      "home_pitcher": "Shawn Armstrong",
-      "away_pitcher": "Nick Martinez",
-      "home_pitcher_era_l5": null,
-      "away_pitcher_era_l5": 3.76,
-      "model_prob_home": 0.4518,
-      "model_prob_away": 0.5482,
-      "market_prob_home": 0.4931,
-      "market_prob_away": 0.5069,
-      "edge_home": -0.0413,
-      "edge_away": 0.0413,
-      "ev_home": -10.53,
-      "ev_away": 5.58,
+      "home_pitcher": "Parker Messick",
+      "away_pitcher": "Drew Rasmussen",
+      "home_pitcher_era_l5": 3.2,
+      "away_pitcher_era_l5": 1.42,
+      "model_prob_home": 0.4165,
+      "model_prob_away": 0.5835,
+      "market_prob_home": 0.4516,
+      "market_prob_away": 0.5484,
+      "edge_home": -0.0351,
+      "edge_away": 0.0351,
+      "ev_home": -9.62,
+      "ev_away": 4.29,
       "matchup_sample_ok_home": false,
       "matchup_sample_ok_away": false,
-      "home_pitcher_low_sample": true,
+      "home_pitcher_low_sample": false,
       "away_pitcher_low_sample": false,
       "matchup_detail": {
         "home_pitcher_vs_away_batters": [
@@ -30,72 +30,72 @@
             "sample_size_ok": false,
             "batter_id": 666176,
             "batter_name": "Jo Adell",
-            "pitcher_id": 607259,
-            "pitcher_name": "Nick Martinez"
+            "pitcher_id": 656876,
+            "pitcher_name": "Drew Rasmussen"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 680757,
             "batter_name": "Steven Kwan",
-            "pitcher_id": 607259,
-            "pitcher_name": "Nick Martinez"
+            "pitcher_id": 656876,
+            "pitcher_name": "Drew Rasmussen"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 677587,
             "batter_name": "Brayan Rocchio",
-            "pitcher_id": 607259,
-            "pitcher_name": "Nick Martinez"
+            "pitcher_id": 656876,
+            "pitcher_name": "Drew Rasmussen"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 800050,
             "batter_name": "Chase DeLauter",
-            "pitcher_id": 607259,
-            "pitcher_name": "Nick Martinez"
+            "pitcher_id": 656876,
+            "pitcher_name": "Drew Rasmussen"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 608070,
             "batter_name": "José Ramírez",
-            "pitcher_id": 607259,
-            "pitcher_name": "Nick Martinez"
+            "pitcher_id": 656876,
+            "pitcher_name": "Drew Rasmussen"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 683953,
             "batter_name": "Travis Bazzana",
-            "pitcher_id": 607259,
-            "pitcher_name": "Nick Martinez"
+            "pitcher_id": 656876,
+            "pitcher_name": "Drew Rasmussen"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 663993,
             "batter_name": "Nathaniel Lowe",
-            "pitcher_id": 607259,
-            "pitcher_name": "Nick Martinez"
+            "pitcher_id": 656876,
+            "pitcher_name": "Drew Rasmussen"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 682657,
             "batter_name": "Angel Martínez",
-            "pitcher_id": 607259,
-            "pitcher_name": "Nick Martinez"
+            "pitcher_id": 656876,
+            "pitcher_name": "Drew Rasmussen"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 672275,
             "batter_name": "Patrick Bailey",
-            "pitcher_id": 607259,
-            "pitcher_name": "Nick Martinez"
+            "pitcher_id": 656876,
+            "pitcher_name": "Drew Rasmussen"
           }
         ],
         "away_pitcher_vs_home_batters": [
@@ -104,72 +104,72 @@
             "sample_size_ok": false,
             "batter_id": 691406,
             "batter_name": "Junior Caminero",
-            "pitcher_id": 542888,
-            "pitcher_name": "Shawn Armstrong"
+            "pitcher_id": 800048,
+            "pitcher_name": "Parker Messick"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 650490,
             "batter_name": "Yandy Díaz",
-            "pitcher_id": 542888,
-            "pitcher_name": "Shawn Armstrong"
+            "pitcher_id": 800048,
+            "pitcher_name": "Parker Messick"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 666018,
             "batter_name": "Jonathan Aranda",
-            "pitcher_id": 542888,
-            "pitcher_name": "Shawn Armstrong"
+            "pitcher_id": 800048,
+            "pitcher_name": "Parker Messick"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 802415,
             "batter_name": "Chandler Simpson",
-            "pitcher_id": 542888,
-            "pitcher_name": "Shawn Armstrong"
+            "pitcher_id": 800048,
+            "pitcher_name": "Parker Messick"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 689414,
             "batter_name": "Liam Hicks",
-            "pitcher_id": 542888,
-            "pitcher_name": "Shawn Armstrong"
+            "pitcher_id": 800048,
+            "pitcher_name": "Parker Messick"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 656775,
             "batter_name": "Cedric Mullins",
-            "pitcher_id": 542888,
-            "pitcher_name": "Shawn Armstrong"
+            "pitcher_id": 800048,
+            "pitcher_name": "Parker Messick"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 670764,
             "batter_name": "Taylor Walls",
-            "pitcher_id": 542888,
-            "pitcher_name": "Shawn Armstrong"
+            "pitcher_id": 800048,
+            "pitcher_name": "Parker Messick"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 680700,
             "batter_name": "Richie Palacios",
-            "pitcher_id": 542888,
-            "pitcher_name": "Shawn Armstrong"
+            "pitcher_id": 800048,
+            "pitcher_name": "Parker Messick"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 676356,
             "batter_name": "Jonny DeLuca",
-            "pitcher_id": 542888,
-            "pitcher_name": "Shawn Armstrong"
+            "pitcher_id": 800048,
+            "pitcher_name": "Parker Messick"
           }
         ]
       }
