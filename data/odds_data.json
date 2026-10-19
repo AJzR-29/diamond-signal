@@ -1,17 +1,17 @@
 {
   "games": [
     {
-      "home_team": "Cleveland Guardians",
-      "away_team": "Tampa Bay Rays",
-      "commence_time": "2026-10-18T21:10:00Z",
+      "home_team": "Tampa Bay Rays",
+      "away_team": "Cleveland Guardians",
+      "commence_time": "2026-10-20T00:10:00Z",
       "odds": {
         "Cleveland Guardians": {
-          "american": 117,
-          "implied_prob": 0.4608
+          "american": 136,
+          "implied_prob": 0.4237
         },
         "Tampa Bay Rays": {
-          "american": -127,
-          "implied_prob": 0.5595
+          "american": -148,
+          "implied_prob": 0.5968
         }
       }
     }
