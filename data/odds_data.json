@@ -6,12 +6,12 @@
       "commence_time": "2026-10-24T00:00:00Z",
       "odds": {
         "Milwaukee Brewers": {
-          "american": -151,
-          "implied_prob": 0.6016
+          "american": -155,
+          "implied_prob": 0.6078
         },
         "Tampa Bay Rays": {
-          "american": 138,
-          "implied_prob": 0.4202
+          "american": 148,
+          "implied_prob": 0.4032
         }
       }
     }
