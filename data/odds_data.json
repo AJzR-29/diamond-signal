@@ -1,17 +1,17 @@
 {
   "games": [
     {
-      "home_team": "Milwaukee Brewers",
-      "away_team": "Tampa Bay Rays",
-      "commence_time": "2026-10-25T00:00:00Z",
+      "home_team": "Tampa Bay Rays",
+      "away_team": "Milwaukee Brewers",
+      "commence_time": "2026-10-27T00:10:00Z",
       "odds": {
         "Milwaukee Brewers": {
-          "american": -120,
-          "implied_prob": 0.5455
+          "american": 103,
+          "implied_prob": 0.4926
         },
         "Tampa Bay Rays": {
-          "american": 112,
-          "implied_prob": 0.4717
+          "american": -113,
+          "implied_prob": 0.5305
         }
       }
     }
