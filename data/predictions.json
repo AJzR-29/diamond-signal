@@ -1,175 +1,102 @@
 {
-  "generated_at": "2026-10-26T17:06:31.133850Z",
-  "date": "2026-10-26",
+  "generated_at": "2026-10-27T16:08:32.031724Z",
+  "date": "2026-10-27",
   "games": [
     {
-      "game_id": 849804,
-      "game_date": "2026-10-27T00:00:00Z",
+      "game_id": 849803,
+      "game_date": "2026-10-28T00:00:00Z",
       "home_team": "Tampa Bay Rays",
       "away_team": "Milwaukee Brewers",
-      "home_pitcher": "Freddy Peralta",
-      "away_pitcher": "Robert Gasser",
-      "home_pitcher_era_l5": 0.96,
-      "away_pitcher_era_l5": 1.67,
-      "model_prob_home": 0.4992,
-      "model_prob_away": 0.5008,
-      "market_prob_home": 0.5153,
-      "market_prob_away": 0.4847,
-      "edge_home": -0.0161,
-      "edge_away": 0.0161,
-      "ev_home": -4.7,
-      "ev_away": 1.66,
+      "home_pitcher": "Griffin Jax",
+      "away_pitcher": null,
+      "home_pitcher_era_l5": 3.05,
+      "away_pitcher_era_l5": null,
+      "model_prob_home": 0.5434,
+      "model_prob_away": 0.4566,
+      "market_prob_home": 0.4726,
+      "market_prob_away": 0.5274,
+      "edge_home": 0.0708,
+      "edge_away": -0.0708,
+      "ev_home": 12.48,
+      "ev_away": -15.31,
       "matchup_sample_ok_home": false,
       "matchup_sample_ok_away": false,
       "home_pitcher_low_sample": false,
-      "away_pitcher_low_sample": false,
+      "away_pitcher_low_sample": true,
       "matchup_detail": {
-        "home_pitcher_vs_away_batters": [
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 691406,
-            "batter_name": "Junior Caminero",
-            "pitcher_id": 688107,
-            "pitcher_name": "Robert Gasser"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 650490,
-            "batter_name": "Yandy Díaz",
-            "pitcher_id": 688107,
-            "pitcher_name": "Robert Gasser"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 666018,
-            "batter_name": "Jonathan Aranda",
-            "pitcher_id": 688107,
-            "pitcher_name": "Robert Gasser"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 802415,
-            "batter_name": "Chandler Simpson",
-            "pitcher_id": 688107,
-            "pitcher_name": "Robert Gasser"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 689414,
-            "batter_name": "Liam Hicks",
-            "pitcher_id": 688107,
-            "pitcher_name": "Robert Gasser"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 656775,
-            "batter_name": "Cedric Mullins",
-            "pitcher_id": 688107,
-            "pitcher_name": "Robert Gasser"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 670764,
-            "batter_name": "Taylor Walls",
-            "pitcher_id": 688107,
-            "pitcher_name": "Robert Gasser"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 680700,
-            "batter_name": "Richie Palacios",
-            "pitcher_id": 688107,
-            "pitcher_name": "Robert Gasser"
-          },
-          {
-            "pa": 0,
-            "sample_size_ok": false,
-            "batter_id": 676356,
-            "batter_name": "Jonny DeLuca",
-            "pitcher_id": 688107,
-            "pitcher_name": "Robert Gasser"
-          }
-        ],
+        "home_pitcher_vs_away_batters": [],
         "away_pitcher_vs_home_batters": [
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 668930,
             "batter_name": "Brice Turang",
-            "pitcher_id": 642547,
-            "pitcher_name": "Freddy Peralta"
+            "pitcher_id": 643377,
+            "pitcher_name": "Griffin Jax"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 661388,
             "batter_name": "William Contreras",
-            "pitcher_id": 642547,
-            "pitcher_name": "Freddy Peralta"
+            "pitcher_id": 643377,
+            "pitcher_name": "Griffin Jax"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 641343,
             "batter_name": "Jake Bauers",
-            "pitcher_id": 642547,
-            "pitcher_name": "Freddy Peralta"
+            "pitcher_id": 643377,
+            "pitcher_name": "Griffin Jax"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 694192,
             "batter_name": "Jackson Chourio",
-            "pitcher_id": 642547,
-            "pitcher_name": "Freddy Peralta"
+            "pitcher_id": 643377,
+            "pitcher_name": "Griffin Jax"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 669003,
             "batter_name": "Garrett Mitchell",
-            "pitcher_id": 642547,
-            "pitcher_name": "Freddy Peralta"
+            "pitcher_id": 643377,
+            "pitcher_name": "Griffin Jax"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 592885,
             "batter_name": "Christian Yelich",
-            "pitcher_id": 642547,
-            "pitcher_name": "Freddy Peralta"
+            "pitcher_id": 643377,
+            "pitcher_name": "Griffin Jax"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 687401,
             "batter_name": "Joey Ortiz",
-            "pitcher_id": 642547,
-            "pitcher_name": "Freddy Peralta"
+            "pitcher_id": 643377,
+            "pitcher_name": "Griffin Jax"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 666152,
             "batter_name": "David Hamilton",
-            "pitcher_id": 642547,
-            "pitcher_name": "Freddy Peralta"
+            "pitcher_id": 643377,
+            "pitcher_name": "Griffin Jax"
           },
           {
             "pa": 0,
             "sample_size_ok": false,
             "batter_id": 686217,
             "batter_name": "Sal Frelick",
-            "pitcher_id": 642547,
-            "pitcher_name": "Freddy Peralta"
+            "pitcher_id": 643377,
+            "pitcher_name": "Griffin Jax"
           }
         ]
       }
